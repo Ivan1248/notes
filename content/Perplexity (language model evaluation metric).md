@@ -1,0 +1,1 @@
+Let $f$ be a [[Causal language model|causal language model]].

@@ -1,0 +1,1 @@
+Let be a [[Measurable space]] [[Probability space]]

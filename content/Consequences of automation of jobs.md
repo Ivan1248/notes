@@ -1,0 +1,8 @@
+- If wealth is distributed well:
+	- more free time
+	- more time for exploration
+	- more time for pursuing personal projects
+- Problems and risks:
+	- increasing wealth inequality and poverty – most of the wealth accumulated by few owners of means of production
+	- devaluation of human expertise -> decrease of human expertise -> worse epistemics -> cultural and civilizational regression
+	- loss of meaning for people without jobs -> unhappiness

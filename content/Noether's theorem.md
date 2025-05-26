@@ -1,0 +1,1 @@
+Every differentiable symmetry of the [[Action (Physics)|action]] of a [[Physical system|physical system]] has a corresponding conservation law.

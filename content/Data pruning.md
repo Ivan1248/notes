@@ -1,0 +1,3 @@
+- coreset selection
+- data cleaning
+- data deletion

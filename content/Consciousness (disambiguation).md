@@ -1,0 +1,2 @@
+- [[Phenomenal consciousness]]
+- [[Consciousness (cognition)]]

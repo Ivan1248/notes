@@ -1,0 +1,12 @@
+#biophysics #cognitive-science #ai #information-physics #physics
+
+From https://en.wikipedia.org/wiki/Free_energy_principle:
+>In [biophysics](https://en.wikipedia.org/wiki/Biophysics "Biophysics") and [cognitive science](https://en.wikipedia.org/wiki/Cognitive_science "Cognitive science"), the free energy principle is a mathematical principle describing a [formal](https://en.wikipedia.org/wiki/Mathematical_logic "Mathematical logic") account of the representational capacities of physical systems: that is, why things that exist look as if they track properties of the systems to which they are coupled.
+
+>It establishes that the dynamics of physical systems minimise a quantity known as _[surprisal](https://en.wikipedia.org/wiki/Surprisal "Surprisal")_ (which is just the negative log probability of some outcome); or equivalently, its variational upper bound, called _[free energy](https://en.wikipedia.org/wiki/Variational_free_energy "Variational free energy")_.
+
+>The free energy principle models the behaviour of systems that are distinct from, but coupled to, another system (e.g., an embedding environment), where the degrees of freedom that implement the interface between the two systems is known as a [Markov blanket](https://en.wikipedia.org/wiki/Markov_blanket "Markov blanket"). More formally, the free energy principle says that if a system has a "particular partition" (i.e., into particles, with their Markov blankets), then subsets of that system will track the statistical structure of other subsets (which are known as internal and external states or paths of a system).
+
+>Under the free energy principle, systems pursue paths of **least surprise**, or equivalently, minimize the difference between predictions based on their model of the world and their [sense](https://en.wikipedia.org/wiki/Sense "Sense") and associated [perception](https://en.wikipedia.org/wiki/Perception "Perception"). This difference is quantified by variational free energy and is minimized by continuous correction of the world model of the system, or by making the world more like the predictions of the system. By actively changing the world to make it closer to the expected state, systems can also minimize the free energy of the system. Friston assumes this to be the principle of all biological reaction.
+
+[2] Friston, Karl (2010). ["The free-energy principle: a unified brain theory?"](https://www.nature.com/articles/nrn2787)

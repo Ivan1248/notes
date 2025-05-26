@@ -1,0 +1,1 @@
+A [[Probability measure|distribution]] $S$ is a **mean-preserving spread of** a distribution $R$ iff there exist [[Random variable|random variables]] $\rvar x$ and $\rvar y$ on a probability such that $R$ is the [[Probability distribution of a random variable|distribution of]] $\rvar y$, $S$ is the distribution of $\rvar x+\rvar y$, $S\neq P$, and $\E(S) = \E(P)$.

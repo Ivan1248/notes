@@ -1,0 +1,1 @@
+[Posidonius (135 BC - 51 BC) - Biography - MacTutor History of Mathematics](https://mathshistory.st-andrews.ac.uk/Biographies/Posidonius/#:~:text=At%20Rhodes%20he%20observes%20that,the%20circumference%20of%20the%20earth.):

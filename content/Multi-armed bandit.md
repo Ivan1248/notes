@@ -1,0 +1,2 @@
+Based on [Multi-armed bandit - Wikipedia](https://en.wikipedia.org/wiki/Multi-armed_bandit):
+> The **multi-armed bandit problem** (sometimes called the **_K_-armed bandit problem**) is a problem in which an agent iteratively selects one of multiple fixed choices (i.e. arms or actions) when the properties of each choice are only partially known at the time of allocation, and may become better understood as time passes. A fundamental aspect of bandit problems is that choosing an arm does not affect the properties of the arm or other arms.

@@ -1,0 +1,1 @@
+A **higher-order function** is a [[Function|function]] whose [[Domain, image, codomain]] is 
