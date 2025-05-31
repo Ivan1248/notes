@@ -1,0 +1,269 @@
+% ULTIMATH
+
+\newcommand{\t}[1]{\text{#1}}    %\exists #1\colon
+
+%% redefinition of left and right to make spacing consistent
+%% https://tex.stackexchange.com/questions/2607/spacing-around-left-and-right/2610
+%\let\originalleft\left
+%\let\originalright\right
+%\renewcommand{\left}{\mathopen{}\mathclose\bgroup\originalleft}
+%\renewcommand{\right}{\aftergroup\egroup\originalright}
+
+\usepackage{amsmath}
+\usepackage{amssymb}  % loads amsfonts
+\usepackage{amscd}
+
+% adding equation number inside align*
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+
+\usepackage{mathtools}  % \coloneqq, smashoperator
+\usepackage{bm}
+
+
+% logical operators
+\newcommand{\forevery}[1]{\bigwedge_{#1}} %\forall #1\colon
+\newcommand{\forsome}[1]{\bigwee_{#1}}    %\exists #1\colon
+
+%\usepackage{commath}  % calculus, perentheses
+% https://tex.stackexchange.com/questions/135944/commath-and-ifinner/135985#135985
+% instead of commath:
+%% begin commath-fixed
+\DeclareMathOperator{\dif}{d\!}
+\DeclareMathOperator{\Dif}{D\!}
+
+%\makeatletter
+%\newcommand{\spx}[1]{%
+%	\if\relax\detokenize{#1}\relax
+%	\expandafter\@gobble
+%	\else
+%	\expandafter\@firstofone
+%	\fi
+%	{^{#1}}%
+%}
+%\makeatother
+\newcommand{\spx}[1]{}  % todo uncomment above or fix so that it works in MathJax
+
+\newcommand\pd[3][]{\frac{\partial\spx{#1}#2}{\partial#3\spx{#1}}}
+\newcommand\tpd[3][]{\tfrac{\partial\spx{#1}#2}{\partial#3\spx{#1}}}
+\newcommand\dpd[3][]{\dfrac{\partial\spx{#1}#2}{\partial#3\spx{#1}}}
+
+\newcommand{\md}[6]{\frac{\partial\spx{#2}#1}{\partial#3\spx{#4}\partial#5\spx{#6}}}
+\newcommand{\tmd}[6]{\tfrac{\partial\spx{#2}#1}{\partial#3\spx{#4}\partial#5\spx{#6}}}
+\newcommand{\dmd}[6]{\dfrac{\partial\spx{#2}#1}{\partial#3\spx{#4}\partial#5\spx{#6}}}
+
+\newcommand{\od}[3][]{\frac{\dif\spx{#1}#2}{\dif#3\spx{#1}}}
+\newcommand{\tod}[3][]{\tfrac{\dif\spx{#1}#2}{\dif#3\spx{#1}}}
+\newcommand{\dod}[3][]{\dfrac{\dif\spx{#1}#2}{\dif#3\spx{#1}}}
+
+\newcommand{\genericdel}[4]{%
+	\ifcase#3\relax
+	\ifx#1.\else#1\fi#4\ifx#2.\else#2\fi\or
+	\bigl#1#4\bigr#2\or
+	\Bigl#1#4\Bigr#2\or
+	\biggl#1#4\biggr#2\or
+	\Biggl#1#4\Biggr#2\else
+	\left#1#4\right#2\fi
+}
+\renewcommand{\genericdel}[4]{\left#1#4\right#2} % todo: delete when the above works
+\newcommand{\del}[2][-1]{\genericdel(){#1}{#2}}
+\newcommand{\cbr}[2][-1]{\genericdel\{\}{#1}{#2}}
+\let\set\cbr
+\let\event\cbr
+\newcommand{\sbr}[2][-1]{\genericdel[]{#1}{#2}}
+\newcommand{\intoo}[2][-1]{\mathinner{\genericdel(){#1}{#2}}}
+\newcommand{\intcc}[2][-1]{\mathinner{\genericdel[]{#1}{#2}}}
+\newcommand{\intoc}[2][-1]{\mathinner{\genericdel(]{#1}{#2}}}
+\newcommand{\intco}[2][-1]{\mathinner{\genericdel[){#1}{#2}}}
+\newcommand{\eval}[2][-1]{\genericdel.|{#1}{#2}}
+\newcommand{\envert}[2][-1]{\genericdel||{#1}{#2}}
+\let\abs\envert
+\newcommand{\enVert}[2][-1]{\genericdel\|\|{#1}{#2}}
+\let\norm\enVert
+\newcommand{\fullfunction}[5]{%
+	\begin{array}{@{}r@{}l@{}}
+		#1 \colon #2 &{}\longrightarrow{}  #3 \\
+		#4 &{}\longmapsto{} #5
+	\end{array}
+}
+% parentheses from commath redefined to improve spacing because left and right were redefined, \midmid, new \tilde and \hat that don't make parentheses bigger
+\newcommand{\ind}[1]{{\sbr{#1}}}
+%\newcommand{\ind}[1]{{{#1}}}
+%% end commath-fixed
+
+%\usepackage{stmaryrd}  % \llbracket for \rrbracket, ...
+\newcommand{\llbracket}{[\![}
+\newcommand{\rrbracket}{]\!]}
+
+
+% More consistent fonts
+\usepackage[utopia]{mathdesign}
+\usepackage[OMLmathsfit]{isomath}  % \DeclareMathAlphabet ...
+\usepackage{upgreek}
+
+
+\DeclareMathAlphabet{\mathbbmsl}{U}{bbm}{m}{sl}
+\DeclareMathAlphabet{\mathbbmb}{U}{bbm}{b}{it}
+\DeclareMathAlphabet{\mathbbmssit}{U}{bbmss}{m}{it}
+
+% common set?, distribution
+\newcommand{\commset}[1]{\mathbbmb{#1}}
+\newcommand{\distrib}[1]{\mathcal{#1}}
+
+% sans-serif blackboard-bold
+\newcommand{\mathsfbbit}[1]{\mathbbmssit{#1}}
+
+% variable
+\let\vec\relax
+%\newcommand{\vec}[1]{\mathbfit{#1}}
+\newcommand{\vec}[1]{\boldsymbol{#1}}
+\newcommand{\v}[1]{\vec{#1}}
+\let\set\relax
+\newcommand{\set}[1]{\mathbbmsl{#1}}
+
+% constant
+\newcommand{\const}[1]{\mathrm{#1}}
+\newcommand{\cvec}[1]{\mathbf{#1}}
+\newcommand{\cset}[1]{\mathbb{#1}}
+
+% underlining (for random variables)
+\newcommand{\nunder}[2][5]{\mathrlap{\mkern\the\numexpr#1/2mu\relax\underline{\phantom{\mathrm{#2}\mkern-#1mu}}}\mathrm{#2}}
+\newcommand{\subline}[2][n]{%
+	\makebox[\widthof{$#2$}/2]{}\mathclap{#2}%
+	\text{\smash{\raisebox{0.04em}{% 0.04
+		$\mathclap{\underline{\hphantom{#1}\vphantom{#2}}}$%
+	}}}%
+	\makebox[\widthof{$#2$}/2]{}%
+}
+
+% random variables (Dutch notation - J. Hemelrijk, underlining random variables)
+% https://lingpipe-blog.com/2009/10/13/whats-wrong-with-probability-notation/
+%\newcommand{\rvarstyle}[1]{{{\subline[i]{#1}}}}
+\newcommand{\rvarstyle}[1]{{{\underline{#1}}}}
+\newcommand{\rvar}[1]{\rvarstyle{#1}}
+\newcommand{\rvec}[1]{\rvarstyle{\vec{#1}}}
+\newcommand{\rset}[1]{\rvarstyle{\set{#1}}}
+\newcommand{\var}[1]{{\color{red}#1}}
+
+% unit
+\newcommand{\unit}[1]{\,\mathrm{#1}}
+
+
+% linear algebra
+\newcommand{\transpose}{\mathsf T}
+\newcommand{\tp}{\transpose}
+
+% calculus - commath: od, pd, md, dif
+% parentheses - commath: del, cbr, sbr, envert, enVert
+
+% named functions
+\DeclareMathOperator{\softplus}{softplus}
+\DeclareMathOperator{\softmax}{softmax}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\tr}{tr}
+\DeclareMathOperator{\ReLU}{ReLU}
+\DeclareMathOperator{\modfunc}{mod}
+\DeclareMathOperator{\dom}{dom}
+
+% operators
+\newcommand{\op}{\operatorname}
+\DeclareMathOperator{\vecfunc}{vec}
+\DeclareMathOperator*{\argmin}{arg\,min} % thin space
+\DeclareMathOperator*{\argmax}{arg\,max}
+\let\P\relax
+\DeclareMathOperator{\P}{P}
+\DeclareMathOperator{\p}{\operatorname{p}}
+\DeclareMathOperator*{\E}{\operatorname{I\kern-.282em E}}
+\DeclareMathOperator*{\D}{\operatorname{I\kern-.282em D}}
+\DeclareMathOperator*{\Cov}{\operatorname{Cov}}
+%\let\H\relax
+\renewcommand{\H}{\operatorname{H}}
+\newcommand{\h}{\operatorname{h}}
+\newcommand{\I}{\operatorname{I}}
+\newcommand{\Dist}{\operatorname{D}}  % D is for dispersion
+\newcommand{\len}{\operatorname{len}}  % D is for dispersion
+
+% graphs
+\newcommand{\pa}{\mathrm{pa}}
+\newcommand{\ch}{\mathrm{ch}}
+%\newcommand{\pred}{\mathrm{pred}}
+%\renewcommand{\succ}{\mathrm{succ}}
+
+% bracket operators
+%\newcommand{\enangle}[1]{\mathinner{\left\langle{#1}\right\rangle}}
+\newcommand{\enangle}[2][-1]{\genericdel\langle\rangle{#1}{#2}}
+%\newcommand{\enbbracket}[1]{{\mathinner{\left\llbracket{#1}\right\rrbracket}}}
+\newcommand{\enbbracket}[1]{{\mathinner{\left[\!\left[{#1}\right]\!\right]}}}
+\newcommand{\braket}[2]{\enangle{{#1}\middle|{#2}}}
+
+%\let\mid\relax
+%\newcommand{\mid}{\;|\;}  % spaces around not reduced in index
+\newcommand{\midmid}{\;\middle|\;}
+
+% hat and tilde
+\let\oldhat\hat
+\renewcommand{\hat}[1]{\vphantom{#1}\smash[t]{\oldhat{#1}}}
+\let\oldtilde\tilde
+\renewcommand{\tilde}[1]{\vphantom{#1}\smash[t]{\oldtilde{#1}}}
+%\renewcommand{\tilde}[1]{\stackrel{\sim}{\smash{\mathcal{#1}}\rule{0pt}{1.1ex}}}
+%\renewcommand{\tilde}[1]{\overset{\sim}{#1}}
+\let\oldwidetilde\widetilde
+\renewcommand{\widetilde}[1]{\vphantom{#1}\smash[t]{\oldwidetilde{#1}}}
+%\let\tilde\widetilde
+
+% special
+%\newcommand{\funcdef}[3]{#1 \in (#2 \to #3)}
+\newcommand{\e}{\mathrm{e}}
+\newcommand{\itpi}{\mathit{\pi}}
+\renewcommand{\pi}{\uppi}
+\newcommand{\funcdef}[3]{#1 \colon #2 \to #3}
+\newcommand{\C}{\cset{C}}
+\newcommand{\R}{\cset{R}}
+\newcommand{\Z}{\cset{Z}}
+\newcommand{\N}{\cset{N}}
+\newcommand{\dirac}{\updelta}
+\newcommand{\sg}{\operatorname{sg}}
+\newcommand{\F}{\operatorname{F}}
+\newcommand{\j}{\operatorname{j}}
+\newcommand{\DKL}[2]{\operatorname{D}\del{#1\;\middle\|\;#2}}
+\let\RE\DKL
+\newcommand{\CE}[2]{\operatorname{H}\del{#1\;\middle\|\;#2}}
+\newcommand{\JS}[2]{\operatorname{D}_\text{JS}\del{#1,#2}}
+\newcommand\concat{\mathbin{+\mkern-10mu+}}
+
+% machine learning evaluation
+\newcommand{\TP}{\mathit{TP}}
+\newcommand{\FP}{\mathit{FP}}
+\newcommand{\TN}{\mathit{TN}}
+\newcommand{\FN}{\mathit{FN}}
+\newcommand{\FPR}{\mathit{FPR}}
+\newcommand{\TPR}{\mathit{TPR}}
+\newcommand{\AUROC}{\mathit{AUROC}}
+\newcommand{\AUPR}{\mathit{AUPR}}
+\newcommand{\AP}{\mathit{AP}}
+\newcommand{\IoU}{\mathit{IoU}}
+\newcommand{\mIoU}{\mathit{mIoU}}
+
+% operators and relations
+\newcommand{\bidot}{\mkern1.5mu{.\!.}\mkern1.5mu}
+%\newcommand\sheq{\mkern1.5mu{=}\mkern1.5mu}
+%\renewcommand{\dots}{...}
+
+
+% no vertical space stretching around display math
+\usepackage[nodisplayskipstretch]{setspace}
+
+\newenvironment{talign}
+{\let\displaystyle\textstyle\align}
+{\endalign}
+\newenvironment{talign*}
+{\let\displaystyle\textstyle\csname align*\endcsname}
+{\endalign}
+
+
+\usepackage{dashbox}%
+%\newcommand\dashedbox[1][H]{\setlength{\fboxsep}{0pt}\setlength{\dashlength}{4pt}\setlength{\dashdash}{2pt} \dbox{\phantom{#1}}}
+\newcommand\phbox[1][\phantom{:}]{\setlength{\fboxsep}{0.5pt}\setlength{\dashlength}{4pt}\setlength{\dashdash}{3pt} \raisebox{2pt}{\dbox{$\phantom{:}_{#1}$}}}
+%\newcommand\dashedbox[1][H]{\setlength{\fboxsep}{0pt}\dbox{\phantom{#1}}}
+
+\newcommand*{\annot}[1]{\quad\text{\scriptsize{\textcolor{black!50}{(#1)}}}}

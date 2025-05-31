@@ -19,7 +19,7 @@ $$
 ## Alternative definitions
 
 
-1. The **partial derivative of $f$ at $(x_1, .., x_n)$** with respect to the $i$-th input variable is the [[Derivative#With respect to a function|derivative of]] $f$ [[Derivative#With respect to a function|with respect to]] the [[function]] $(x_1, .., x_n) \mapsto \v x_i\colon \dom(f)\to X_i$:
+1. The **partial derivative of $f$ at $(x_1, .., x_n)$** with respect to the $i$-th input variable is the [[Derivative#With respect to a function|derivative of]] $f$ [[Derivative#With respect to a function|with respect to]] the [[Function|function]] $(x_1, .., x_n) \mapsto \v x_i\colon \dom(f)\to X_i$:
 
 2. The **partial derivative of $f$ at $(x_1, .., x_n)$** with respect to the $i$-th input variable is the [[derivative#Real function|derivative]] $\Dif(x_i\mapsto f(x_1, .., x_n))$.
 

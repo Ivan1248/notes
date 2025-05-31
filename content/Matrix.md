@@ -5,7 +5,7 @@ A **matrix** is an [[Array|array]] $\v A\in S^{m\times n}$.
 
 ## Alternative definition
 
-A **matrix** is a [[function]] $\v A\colon\{1\bidot m\}\times\{1\bidot n\}\to S$..
+A **matrix** is a [[Function|function]] $\v A\colon\{1\bidot m\}\times\{1\bidot n\}\to S$..
 
 ## Related
 

@@ -4,7 +4,7 @@ aliases:
 ---
 Let $n\in \N_{\geq 1}$.
 
-A **real function of $n$ variables** is a [[Function]] $f\colon A \to B$ such that $A\in \R^n$ $B \subseteq \R$.
+A **real function of $n$ variables** is a [[Function|function]] $f\colon A \to B$ such that $A\in \R^n$ $B \subseteq \R$.
 
 ## Related
 
