@@ -1,3 +1,39 @@
+## 384
+
+Excerpts from the Ancient Geek' s reply to deusexmachina's question "What spicy opinion do you have that would be controversial with the Rationalist crowd?" (emphasis mine, where I would like to hear more about):
+
+> Bayes is not a complete epistemology.
+
+> Brain algorithms have never been shown to exist
+
+> Computationalism is not the obviously correct theory of mind
+
+> Computational complexity matters, and means uncomputable things like AIXI and Solomonoff Induction, dont.
+
+> Consciousness is a.major challenge to physicalism.
+
+> Decision theory : a single DT cannot be formulated to solve every problem in any unuverse.
+>
+> Epistemology. Where Recursive Justification Hits Rock Bottom does not solve the Problem of the Criterion, or show coherentism to be viable The Simple idea of Truth does not refute the main objections to correspondence.
+>
+> Ethics. Rationalists always equate ethics with values, rather than obligations, or virtues. There appears to be no specific reason for this.
+>
+> Free will has not been disproved.
+
+> Map and territory. The map territory distinction allows you to state some problems, but does little to resolve them.
+>
+> Physics. Yudkowskys writings on QM are confused about what MWI and Copenhagen even are.
+>
+> Physicalism. Is not a slam dunk, because of the hard problem
+>
+> Probability. the existence of in-the-mind probability does not prove the nonexistence of in-the-world probabiliry, and for that reason the "Probability is in the Mind" argument is flawed.
+
+> Reductionism. The rationalsphere tries to lean into reductionism even harder than other science based thinkers. That amounts to treating reductionism as necessary and apriori, not just something that works where it works. A universe where reductionism didn't always work would look like a universe with persistent puzzles...ie. Like the one we are in.
+
+> Solomonoff Induction. Apart from the issue of uncomputability , it's doubtful that SI constitutes a complete solution to ontology, because it is not at all clear that a computers programme can express any ontological claim.
+
+> Zombies. The generalized anti zombie principle disregards the real possibility that simulated people would be zombies. Note that some are not technically p zombies.
+
 ## 376
 
 [Comment by Performative Bafflement](https://open.substack.com/pub/astralcodexten/p/open-thread-376?r=1c0bzf&utm_campaign=comment-list-share-cta&utm_medium=web&comments=true&commentId=107271083):

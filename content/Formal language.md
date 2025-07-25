@@ -1,5 +1,7 @@
-Synonym: language.
-
+---
+aliases:
+  - Language (computation theory)
+---
 A **formal language** $L$ over a [[Set|set]] $A$ is a set of [[String|strings]] over $A$.
 
 A string from $L$ is called a **well-formed-formula** of $L$.

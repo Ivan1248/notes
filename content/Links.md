@@ -1,3 +1,24 @@
+## 2025-7
+
+[Importance Hacking - a major (yet rarely-discussed) problem in science](https://www.clearerthinking.org/post/importance-hacking-a-major-yet-rarely-discussed-problem-in-science)
+
+[» Always Conduct the “Simplest Valid Analysis”](https://replications.clearerthinking.org/simplest-valid-analysis/)
+
+[Application Logging in Python: Recipes for Observability · Dash0](https://www.dash0.com/guides/logging-in-python)
+
+[Innovate Animal Ag](https://innovateanimalag.org/)
+- [How to Be a Techno-Optimist for Animals - by Robert Yaman](https://optimistsbarn.substack.com/p/how-to-be-a-techno-optimist-for-animals)
+
+[Spartacus.app](https://spartacus.app/how-it-works)
+
+[FutureHouse Platform](https://platform.futurehouse.org)
+
+## 2025-6
+
+[Blindsight - Wikipedia](https://en.wikipedia.org/wiki/Blindsight)
+
+[Somatoparaphrenia - Wikipedia](https://en.wikipedia.org/wiki/Somatoparaphrenia)
+
 ## 2025-5
 
 [List of "tech for good" job boards](https://evanhahn.com/list-of-tech-for-good-job-boards/)
@@ -13,7 +34,7 @@ The reptile with the most pronounced parietal eye.
 > - Do not get in eyes, on skin, or on clothing
 > - IF SWALLOWED: Immediately call a POISON CENTER or doctor/physician
 
-[Reddit - The heart of the internet](https://www.reddit.com/r/askscience/comments/4p9ra6/what_makes_quantum_mechanics_and_the_general/d4jbzld/)
+[Reddit - What makes Quantum mechanics and the General Theory of Relativity incompatible?](https://www.reddit.com/r/askscience/comments/4p9ra6/what_makes_quantum_mechanics_and_the_general/d4jbzld/)
 
 [rantonels](https://www.reddit.com/user/rantonels) explaining [[Renormalization (physics)|renormalization]] and non-renormalizability of [[General relativity]].
 
