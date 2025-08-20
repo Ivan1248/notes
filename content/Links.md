@@ -1,3 +1,10 @@
+## 2025-8
+
+[Seven Big Misconceptions About Heredity](https://carlzimmer.medium.com/seven-big-misconceptions-about-heredity-42c94ba80365)
+
+[MEMS - Wikipedia](https://en.wikipedia.org/wiki/MEMS)  
+[Nanoelectromechanical systems - Wikipedia](https://en.wikipedia.org/wiki/Nanoelectromechanical_systems)
+
 ## 2025-7
 
 [Importance Hacking - a major (yet rarely-discussed) problem in science](https://www.clearerthinking.org/post/importance-hacking-a-major-yet-rarely-discussed-problem-in-science)

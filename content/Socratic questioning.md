@@ -1,0 +1,9 @@
+---
+tags:
+  - todo/finish
+creation date: 2025-07-26
+---
+
+## Related
+
+- [[Street epistemology]]

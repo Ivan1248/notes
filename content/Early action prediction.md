@@ -4,7 +4,7 @@ Basic definitions:
 - The **set of all possible labels** is a [[finite set]] $Y$.
 - A **set of categorized videos** is a finite set $D\subset X\times Y$.
 
-Let $n\colon X\to \N$ (**observation size mapping**) be such that $\forall (\v x, y)\in D :  n(\v x) < \operatorname{len}(\v x)$.  
+Let $n\colon X\to \N$ (**video to observation length mapping**) be such that $\forall (\v x, y)\in D :  n(\v x) < \operatorname{len}(\v x)$.  
 Let
 - $D_\text{train} \subset D$, and
 - $D_\text{test} = \{(\v x[1\bidot n(\v x)],y): (\v x,y) \in D \setminus D_\text{train}\}$.
