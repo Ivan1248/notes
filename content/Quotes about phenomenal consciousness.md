@@ -1,0 +1,9 @@
+---
+tags:
+  - todo/finish
+creation date: 2025-11-09
+---
+From [Annaka Harris \| What Is It Like To Be A Thermostat?](https://annakaharris.com/chalmers/) ([An Excerpt From _The Conscious Mind_, By David Chalmers]):
+> To make the view seem less crazy, we can think about what might happen to experience as we move down the scale of complexity. We start with the familiar cases of humans, in which very complex information-processing gives rise to our familiar complex experiences. Moving to less complex systems, there does not seem much reason to doubt that dogs are conscious, or even that mice are. Some people have questioned this, but I think this is often due to a conflation of phenomenal consciousness and self-consciousness. Mice may not have much of a sense of self, and may not be given to introspection, but it seems entirely plausible that there is _something_ it is like to be a mouse. Mice perceive their environment via patterns of information flow not unlike those in our own brains, though considerably less complex. The natural hypothesis is that corresponding to the mouse’s “perceptual manifold,” which we know they have, there is a “phenomenal manifold.” The mouse’s perceptual manifold is quite rich – a mouse can make many perceptual distinctions – so its phenomenal manifold might also be quite rich. For example, it is plausible that for each distinction that the mouse’s visual system can make and use in perceiving the environment, there corresponds a phenomenal distinction. One cannot _prove_ that this is the case, but it seems to be the most natural way to think about the phenomenology of a mouse.
+
+> Certainly all the other fundamental properties that we know about occur even in simple systems, and throughout the universe. It would be odd for a fundamental property to be instantiated for the first time only relatively late in the history of the universe, and even then only in occasional complex systems.

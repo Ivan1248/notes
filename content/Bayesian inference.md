@@ -1,17 +1,18 @@
 Let $S=(\Omega,\Sigma,P)$ be a [[Probability space|probability space]].  
-Let $\rvar \theta$ be a [[Random variable|random variable]] on $S$.  
-Let $\rvar D$ be a random variable on $S$.
+Let $\rvar h$ be a [[Random variable|random variable]] on $S$.  
+Let $\rvar e$ be a random variable on $S$.
 
-Depending on whether $\rvar D$ and $\rvar\theta$ are discrete or continuous, let $p$ denote probability or density.
+Depending on whether $\rvar e$ and $\rvar h$ are discrete or continuous, let $p$ denote probability or density.
 
-The Bayes' theorem states how beliefs about some random variable $\rvar \theta$ should change once some random variable $D$ is observed.
+The Bayes' theorem states how beliefs about some random variable $\rvar h$ should change once some random variable $e$ is observed.
 $$
-p(\theta\mid D) = \frac{p(D,\theta)}{p(D)} = \frac{p(D\mid\theta)p(\theta)}{p(D)} \text.
+p(h\mid e) = \frac{p(e,h)}{p(e)} = \frac{p(e\mid h)p(h)}{p(e)} \text.
 $$
-In the framework of Bayesian inference:
-- The random variable $\rvar\theta$ is the **inferred random variable**.
-- The value $D$ is the **observation** or **evidence**.
-- The distribution of the probability (density) function $p[\rvar\theta]$ is the **prior**.
-- The probability (density) $p(D\mid\theta)$ is the **likelihood** of $\theta$. The likelihood does not depend on the prior.  
-- The probability (density) $p(\theta\mid D)$ is called the **posterior**.
-- $p(D)=\E[\p(D\mid \rvar\theta)]$ is called the **marginal likelihood** (or **evidence**).  
+In the framework of **Bayesian inference**:
+- The random variable $\rvar h$ is the **hypothesis** (or **inferred random variable**).
+- The realization $e$ is the **evidence** (or **observation**).
+- The distribution of the probability (density) function $p[\rvar h]$ is the **prior**.
+- The function $h\mapsto p(e\mid h)$ is the **likelihood function**. The probability (density) $p(e\mid h)$ is the **likelihood** of $h$. The likelihood does not depend on the prior. 
+- The probability (density) $p(h\mid e)$ is called the **posterior**.
+- $p(e)=\E[\p(e\mid \rvar h)]$ is called the **marginal likelihood** (or **evidence**).  
+

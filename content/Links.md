@@ -1,4 +1,84 @@
+[[Links - observation]]  
+[[Links - secondary]]
+
+## 2025-12
+
+[The Triviality Of The Debate Over "Is-Ought" And The Definition Of "Moral"](https://www.utilitarian.org/texts/triviality.html)
+
+[INESCAPABLY VALUE-LADEN EXPERIENCE](https://nonzerosum.games/inescapablyvalueladenexperience.html)
+
+[Welcome to NON-ZERO-SUM GAMES](https://nonzerosum.games)
+
+[The Apologist and the Revolutionary — LessWrong](https://www.lesswrong.com/posts/ZiQqsgGX6a42Sfpii/the-apologist-and-the-revolutionary)
+
+[GitHub - DGoettlich/history-llms: Information hub for our project training the largest possible historical LLMs.](https://github.com/DGoettlich/history-llms)
+
+[Doctor Who - The Doctor Confuses An Officer From World War One "What do you mean, One?" - YouTube](https://www.youtube.com/watch?v=eg4mcdhIsvU)
+
+[Gapminder](https://www.gapminder.org)  
+[Income Levels \| Gapminder](https://www.gapminder.org/fw/income-levels/)  
+[Dollar Street - photos as data to kill country stereotypes](https://www.gapminder.org/dollar-street)
+
+[Experts Explore New Mushroom Which Causes Fairytale-Like Hallucinations \| Natural History Museum of Utah](https://nhmu.utah.edu/articles/experts-explore-new-mushroom-which-causes-fairytale-hallucinations) _Lanmaoa asiatica_ causes Lilliputan halucinations.
+
+[Size of Life](https://neal.fun/size-of-life/)
+
+[The Oscilleditor: An Algorithmic Breakthrough for Psychedelic Visual Replication (1080p•⚠️SEIZURE) - YouTube](https://www.youtube.com/watch?v=nKzIe8tn1QA)
+
+[Simplifier](https://simplifier.neocities.org)  
+[Simplifier - About](https://simplifier.neocities.org/about)
+> Fundamentally, my work here is about creating a stable foundation of technology that is reliable, understandable, and practical for an individual to build for themselves.
+
+[Social Transfer of Pathogenic Fungus Promotes Active Immunisation in Ant Colonies \| PLOS Biology](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001300)  
+Ants produce a kind of vaccine against a fungus.
+
+## 2025-11
+
+[Ontological Crisis in Humans — LessWrong](https://www.lesswrong.com/posts/KLaJjNdENsHhKhG5m/ontological-crisis-in-humans)
+> To fully confront the ontological crisis that we face, we would have to upgrade our world model to be based on actual physics, and simultaneously translate our utility functions so that their domain is the set of possible states of the new model.
+
+[Human Evolution by Concavenator on DeviantArt](https://www.deviantart.com/concavenator/art/Human-Evolution-818729399)
+
+[What are your greatest one-shot life improvements? — LessWrong](https://www.lesswrong.com/posts/PX7AdEkpuChKqrNoj/what-are-your-greatest-one-shot-life-improvements)
+
+[Annaka Harris \| What Is It Like To Be A Thermostat?](https://annakaharris.com/chalmers/)
+
+[Zetetic explanation — LessWrong](https://www.lesswrong.com/posts/i2Dnu9n7T3ZCcQPxm/zetetic-explanation)
+
+[Spiegelman's Monster - Wikipedia](https://en.wikipedia.org/wiki/Spiegelman%27s_Monster)
+
+[Richard Feynman on education in Brazil \| Rob’s Posts](https://v.cx/2010/04/feynman-brazil-education)
+
+[Scale of the Universe](https://scaleofuniverse.com/en)
+
+## 2025-10
+
+[Is terminal lucidity real? - by Ariel Zeleznikow-Johnston](https://preservinghope.substack.com/p/is-terminal-lucidity-real)
+
+[Anna’s Archive: LibGen (Library Genesis), Sci-Hub, Z-Library in one place - Anna’s Archive](https://annas-archive.li)
+
+[Rieske protein - Wikipedia](https://en.wikipedia.org/wiki/Rieske_protein)  
+[Reddit - The heart of the internet](https://www.reddit.com/r/neuro/comments/1nzkqzv/comment/ni2rcbx/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)
+
+## 2025-9
+
+[How To Grow Vinegar Eels And Feed Them To Baby Fish - YouTube](https://www.youtube.com/watch?v=xfNuMt2NSCk)  
+[Turbatrix aceti - Wikipedia](https://en.wikipedia.org/wiki/Turbatrix_aceti)
+> Turbatrix aceti [...] are free-living nematodes that feed on a microbial culture called mother of vinegar (used to create vinegar) and may be found in unfiltered vinegar.
+
+>They are exceptionally tolerant of variation in acidity and alkalinity and they may be able to tolerate a wider range than any other species, being able to survive from pH 1.6 to 11.[2]
+
+[Expert Trap - Pawel's substack](https://sysiak.substack.com/p/expert-trap)
+
 ## 2025-8
+
+[My Responses To Three Concerns From The Embryo Selection Post](https://www.astralcodexten.com/p/my-responses-to-three-concerns-from)
+
+[Painting with impossible colours: Some thoughts and observations on yellowish blue](https://philpapers.org/archive/NEWPWI.pdf)
+
+[Research Lineages - Qualia Research Institute](https://qri.org/research-lineages)
+
+[Metazooa](https://metazooa.com)
 
 [Seven Big Misconceptions About Heredity](https://carlzimmer.medium.com/seven-big-misconceptions-about-heredity-42c94ba80365)
 

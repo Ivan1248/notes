@@ -17,6 +17,8 @@ $X \times Y$ denotes the [[Cartesian product]] of sets $X$ and $Y$.
 
 **Function application notation.** Let $x\in X$. We use $f(x)$ to denote the (only) $y\in Y$ such that $(x,y)\in f$. If $x\not\in X$, the expression $f(x)$ has no meaning.
 
+**Function definition notation.** A shorthand notation for "a function $f\colon X\to Y$ such that $\forall x\in X\colon f(x)=g(x)$" is $f=x\mapsto g(x)\colon X\to Y$.
+
 | Notation                       | Definition                                                          |
 | ------------------------------ | ------------------------------------------------------------------- |
 | $f(x)$                         | the $y$ such that $(x,y)\in f$                                      |

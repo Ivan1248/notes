@@ -1,3 +1,19 @@
+[[Links]]
+
+## 2025-12
+
+[Speed matters: Why working quickly is more important than it seems « the jsomers.net blog](https://jsomers.net/blog/speed-matters)
+
+## 2025-9
+
+[Rats Learn To Drive Tiny Cars \| The Dodo - YouTube](https://www.youtube.com/watch?v=mYHMc3-f3v8)
+
+[Reddit - Questions about turtle walking several times faster : r/biology](https://www.reddit.com/r/biology/comments/1nirx9b/questions_about_turtle_walking_several_times/)  
+[Reddit - A Turtle Riding Its Tiny Skateboard](https://www.reddit.com/r/oddlysatisfying/comments/1bekyg5/a_turtle_riding_its_tiny_skateboard/)  
+A turtle rides a skateboard.
+
+[Hector (cloud) - Wikipedia](https://en.wikipedia.org/wiki/Hector_(cloud))
+
 ## 2025-7
 
 [I stabilized an 8-hour timelapse to show the Earth rotating : r/Astronomy](https://www.reddit.com/r/Astronomy/comments/1m1dkd6/i_stabilized_an_8hour_timelapse_to_show_the_earth/)
@@ -5,6 +21,7 @@
 [Understanding Ethernet Wiring – Practical Networking .net](https://www.practicalnetworking.net/stand-alone/ethernet-wiring/)
 
 [How Does o3 Guess Latitude From Photos?](https://corinwagen.github.io/public/blog/20250527_latitude.html)
+
 ## 2025-6
 
 [Daniel-isms: 50 Ideas for Life I Repeatedly Share (part 2)](https://notnottalmud.substack.com/p/daniel-isms-50-ideas-for-life)
