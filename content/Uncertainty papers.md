@@ -1,1 +1,0 @@
-[wimmer23a.pdf](https://proceedings.mlr.press/v216/wimmer23a/wimmer23a.pdf)

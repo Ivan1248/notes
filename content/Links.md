@@ -1,6 +1,8 @@
 [[Links - observation]]  
 [[Links - secondary]]
 
+## 2026-1
+
 ## 2025-12
 
 [The Triviality Of The Debate Over "Is-Ought" And The Definition Of "Moral"](https://www.utilitarian.org/texts/triviality.html)

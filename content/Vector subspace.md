@@ -1,7 +1,0 @@
----
-tags:
-  - todo/finish
-creation date: 2025-06-24
-aliases:
-  - Linear subspace
----
