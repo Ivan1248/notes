@@ -84,24 +84,25 @@ strong {
 a {
   font-weight: $semiBoldWeight;
   text-decoration: none;
-  transition: color 0.2s ease;
+  //transition: color 0.2s ease;
   color: var(--secondary);
 
   &:hover {
     color: var(--tertiary);
+    text-decoration: underline;
   }
 
   &.internal {
     text-decoration: none;
-    background-color: var(--highlight);
-    padding: 0 0.1rem;
-    border-radius: 5px;
-    line-height: 1.4rem;
+    //background-color: var(--highlight);
+    //padding: 0 0.1rem;
+    //border-radius: 5px;
+    //line-height: 1.4rem;
 
     &.broken {
       color: var(--secondary);
       opacity: 0.5;
-      transition: opacity 0.2s ease;
+      //transition: opacity 0.2s ease;
       &:hover {
         opacity: 0.8;
       }
@@ -380,7 +381,7 @@ h6 {
   &[id] > a[href^="#"] {
     margin: 0 0.5rem;
     opacity: 0;
-    transition: opacity 0.2s ease;
+    //transition: opacity 0.2s ease;
     transform: translateY(-0.1rem);
     font-family: var(--codeFont);
     user-select: none;
