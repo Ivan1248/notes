@@ -1,7 +1,10 @@
-[[Links - observation]]  
 [[Links - secondary]]
 
 ## 2026-1
+
+[Things that Aren't True : r/slatestarcodex](https://www.reddit.com/r/slatestarcodex/comments/1qdhctk/things_that_arent_true/)
+
+[Petrichor - Wikipedia](https://en.wikipedia.org/wiki/Petrichor)
 
 ## 2025-12
 

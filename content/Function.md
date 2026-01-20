@@ -29,6 +29,8 @@ $X \times Y$ denotes the [[Cartesian product]] of sets $X$ and $Y$.
 | $f=x\mapsto g(x)\colon X\to Y$ | $f\colon X\to Y$ and $\forall x\in X\colon f(x)=g(x)$               |
 | $f=x\mapsto g(x)$              | $\forall x\in \dom(f)\colon f(x)=g(x)$                              |
 | $f=(x\in X)\mapsto g(x)$       | $\forall x\in X\colon f(x)=g(x)$                                    |
+| $f=g(\cdot)$                   | $f=g$                                                               |
+| $f=g(\cdot, \cdot, .., \cdot)$ | $f=g$                                                               |
 
 ## Notes
 
