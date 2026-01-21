@@ -4,9 +4,9 @@ The **partial derivative of $f$ at $(x_1, .., x_n)$** with respect to the $i$-th
 
 
 $$
-\frac{\partial f(x_1, ..., x_n)}{\partial x_i} ,
+\frac{\partial f(x_1, .., x_n)}{\partial x_i} ,
 $$
-is the [[derivative]] of the function
+is the [[derivative|derivative]] of the function
 
 
 $$

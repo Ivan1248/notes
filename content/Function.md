@@ -7,11 +7,11 @@ A **function** $f$ from $X$ to $Y$ is a [[Set|set]] $f\subset X\times Y$ such th
 $$
 \forall (x,y)\in f\colon \not\exists(x',y')\in f\colon x=x' \land y\neq y' 
 $$
-and $$  
+and
+$$  
 \forall x\in X\colon \exists y\in Y\colon (x,y) \in f \text.
 $$
-
-$X \times Y$ denotes the [[Cartesian product]] of sets $X$ and $Y$.
+$X \times Y$ denotes the [[Cartesian product|Cartesian product]] of sets $X$ and $Y$.
 
 ## Notation
 
@@ -52,7 +52,7 @@ even though $(x, \{\}) \not\in f$.
 
 ## Related
 
-- [[Relation]]
-- [[Set operations]]
-- [[Mapping restriction]]
-- [[Set of functions]]
+- [[Relation|Relation]]
+- [[Set operations|Set operations]]
+- [[Mapping restriction|Mapping restriction]]
+- [[Set of functions|Set of functions]]

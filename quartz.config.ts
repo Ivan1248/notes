@@ -9,7 +9,7 @@ import { preambleMacros } from "./quartz/plugins/transformers/mathjaxPreamble"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Notes",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,

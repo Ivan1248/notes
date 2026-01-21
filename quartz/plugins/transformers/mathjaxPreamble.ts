@@ -11,78 +11,68 @@ interface MacroDefinition {
  * that can be used with MathJax.
  */
 export function parsePreambleMacros(preamblePath?: string): MacroDefinition {
-  const path = preamblePath ?? join(process.cwd(), 'content', 'preamble.sty')
+  const path = preamblePath ?? join(process.cwd(), "content", "preamble.sty")
   let content: string
   try {
-    content = readFileSync(path, 'utf-8')
+    content = readFileSync(path, "utf-8")
   } catch (e) {
     console.warn(`[MathJaxPreamble] Could not read preamble file at ${path}: ${e}`)
     return {}
   }
 
-  // 1. Strip comments line by line
-  const lines = content.split(/\r?\n/)
-  const strippedLines = lines.map(line => {
-    // Replace % unless preceded by \
-    const commentMatch = line.match(/(?<!\\)%/)
-    if (commentMatch) {
-      return line.slice(0, commentMatch.index)
-    }
-    return line
-  })
-  const strippedContent = strippedLines.join('\n')
+  // 1. Strip comments line by line (ignoring escaped \%)
+  const strippedContent = content
+    .split(/\r?\n/)
+    .map((line) => {
+      const commentMatch = line.match(/(?<!\\)%/)
+      return commentMatch ? line.slice(0, commentMatch.index) : line
+    })
+    .join("\n")
 
   const macros: MacroDefinition = {}
 
-  // 2. Define a combined regex to find all macro-defining commands in order
-  const combinedRegex = /\\(?:re)?newcommand\*?\{?\\([a-zA-Z]+)\}?(?:\[(\d+)\])?(?:\[([^\]]*)\])?\{|\\DeclareMathOperator\*?\{?\\([a-zA-Z]+)\}?\{([^}]*)\}|\\let\\([a-zA-Z]+)\\?([a-zA-Z]+|[^a-zA-Z\s])/g
+  /**
+   * Helper to count braces and extract a balanced group.
+   * Starts at the character following the opening brace.
+   */
+  const extractBalancedBraces = (str: string, startIndex: number): { content: string; endIndex: number } => {
+    let braceCount = 1
+    let i = startIndex
+    while (braceCount > 0 && i < str.length) {
+      if (str[i] === "{" && (i === 0 || str[i - 1] !== "\\")) braceCount++
+      else if (str[i] === "}" && (i === 0 || str[i - 1] !== "\\")) braceCount--
+      i++
+    }
+    return { content: str.slice(startIndex, i - 1), endIndex: i }
+  }
+
+  // 2. Combined regex for commands: \newcommand, \renewcommand, \DeclareMathOperator, \let
+  const combinedRegex =
+    /\\(?:re)?newcommand\*?\{?\\([a-zA-Z]+)\}?(?:\[(\d+)\])?(?:\[([^\]]*)\])?\{|\\DeclareMathOperator\*?\{?\\([a-zA-Z]+)\}?\{|\\let\\([a-zA-Z]+)\\?([a-zA-Z]+|[^a-zA-Z\s])/g
 
   let match: RegExpExecArray | null
   while ((match = combinedRegex.exec(strippedContent)) !== null) {
-    if (match[1]) {
-      // It's a newcommand/renewcommand
-      const name = match[1]
-      const numArgs = match[2] ? parseInt(match[2], 10) : 0
-      const defaultValue = match[3]
+    const [, newCmdName, newCmdArgs, newCmdOpt, opName, letNew, letOld] = match
 
-      // Extract braced definition
-      let bracketCount = 1
-      let i = match.index + match[0].length
-      let start = i
-      while (bracketCount > 0 && i < strippedContent.length) {
-        if (strippedContent[i] === '{' && (i === 0 || strippedContent[i - 1] !== '\\')) bracketCount++
-        else if (strippedContent[i] === '}' && (i === 0 || strippedContent[i - 1] !== '\\')) bracketCount--
-        i++
-      }
-      const definition = strippedContent.slice(start, i - 1)
+    if (newCmdName) {
+      // It's a \newcommand or \renewcommand
+      const { content: definition, endIndex } = extractBalancedBraces(strippedContent, combinedRegex.lastIndex)
+      const numArgs = newCmdArgs ? parseInt(newCmdArgs, 10) : 0
 
       if (numArgs > 0) {
-        if (defaultValue !== undefined) {
-          macros[name] = [definition, numArgs, defaultValue]
-        } else {
-          macros[name] = [definition, numArgs]
-        }
+        macros[newCmdName] = newCmdOpt !== undefined ? [definition, numArgs, newCmdOpt] : [definition, numArgs]
       } else {
-        macros[name] = definition
+        macros[newCmdName] = definition
       }
-
-      // Update regex index to skip the definition we just parsed
-      combinedRegex.lastIndex = i
-    } else if (match[4]) {
-      // It's a DeclareMathOperator
-      const name = match[4]
-      const text = match[5]
-      macros[name] = `\\operatorname{${text}}`
-    } else if (match[6]) {
-      // It's a let
-      const newName = match[6]
-      const oldName = match[7]
-      // Use definition from existing macros if available, otherwise use original name
-      if (macros[oldName]) {
-        macros[newName] = macros[oldName]
-      } else {
-        macros[newName] = `\\${oldName}`
-      }
+      combinedRegex.lastIndex = endIndex
+    } else if (opName) {
+      // It's a \DeclareMathOperator
+      const { content: opDef, endIndex } = extractBalancedBraces(strippedContent, combinedRegex.lastIndex)
+      macros[opName] = `\\operatorname{${opDef}}`
+      combinedRegex.lastIndex = endIndex
+    } else if (letNew && letOld) {
+      // It's a \let
+      macros[letNew] = macros[letOld] ?? `\\${letOld}`
     }
   }
 
