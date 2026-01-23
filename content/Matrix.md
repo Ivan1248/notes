@@ -9,7 +9,7 @@ A **matrix** is a [[Function|function]] $\v A\colon\{1\bidot m\}\times\{1\bidot 
 
 ## Related
 
-- [[Row of matrix]]
-- [[Column of matrix]]
-- [[Diagonal of matrix]]
-- [[Array]]
+- [[Row of matrix|Row of matrix]]
+- [[Column of matrix|Column of matrix]]
+- [[Diagonal of matrix|Diagonal of matrix]]
+- [[Array|Array]]

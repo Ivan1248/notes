@@ -1,4 +1,4 @@
-The **perplexity** of a [[probability]] $p\in[0\bidot 1]$ is
+The **perplexity** of a [[probability|probability]] $p\in[0\bidot 1]$ is
 $$
 \operatorname{PPP}(p) = \exp(-\ln(p)) = \frac{1}{p} \text.
 $$
@@ -9,4 +9,4 @@ Perplexity can be considered an approximation of the number of possibilities ass
 
 ## Related
 
-- [[Perplexity of a probability function]]
+- [[Perplexity of a probability function|Perplexity of a probability function]]

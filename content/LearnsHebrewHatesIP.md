@@ -1,1 +1,0 @@
-LearnsHebrewHatesIP is a poster on open threads on the [Astral Codex Ten](https://www.astralcodexten.com/) blog. He has posted some insightful comments/essays in the comments section in 2023 and 2024 (as of 2024). He has also demonstrated a good ability to change his mind based on new evidence.

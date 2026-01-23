@@ -1,6 +1,9 @@
-[[Links - secondary]]
+[[Links - secondary|Links - secondary]]
 
 ## 2026-1
+
+[Wu experiment - Wikipedia](https://en.wikipedia.org/wiki/Wu_experiment)
+> The experiment established that conservation of parity was violated by the weak interaction, thus providing a way to [operationally define](https://en.wikipedia.org/wiki/Operational_definition "Operational definition") [left and right](https://en.wikipedia.org/wiki/Body_relative_direction).
 
 [Things that Aren't True : r/slatestarcodex](https://www.reddit.com/r/slatestarcodex/comments/1qdhctk/things_that_arent_true/)
 
@@ -128,7 +131,7 @@ The reptile with the most pronounced parietal eye.
 
 [Reddit - What makes Quantum mechanics and the General Theory of Relativity incompatible?](https://www.reddit.com/r/askscience/comments/4p9ra6/what_makes_quantum_mechanics_and_the_general/d4jbzld/)
 
-[rantonels](https://www.reddit.com/user/rantonels) explaining [[Renormalization (physics)|renormalization]] and non-renormalizability of [[General relativity]].
+[rantonels](https://www.reddit.com/user/rantonels) explaining [[Renormalization (physics)|renormalization]] and non-renormalizability of [[General relativity|General relativity]].
 
 [Typst: Compose papers faster](https://typst.app)  
 [GitHub - typst/typst: A new markup-based typesetting system that is powerful and easy to learn.](https://github.com/typst/typst)  

@@ -5,7 +5,7 @@ $$
 
 ## Notation
 
-- [[Probability function of a random variable#Notation]]
+- [[Probability function of a random variable#Notation|Probability function of a random variable#Notation]]
 
 ## Notes
 
@@ -16,4 +16,4 @@ $$
 
 ## Related
 
-- [[Perplexity of a probability]]
+- [[Perplexity of a probability|Perplexity of a probability]]

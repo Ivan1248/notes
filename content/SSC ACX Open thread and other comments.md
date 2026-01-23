@@ -315,7 +315,7 @@ Comment by [John Schilling](https://substack.com/profile/25682449-john-schilling
 
 > Since most people intuitively understand this, successfully casting your opponent as a "conspiracy theorist" is a very effective way to win an argument. If you can make it stick. But that's why people try.
 
-Comment by [[LearnsHebrewHatesIP]]:
+Comment by [[_LearnsHebrewHatesIP]]:
 
 > "Conspiracy Theory" is a short pointer to a long list of bad epistemic practices. Those bad epistemic practices are _typically_ done by people who love seeing conspiracies everywhere, but they're orthogonal to the conspiracy dimension.
 
@@ -367,7 +367,7 @@ Comment by [[LearnsHebrewHatesIP]]:
 
 [Open Thread 329 - by Scott Alexander - Astral Codex Ten](https://www.astralcodexten.com/p/open-thread-329)
 
-From a comment by [[LearnsHebrewHatesIP]]:
+From a comment by [[_LearnsHebrewHatesIP]]:
 > As speculation, my personal assessment of the kind of people who are drawn into this position is that - for lack of better words - they believe in the "Supernaturalness of Evil". This is a clumsy negation of the "Banality of Evil" by Hannah Arendt. "Banality" means something boring and everyday, every undercover atheist knows the Banality of Evil, it's the force that makes the closest people to them turn into mindless piranha fish whenever they smell a whiff of someone who doesn't believe in flimsy physically-impossible stories. Every vegetarian and vegan also knows the Banality of Evil by heart. The point being that it doesn't take much to be evil, the average person lives amidst 20 or 30 or 50 moral question, but only has brain power and moral courage to settle at most only 5 or 7, the rest is simply (non-consciously) ignored, in effect adopting whatever position the majority around that person has chosen to adopt.
 
 Also:

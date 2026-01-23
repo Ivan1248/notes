@@ -9,5 +9,5 @@ $$
 
 ## Related
 
-- [[Open interval]]
-- [[All closed intervals have cardinality 0, 1 or uncountably infinite]]
+- [[Open interval|Open interval]]
+- [[All closed intervals have cardinality 0, 1 or uncountably infinite|All closed intervals have cardinality 0, 1 or uncountably infinite]]

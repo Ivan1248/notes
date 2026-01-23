@@ -12,7 +12,6 @@ In the framework of **Bayesian inference**:
 - The random variable $\rvar h$ is the **hypothesis** (or **inferred random variable**).
 - The realization $e$ is the **evidence** (or **observation**).
 - The distribution of the probability (density) function $p[\rvar h]$ is the **prior**.
-- The function $h\mapsto p(e\mid h)$ is the **likelihood function**. The probability (density) $p(e\mid h)$ is the **likelihood** of $h$. The likelihood does not depend on the prior. 
+- The function $h\mapsto p(e\mid h)$ is the **likelihood function**. The probability (density) $p(e\mid h)$ is the **likelihood** of $h$. The likelihood does not depend on the prior.
 - The probability (density) $p(h\mid e)$ is called the **posterior**.
 - $p(e)=\E[\p(e\mid \rvar h)]$ is called the **marginal likelihood** (or **evidence**).  
-

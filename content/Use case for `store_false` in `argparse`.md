@@ -1,7 +1,3 @@
----
-publish: "true"
----
-
 ## Good usage
 
 Example from [Python: argparse - add binary arguments](https://arccoder.medium.com/python-argparse-add-binary-arguments-d092f3214edd):

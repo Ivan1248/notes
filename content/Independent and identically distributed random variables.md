@@ -3,7 +3,7 @@ aliases:
   - IID random variables
   - Random sample
 ---
-Let $X=\{\rvar x_1, ..,\rvar x_n\}$ be a [[set]] of [[Random variable|random variables]] on a [[Probability space|probability space]] $(\Omega,\Sigma,P)$.
+Let $X=\{\rvar x_1, ..,\rvar x_n\}$ be a [[set|set]] of [[Random variable|random variables]] on a [[Probability space|probability space]] $(\Omega,\Sigma,P)$.
 
 The random variables in $X$ are:
 - **independent** iff$$  
@@ -17,11 +17,3 @@ $$
 ## Used notation
 
 - $\operatorname\Pi[\rvar x_i]$ is the [[Distribution of a random variable|distribution of]] $\rvar x_i$.
-
-
-## Notes
-
-### Example
-
-Let 
-

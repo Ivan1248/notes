@@ -1,5 +1,7 @@
-Synonyms: loop undirected graph.
-
+---
+aliases:
+  - Loop undirected graph
+---
 An **undirected graph** is a [[Graph|graph]] $(V, E)$ where $E$ is a [[Symmetric relation|symmetric relation]].
 
 ## Notes
@@ -8,4 +10,4 @@ An **undirected graph** is a [[Graph|graph]] $(V, E)$ where $E$ is a [[Symmetric
 
 ## Specializations
 
-- [[Simple undirected graph]]
+- [[Simple undirected graph|Simple undirected graph]]

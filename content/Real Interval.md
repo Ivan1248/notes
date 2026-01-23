@@ -3,8 +3,8 @@ $$\forall a, b\in I : a< b\implies \exists c\in I \colon a < c < b\text.$$
 
 ## Related
 
-- [[Closed interval]]
-- [[Open interval]]
+- [[Closed interval|Closed interval]]
+- [[Open interval|Open interval]]
 
 ## References
 

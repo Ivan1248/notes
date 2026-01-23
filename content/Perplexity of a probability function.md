@@ -25,4 +25,4 @@ $$
 
 ## Related
 
-- [[Perplexity of a probability]]
+- [[Perplexity of a probability|Perplexity of a probability]]

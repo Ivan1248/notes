@@ -2,8 +2,8 @@
 
 ## Used notation
 
-- [[Multivariate normal distribution]]: $\N(\vec\mu, \vec{\mathit\Sigma})$
-- [[Identity matrix]] of dimension $n$: $\cvec I_n$
+- [[Multivariate normal distribution|Multivariate normal distribution]]: $\N(\vec\mu, \vec{\mathit\Sigma})$
+- [[Identity matrix|Identity matrix]] of dimension $n$: $\cvec I_n$
 
 ## Notes
 
@@ -12,8 +12,8 @@
 
 ## Related
 
-- [[Perplexity of a probability function]]
-- [[Perplexity of a probability density function]]
+- [[Perplexity of a probability function|Perplexity of a probability function]]
+- [[Perplexity of a probability density function|Perplexity of a probability density function]]
 
 ## References
 

@@ -4,7 +4,6 @@ aliases:
   - Ontological idealism
   - Idealism
 ---
-
 In [[Metaphysics]], [[Epistemology]]. 
 **Metaphysical idealism** is the statement that [[Phenomenal consciousness|subjective experience]] is ontologically primitive.
 

@@ -15,6 +15,6 @@ An **edge** of $G$ is an element of $E$.
 
 ## Specializations
 
-- [[Simple graph]]
-- [[Directed graph]]
-- [[Undirected graph]]
+- [[Simple graph|Simple graph]]
+- [[Directed graph|Directed graph]]
+- [[Undirected graph|Undirected graph]]

@@ -2,6 +2,8 @@
 
 ## 2026-1
 
+[Nested Code Fences in Markdown - Susam Pal](https://susam.net/nested-code-fences.html)
+
 [Outstanding in her field: cow recorded using tool for first time](https://www.thetimes.com/article/8e480e03-17ba-4c51-a186-ff420b01bcf2?shareToken=ef3043faa32a415150ffc306de7387e6)
 
 [C++ std\:\:move doesn't move anything: A deep dive into Value Categories \| Hacker News](https://news.ycombinator.com/item?id=46551602)
