@@ -2,7 +2,7 @@
 tags:
 creation date: 2026-01-20
 ---
-This is a partially published set of mostly terse notes about different topics. Some notes may be incomplete or contain errors.
+This is a partially published set of mostly terse notes about different topics. Some notes may be incomplete or contain errors, and the website is not completely set up.
 
 Some notes:
 - [[Bayesian inference|Bayesian inference]]
