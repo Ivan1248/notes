@@ -2,7 +2,6 @@
 tags:
 creation date: 2026-01-23
 ---
-
 ## Ivan Grubišić
 
 _Humljani 51, 33514 Čačinci, Croatia_  
@@ -64,7 +63,7 @@ Machine learning with satellite and street-view imagery to detect road safety ri
 Computer vision for autonomous vehicle-passenger interaction, including action recognition, keypoint detection, and domain adaptation. I am helping PhD students with research on early action prediction from video and keypoints, and domain adaptation.
 
 **Researcher** – [ADEPT](http://www.zemris.fer.hr/~ssegvic/adept/adept_en.shtml) · Zagreb, Croatia · _2021-2 – 2023-2_  
-Dense semantic analysis methods for large images in natural scenes (autonomous driving, road safety inspection). I worked on semi-supervised learning (consistency training) and semantic segmentation learning on datasets with incompatible taxonomies.
+Dense semantic analysis methods for large images in natural scenes (autonomous driving, road safety inspection). I worked on semi-supervised learning (consistency training) and semantic segmentation on datasets with incompatible taxonomies.
 
 **Researcher** – [DATACROSS](https://across-datascience.zci.hr/en/datacross) · Zagreb, Croatia · _2018-10 – 2022-3_  
 A project of The Centre of Research Excellence for Data Science and Advanced Cooperative Systems researching advanced methods and technologies for heterogeneous data analysis and cooperative systems. I worked on robust learning (adversarial examples), semi-supervised learning, semantic segmentation on datasets with incompatible taxonomies, normalizing flows.
@@ -79,7 +78,7 @@ Conference papers:
 
 Journal papers:
 - P. Bevandić, M. Oršić, J. Šarić, **I. Grubišić**, S. Šegvić. _Weakly Supervised Training of Universal Visual Concepts for Multi-domain Semantic Segmentation_. IJCV 132(7):2450-2472, 2024. [DOI](https://doi.org/10.1007/s11263-024-01986-z)
-- **I. Grubišić**, M. Oršić, S. Šegvić. _Revisiting Consistency for Semi-Supervised Semantic Segmentation_. Sensors, 23(2):940, 2023. [DOI](https://doi.org/10.3390/s23020940)
+- **I. Grubišić**, M. Oršić, S. Šegvić. _Revisiting Consistency for Semi-Supervised Semantic Segmentation_. Sensors, 23(2):940, 2023. [DOI](https://doi.org/10.3390/s23020940) [Paper](https://arxiv.org/abs/2106.07075)
 
 ## Achievements
 
@@ -106,13 +105,13 @@ Journal papers:
 - Written in Typescript, used LLMs.
 
 **[Customization of Gyroflow for the GAIM project](https://github.com/Ivan1248/gyroflow)** · _2025 – present_
-- Synchronization of GPS data with motion estimated from IMU data and video (relative pose estimation). Written in Rust and QML, used LLMs.
+- Synchronization of GPS data with motion estimated from IMU data and video (relative pose estimation). Written in Rust, used LLMs.
 
 ## Skills
 
 **Programming:** Python (PyTorch, NumPy, Matplotlib, OpenAI Triton etc.), Kotlin (Jetpack Compose), Rust, C/C++, C#, VB.NET, Typescript, JavaScript, Nim, Thyme.
 
-**Technical:** Linux, Bash, LaTeX, Obsidian, markdown, HTML/CSS, Git, Docker, PBS, basic electronics design, basic FPGA programming, FreeCAD, Inkscape, raster editing, software development with LLMs.
+**Technical:** Linux, Bash, LaTeX, Obsidian, markdown, HTML/CSS, Git, Docker, PBS, basic electronics design, basic FPGA programming, FreeCAD, Inkscape, raster editing, software design, technical writing, mathematical writing.
 
 **Soft:** Problem-solving, analysis, abstraction, precision, epistemology, impartiality, helpfulness, interest in psychology, empathy, "scout mindset".
 

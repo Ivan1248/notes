@@ -15,5 +15,4 @@ Some notes:
 - [[Perplexity of a probability function|Perplexity of a probability function]]
 - [[Perplexity of a sequence model|Perplexity of a sequence model]]
 - [[Transformer attention|Transformer attention]]
-- [[Use case for `store_false` in `argparse`|Use case for `store_false` in `argparse`]]
 - [[Quantifier notation|Quantifier notation]]
