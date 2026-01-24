@@ -21,16 +21,18 @@ Teaching assistant · _2020-3 – present_
 - **Research:** semi-supervised learning, normalizing flows, supervised multi-domain learning, semantic segmentation, data poisoning
 - **Teaching:** Digital Logic, Operating Systems, mentoring students
 - **Mentor:** Prof. Siniša Šegvić, PhD
-- 
+
 Postgraduate research student · _2018-9 – 2020-3_
 - **Research:** semantic segmentation, robust learning, adversarial examples, deep learning frameworks
 - **Teaching:** Deep Learning, Design Patterns, Computer Architecture 2
 - **Mentor:** Prof. Siniša Šegvić, PhD
-- 
+
 Student teaching assistant · _2017-10 – 2018-3_
 - **Teaching:** Machine Learning, Soft Computing (help in laboratory sessions)
+<!---
 
-**Technical Skills:** Python, PyTorch, NumPy, Matplotlib, Bash, Git
+**Technical Skills:** Python, PyTorch, NumPy, Matplotlib, Bash, Git, software design
+--->
 
 ## Education
 
@@ -93,13 +95,13 @@ Journal papers:
 **[Smartphone-based lawn mower robot](https://github.com/Ivan1248/lawn-rover)** · _2012 – present_
 - **Aim:** a cheap robot with simple analog electronics and mechanical hardware that uses a smartphone for control (autonomous or remote)
 - LTspice, circuit design, technical drawing, FreeCAD, Kotlin, Jetpack Compose,
-
 <!---
+
 **[Algodoo Multiplayer](https://github.com/Ivan1248/Algodoo-Multiplayer)** · _2010 – present_
 - **Aim:** enabling multi-user network games/simulations with the Algodoo physics simulator
 - **Technical Skills:** Algodoo (Thyme), VB.NET, network communication
-
 --->
+
 **[Selective Publisher plugin for Obsidian](https://github.com/Ivan1248/obsidian-selective-publisher)** · _2025 – present_
 - Typescript
 
