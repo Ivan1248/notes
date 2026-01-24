@@ -18,9 +18,12 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
       component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => !["index", "CV"].includes(page.fileData.slug!),
     }),
-    Component.ArticleTitle(),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: (page) => !["CV"].includes(page.fileData.slug!),
+    }),
     Component.ContentMeta(),
     Component.TagList(),
   ],
@@ -37,10 +40,16 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.ConditionalRender({
+      component: Component.Explorer(),
+      condition: (page) => !["CV"].includes(page.fileData.slug!),
+    }),
   ],
   right: [
-    Component.Graph(),
+    Component.ConditionalRender({
+      component: Component.Graph(),
+      condition: (page) => !["CV"].includes(page.fileData.slug!),
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
