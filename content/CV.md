@@ -93,8 +93,8 @@ Journal papers:
 - Python, PyTorch, NumPy, software design, implementation of machine learning algorithms
 
 **[Smartphone-based lawn mower robot](https://github.com/Ivan1248/lawn-rover)** · _2012 – present_
-- **Aim:** a cheap robot with simple analog electronics and mechanical hardware that uses a smartphone for control (autonomous or remote)
-- LTspice, circuit design, technical drawing, FreeCAD, Kotlin, Jetpack Compose,
+- A cheap robot with simple analog electronics and mechanical hardware that uses a smartphone for control, sensors and communication
+- LTspice, circuit design, technical drawing, FreeCAD, Kotlin, Jetpack Compose
 <!---
 
 **[Algodoo Multiplayer](https://github.com/Ivan1248/Algodoo-Multiplayer)** · _2010 – present_
@@ -103,10 +103,10 @@ Journal papers:
 --->
 
 **[Selective Publisher plugin for Obsidian](https://github.com/Ivan1248/obsidian-selective-publisher)** · _2025 – present_
-- Typescript
+- Written in Typescript, used LLMs.
 
 **[Customization of Gyroflow for the GAIM project](https://github.com/Ivan1248/gyroflow)** · _2025 – present_
-- Rust, relative pose estimation
+- Synchronization of GPS data with motion estimated from IMU data and video (relative pose estimation). Written in Rust and QML, used LLMs.
 
 ## Skills
 
