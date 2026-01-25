@@ -11,7 +11,7 @@ A **probability measure** on a [[Measurable space|measurable space]] $(\Omega, \
 
 ## Related
 
-- [[Distribution of a random variable]]
-- [[Probability space]]
-- [[Probability function]]
-- [[Probability density function]]
+- [[Distribution of a random variable|Distribution of a random variable]]
+- [[Probability space|Probability space]]
+- [[Probability function|Probability function]]
+- [[Probability density function|Probability density function]]
