@@ -2,6 +2,7 @@
 tags:
 creation date: 2026-01-23
 ---
+
 ## Ivan Grubišić
 
 _Humljani 51, 33514 Čačinci, Croatia_  
@@ -71,14 +72,14 @@ A project of The Centre of Research Excellence for Data Science and Advanced Coo
 ## Publications
 
 Conference papers:
-- I. Sabolić, **I. Grubišić**, S. Šegvić. _Backdoor Defense through Self-Supervised and Generative Learning_. BMVC 2024. [Paper](https://bmvc2024.org/proceedings/346/)
-- P. Bevandić, M. Oršić, **I. Grubišić**, J. Šarić, S. Šegvić. _Multi-domain semantic segmentation with overlapping labels_. WACV 2022, pp. 2422–2431. [DOI](https://doi.org/10.1109/WACV51458.2022.00248)
-- **I. Grubišić**, M. Oršić, S. Šegvić. _A baseline for semi-supervised learning of efficient semantic segmentation models_. MVA 2021, pp. 1–5. [DOI](https://doi.org/10.23919/MVA51890.2021.9511402)
-- M. Grcić, **I. Grubišić**, S. Šegvić. _Densely connected normalizing flows_. NeurIPS 2021, pp. 23968–23982. [Paper](https://proceedings.neurips.cc/paper/2021/hash/c950cde9b3f83f41721788e3315a14a3-Abstract.html)  
+- I. Sabolić, **I. Grubišić**, and S. Šegvić. _Backdoor defense through self-supervised and generative learning_. **British Machine Vision Conference (BMVC)**, 2024. [paper](https://bmvc2024.org/proceedings/346/)
+- P. Bevandić, M. Oršić, **I. Grubišić**, J. Šarić, and S. Šegvić. _Multi-domain semantic segmentation with overlapping labels_. **IEEE Winter Conference on Applications of Computer Vision (WACV)**, pp. 2422–2431, 2022. [DOI](https://doi.org/10.1109/WACV51458.2022.00248) · [paper](https://openaccess.thecvf.com/content/WACV2022/html/Bevandic_Multi-Domain_Semantic_Segmentation_with_Overlapping_Labels_WACV_2022_paper.html)
+- M. Grcić, **I. Grubišić**, and S. Šegvić. _Densely connected normalizing flows_. **Advances in Neural Information Processing Systems (NeurIPS)**, pp. 23968–23982, 2021. [Paper](https://proceedings.neurips.cc/paper/2021/hash/c950cde9b3f83f41721788e3315a14a3-Abstract.html)
+- **I. Grubišić**, M. Oršić, and S. Šegvić. _A baseline for semi-supervised learning of efficient semantic segmentation models_. **International Conference on Machine Vision Applications (MVA)**, pp. 1–5, 2021. [DOI](https://doi.org/10.23919/MVA51890.2021.9511402) · [paper](https://www.mva-org.jp/Proceedings/2021/papers/P2-3.pdf)
 
 Journal papers:
-- P. Bevandić, M. Oršić, J. Šarić, **I. Grubišić**, S. Šegvić. _Weakly Supervised Training of Universal Visual Concepts for Multi-domain Semantic Segmentation_. IJCV 132(7):2450-2472, 2024. [DOI](https://doi.org/10.1007/s11263-024-01986-z)
-- **I. Grubišić**, M. Oršić, S. Šegvić. _Revisiting Consistency for Semi-Supervised Semantic Segmentation_. Sensors, 23(2):940, 2023. [DOI](https://doi.org/10.3390/s23020940) [Paper](https://arxiv.org/abs/2106.07075)
+- P. Bevandić, M. Oršić, J. Šarić, **I. Grubišić**, and S. Šegvić. _Weakly supervised training of universal visual concepts for multi-domain semantic segmentation_. **International Journal of Computer Vision (IJCV)**, vol. 132, no. 7, pp. 2450–2472, 2024. [DOI](https://doi.org/10.1007/s11263-024-01986-z)
+- **I. Grubišić**, M. Oršić, and S. Šegvić. _Revisiting consistency for semi-supervised semantic segmentation_. **Sensors**, vol. 23, no. 2, article 940, 2023. [DOI](https://doi.org/10.3390/s23020940) · [paper](https://www.mdpi.com/1424-8220/23/2/940) · [arXiv](https://arxiv.org/abs/2106.07075)
 
 ## Achievements
 

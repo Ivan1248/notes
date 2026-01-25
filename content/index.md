@@ -7,6 +7,7 @@ This is a partially published set of mostly terse notes about different topics. 
 Some notes:
 - [[Bayesian inference|Bayesian inference]]
 - [[Big-O (Real analysis)|Big-O (Real analysis)]]
+- [[Datamodel|Datamodel]]
 - [[Grad-CAM|Grad-CAM]]
 - [[Larger vs. bigger vs. greater vs. higher|Larger vs. bigger vs. greater vs. higher]]
 - [[LoRA|LoRA]]
