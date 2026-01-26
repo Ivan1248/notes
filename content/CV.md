@@ -116,7 +116,7 @@ Journal papers:
 
 **Soft:** Problem-solving, analysis, abstraction, precision, epistemology, impartiality, helpfulness, interest in psychology, empathy, "scout mindset".
 
-**Languages:** Croatian (native), English (C1/C1), German (B2/B1). (Generally, sub-average at speech production speed.)
+**Languages:** Croatian (native), English (C1/C1), German (B2/B1).
 
 ---
 
