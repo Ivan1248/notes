@@ -74,7 +74,7 @@ A project of The Centre of Research Excellence for Data Science and Advanced Coo
 Conference papers:
 - I. Sabolić, **I. Grubišić**, and S. Šegvić. _Backdoor defense through self-supervised and generative learning_. **British Machine Vision Conference (BMVC)**, 2024. [paper](https://bmvc2024.org/proceedings/346/)
 - P. Bevandić, M. Oršić, **I. Grubišić**, J. Šarić, and S. Šegvić. _Multi-domain semantic segmentation with overlapping labels_. **IEEE Winter Conference on Applications of Computer Vision (WACV)**, pp. 2422–2431, 2022. [DOI](https://doi.org/10.1109/WACV51458.2022.00248) · [paper](https://openaccess.thecvf.com/content/WACV2022/html/Bevandic_Multi-Domain_Semantic_Segmentation_with_Overlapping_Labels_WACV_2022_paper.html)
-- M. Grcić, **I. Grubišić**, and S. Šegvić. _Densely connected normalizing flows_. **Advances in Neural Information Processing Systems (NeurIPS)**, pp. 23968–23982, 2021. [Paper](https://proceedings.neurips.cc/paper/2021/hash/c950cde9b3f83f41721788e3315a14a3-Abstract.html)
+- M. Grcić, **I. Grubišić**, and S. Šegvić. _Densely connected normalizing flows_. **Advances in Neural Information Processing Systems (NeurIPS)**, pp. 23968–23982, 2021. [paper](https://proceedings.neurips.cc/paper/2021/hash/c950cde9b3f83f41721788e3315a14a3-Abstract.html)
 - **I. Grubišić**, M. Oršić, and S. Šegvić. _A baseline for semi-supervised learning of efficient semantic segmentation models_. **International Conference on Machine Vision Applications (MVA)**, pp. 1–5, 2021. [DOI](https://doi.org/10.23919/MVA51890.2021.9511402) · [paper](https://www.mva-org.jp/Proceedings/2021/papers/P2-3.pdf)
 
 Journal papers:
@@ -86,7 +86,7 @@ Journal papers:
 - Faculty Science Award (_2020-11_) – Annual faculty science award for outstanding research in semantic segmentation
 - 1st place at [Robust Vision Challenge 2020](http://www.robustvision.net/rvc2020.php) (_2020-8_) – Semantic segmentation task at ECCV2020 (P. Bevandić, M. Oršić, **I. Grubišić**, J. Šarić, S. Šegvić)
 
-## Personal and research projects
+## Personal projects
 
 **[ViDLU (Vision Deep Learning Utilities)](https://github.com/Ivan1248/vidlu)** · _2018 – present_
 - An experimental framework used for my computer vision and machine learning research
