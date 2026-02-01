@@ -1,5 +1,9 @@
 [[Links|Links]]
 
+## 2026-2
+
+[When you clap your hands in front of Chichen Itza stairs, the echo sounds like a Quetzal bird : r/interestingasfuck](https://www.reddit.com/r/interestingasfuck/comments/tqysje/when_you_clap_your_hands_in_front_of_chichen_itza/)
+
 ## 2026-1
 
 [Setting Moon from ISS timelapse](https://upload.wikimedia.org/wikipedia/commons/a/ab/ISS-15_Moonset_above_Coral_Sea.gif)

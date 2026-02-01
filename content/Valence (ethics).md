@@ -13,3 +13,4 @@ aliases:
 
 - [[Moral patient]]
 - [[Valence (psychology)]]
+- [[Axiological ethics]]
