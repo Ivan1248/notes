@@ -10,9 +10,11 @@ and, if $X$ is an [[Uncountable set|uncountable set]],
 $$
 \sum_{x\in X} P(x) \leq 1 \text.
 $$
-## Probability function 
+
+## Probability function
 
 A **probability function** is a [[Function|function]] $P\colon X\to[0\bidot 1]$ such that there exists a [[Random variable|random variable]] $\rvar x\colon\Omega\to X$ such that $P$ is the [[Probability function of a random variable|probability function of]] $\rvar x\colon\Omega\to X$.
+
 ## Related
 
 - [[Probability function of a random variable|Probability function of a random variable]]

@@ -21,8 +21,6 @@
 
 [GitHub - DGoettlich/history-llms: Information hub for our project training the largest possible historical LLMs.](https://github.com/DGoettlich/history-llms)
 
-[Doctor Who - The Doctor Confuses An Officer From World War One "What do you mean, One?" - YouTube](https://www.youtube.com/watch?v=eg4mcdhIsvU)
-
 [Gapminder](https://www.gapminder.org)  
 [Income Levels \| Gapminder](https://www.gapminder.org/fw/income-levels/)  
 [Dollar Street - photos as data to kill country stereotypes](https://www.gapminder.org/dollar-street)

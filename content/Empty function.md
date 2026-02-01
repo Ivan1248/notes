@@ -1,4 +1,4 @@
-An **empty function** is a [[function|function]] $f\colon \{\}\to Y$.
+An **empty function** is a [[Function|function]] $f\colon \{\}\to Y$.
 
 ## Notes
 

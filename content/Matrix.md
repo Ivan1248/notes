@@ -1,4 +1,4 @@
-Let $S$ be a [[set|set]].  
+Let $S$ be a [[Set|set]].  
 Let $m,n\in\N_{\geq 1}$.
 
 A **matrix** is an [[Array|array]] $\v A\in S^{m\times n}$.

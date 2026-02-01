@@ -3,7 +3,7 @@ aliases:
   - IID random variables
   - Random sample
 ---
-Let $X=\{\rvar x_1, ..,\rvar x_n\}$ be a [[set|set]] of [[Random variable|random variables]] on a [[Probability space|probability space]] $(\Omega,\Sigma,P)$.
+Let $X=\{\rvar x_1, ..,\rvar x_n\}$ be a [[Set|set]] of [[Random variable|random variables]] on a [[Probability space|probability space]] $(\Omega,\Sigma,P)$.
 
 The random variables in $X$ are:
 - **independent** iff$$  

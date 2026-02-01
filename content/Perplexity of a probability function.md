@@ -1,11 +1,11 @@
-The **perplexity** of a [[probability function|probability function]] $P$ is
+The **perplexity** of a [[Probability function|probability function]] $P$ is
 $$
 \operatorname{PP}(P) = \exp(\H(P)) = \prod_{x\in\dom(P)} P(x)^{-P(x)} \text.
 $$
 
 ## Notation
 
-- $\H(P)$ is the [[entropy|entropy]] of $P$.
+- $\H(P)$ is the [[Entropy|entropy]] of $P$.
 
 ## Notes
 
@@ -25,4 +25,4 @@ $$
 
 ## Related
 
-- [[Perplexity of a probability|Perplexity of a probability]]
+- [[Perplexity of a probability]]

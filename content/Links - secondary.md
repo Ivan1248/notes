@@ -2,6 +2,8 @@
 
 ## 2026-1
 
+[Setting Moon from ISS timelapse](https://upload.wikimedia.org/wikipedia/commons/a/ab/ISS-15_Moonset_above_Coral_Sea.gif)
+
 [Nested Code Fences in Markdown - Susam Pal](https://susam.net/nested-code-fences.html)
 
 [Outstanding in her field: cow recorded using tool for first time](https://www.thetimes.com/article/8e480e03-17ba-4c51-a186-ff420b01bcf2?shareToken=ef3043faa32a415150ffc306de7387e6)
@@ -11,6 +13,8 @@
 ## 2025-12
 
 [Speed matters: Why working quickly is more important than it seems « the jsomers.net blog](https://jsomers.net/blog/speed-matters)
+
+[Doctor Who - The Doctor Confuses An Officer From World War One "What do you mean, One?" - YouTube](https://www.youtube.com/watch?v=eg4mcdhIsvU)
 
 ## 2025-9
 

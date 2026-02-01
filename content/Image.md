@@ -2,7 +2,7 @@
 aliases:
   - Raster image
 ---
-A **raster image** is an [[array]] $\v I\in \R^{H\times W\times C}$.
+A **raster image** is an [[Array|array]] $\v I\in \R^{H\times W\times C}$.
 
 ## Dimensions of an image
 

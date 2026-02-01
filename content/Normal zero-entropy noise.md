@@ -7,7 +7,7 @@
 
 ## Notes
 
-- The [[differential entropy|differential entropy]] of $\rvar\epsilon$ is $0$.
+- The [[Differential entropy|differential entropy]] of $\rvar\epsilon$ is $0$.
 - Adding independent zero-entropy noise to a random variable $\rvec x$ makes the differential entropy of the sum non-negative: $\h[\rvec x+\rvec\epsilon] \geq 0$[^1].
 
 ## Related

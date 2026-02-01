@@ -1,6 +1,6 @@
-Let $\v A$ be a [[matrix|matrix]] in $\R^{m\times n}$.
+Let $\v A$ be a [[Matrix|matrix]] in $\R^{m\times n}$.
 
-Then, the [[Matrix product]] $\v A^\transpose \v A$ is a [[symmetric matrix]] 
+Then, the [[Matrix product]] $\v A^\transpose \v A$ is a [[Symmetric matrix|symmetric matrix]] 
 $$
 A^\transpose A
 $$

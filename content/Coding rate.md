@@ -2,7 +2,7 @@ Let $I=\{1\bidot m\}$.
 Let the **set of data vectors** be a [[Finite set|finite set]] $\rvar W=\{\rvec w_i : i\in I\}$ of $\R^n$-valued [[Independent and identically distributed random variables|IID random]] [[Vector|vectors]].  
 Let the [[Covariance matrix|covariance matrix]] of $\rvec w_i$ be $\mathbfit\Sigma$.
 
-Let the **encoding** be a [[function|function]] $e\colon\R^n\to \R^n$ that maps [[Real vector|real vectors]] to a finite set of [[Real vector|real vectors]].  
+Let the **encoding** be a [[Function|function]] $e\colon\R^n\to \R^n$ that maps [[Real vector|real vectors]] to a finite set of [[Real vector|real vectors]].  
 Let $\forall i\in I : \rvec{\hat w}_i = e(\rvec w_i)$.  
 
 Let $\epsilon^2$ be the **allowable square error of encoding**: $\E[\lVert \rvec w_i-\hat {\rvec w}_i\rVert^2]\leq \epsilon^2$.  

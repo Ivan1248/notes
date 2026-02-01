@@ -1,4 +1,4 @@
-A relational structure is a [[Ordered pair|ordered pair]] $(S, R)$, where $S$ is a [[set|set]], and $R$ is a [[relation|relation]] on $S\times S$.
+A relational structure is a [[Ordered pair|ordered pair]] $(S, R)$, where $S$ is a [[Set|set]], and $R$ is a [[Relation|relation]] on $S\times S$.
 
 ## Links
 

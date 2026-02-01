@@ -2,7 +2,7 @@
 	- Prefer `|` over `\vert`.
 	- For [[Conditional probability|conditional probabilities]], prefer `\mid` over `|`. Example: $P(y\mid x)$.
 	- Instead of `\middle\mid`, which doesn't work, use `\middlemid`. Example: $P\left(y\middlemid x=\frac{1}{2}\right)$.
-	- For [[bra-ket notation]], use `|`. Example: $\langle \v x|\v y\rangle$, $|\v x\rangle$.
+	- For [[Bra-ket notation|bra-ket notation]], use `|`. Example: $\langle \v x|\v y\rangle$, $|\v x\rangle$.
 	- For delimiter pairs, prefer `\lvert` and `\rvert` or `\left|` and `\right|`. Examples: $a|x|$, $\left|\frac{1}{x}\right|$.
 - Double vert (`\|` $\to$ $\|$)
 	- Prefer `\|` over `\Vert`.
@@ -10,6 +10,6 @@
 		- `\lVert` and `\rVert` for normal height (example: $a\lVert x\rVert$),
 		- `\left\|` and `\right\|` for greater height. (example: $\left\|\frac1x\right\|$).
 - Colons (`\colon` $\to$ $\colon$, `:` $\to$ $:$)
-	- Use `\colon` in denoting the type of [[function]]. Example: $f\colon X\to Y$.
+	- Use `\colon` in denoting the type of [[Function|function]]. Example: $f\colon X\to Y$.
 	- Use `:` as a separator between [[Quantifier notation|quantifier clauses]]. Example: $\forall x\in X:\exists y\in Y\colon f(x) = y$.
-	- Use `:` in [[set builder notation]]. Examples: $\{x : P(x)\}$, $X\to Y = \{f : f\colon X\to Y\}$.
+	- Use `:` in [[Set builder notation|set builder notation]]. Examples: $\{x : P(x)\}$, $X\to Y = \{f : f\colon X\to Y\}$.

@@ -1,4 +1,4 @@
-A [[Function|function]] $f$ is **defined on** a [[set]] $X$ iff $X\subseteq \dom(f)$.
+A [[Function|function]] $f$ is **defined on** a [[Set|set]] $X$ iff $X\subseteq \dom(f)$.
 
 ## Related
 
