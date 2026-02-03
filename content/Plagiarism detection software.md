@@ -1,2 +1,3 @@
+- [JPlag](https://github.com/jplag/JPlag)
 - [Dolos](https://dolos.ugent.be/)
 - [Mayat](https://github.com/AnubisLMS/Mayat)

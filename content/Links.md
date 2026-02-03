@@ -1,5 +1,9 @@
 [[Links - secondary|Links - secondary]]
 
+## 2026-2
+
+[Cornell realism - Wikipedia](https://en.wikipedia.org/wiki/Cornell_realism)
+
 ## 2026-1
 
 [Wu experiment - Wikipedia](https://en.wikipedia.org/wiki/Wu_experiment)
