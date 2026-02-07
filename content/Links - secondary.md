@@ -1,6 +1,8 @@
-[[Links|Links]]
+[[links]]
 
 ## 2026-2
+
+[Free Universal Construction Kit - Wikipedia](https://en.wikipedia.org/wiki/Free_Universal_Construction_Kit)
 
 [When you clap your hands in front of Chichen Itza stairs, the echo sounds like a Quetzal bird : r/interestingasfuck](https://www.reddit.com/r/interestingasfuck/comments/tqysje/when_you_clap_your_hands_in_front_of_chichen_itza/)
 

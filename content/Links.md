@@ -1,6 +1,8 @@
-[[Links - secondary|Links - secondary]]
+[[Links - secondary]]
 
 ## 2026-2
+
+[But what is a Fourier series? From heat flow to drawing with circles \| DE4 - YouTube](https://www.youtube.com/watch?v=r6sGWTCMz2k)
 
 [Cornell realism - Wikipedia](https://en.wikipedia.org/wiki/Cornell_realism)
 

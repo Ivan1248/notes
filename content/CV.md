@@ -5,13 +5,13 @@ creation date: 2026-01-23
 
 ## Ivan Grubišić
 
-_Humljani 51, 33514 Čačinci, Croatia_  
+_Humljani 51, 33514 Čačinci, Croatia_
 
 (+385) 98 194 9560 · [ivan.grubisic@fer.hr](mailto:ivan.grubisic@fer.hr) · [github.com/Ivan1248](https://github.com/Ivan1248) · [Google Scholar](https://scholar.google.com/citations?user=QB3Eh4AAAAAJ)
 
 ## Personal profile
 
-I research **machine learning and computer vision** at University of Zagreb, FER. I have experience with algorithms, software development, and probability theory. I am also generally interested in mathematics, physics, biology, neuroscience, cognition, engineering, automation, and fundamental questions in philosophy. I seek to make the world better.
+I research **machine learning and computer vision** at University of Zagreb, FER. I have experience with algorithms, software development, and probability theory. I am also generally interested in mathematics, physics, biology, neuroscience, cognition, engineering, automation, and fundamental questions in philosophy. I seek to work on meaningful problems.
 
 ## Work experience
 
