@@ -13,7 +13,7 @@ export interface Options {
 const defaultOptions: Options = {
   bibliographyFile: "./bibliography.bib",
   suppressBibliography: false,
-  linkCitations: false,
+  linkCitations: true,
   csl: "apa",
 }
 
