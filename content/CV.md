@@ -11,7 +11,7 @@ _Humljani 51, 33514 Čačinci, Croatia_
 
 ## Personal profile
 
-I research **machine learning and computer vision** at University of Zagreb, FER. I have experience with algorithms, software development, and probability theory. I am also generally interested in mathematics, physics, biology, neuroscience, cognition, engineering, automation, and fundamental questions in philosophy. I seek to work on meaningful problems.
+I research **machine learning and computer vision** at University of Zagreb, FER. I have experience with algorithms, software development, and probability theory. I am also generally interested in mathematics, physics, biology, neuroscience, cognition, engineering, automation, and fundamental questions in philosophy. I seek to make the world better.
 
 ## Work experience
 
@@ -102,17 +102,17 @@ Journal papers:
 - **Technical Skills:** Algodoo (Thyme), VB.NET, network communication
 --->
 
-**[Selective Publisher plugin for Obsidian](https://github.com/Ivan1248/obsidian-selective-publisher)** · _2025 – present_
-- Written in Typescript, used LLMs.
+Plugins for Obsidian: **[Selective Publisher](https://github.com/Ivan1248/obsidian-selective-publisher)**, **[Wikilink Helper](https://github.com/Ivan1248/obsidian-wikilink-helper)** · _2025 – present_
+- Written in Typescript.
 
 **[Customization of Gyroflow for the GAIM project](https://github.com/Ivan1248/gyroflow)** · _2025 – present_
-- Synchronization of GPS data with motion estimated from IMU data and video (relative pose estimation). Written in Rust, used LLMs.
+- Synchronization of GPS data with motion estimated from IMU data and video (relative pose estimation). Written in Rust.
 
 ## Skills
 
 **Programming:** Python (PyTorch, NumPy, Matplotlib, OpenAI Triton etc.), Kotlin (Jetpack Compose), Rust, C/C++, C#, VB.NET, Typescript, JavaScript, Nim, Thyme.
 
-**Technical:** Linux, Bash, LaTeX, Obsidian, markdown, HTML/CSS, Git, Docker, PBS, basic electronics design, basic FPGA programming, FreeCAD, Inkscape, raster editing, software design, technical writing, mathematical writing.
+**Technical:** Linux, Bash, LaTeX, Obsidian, markdown, HTML/CSS, Git, Docker, PBS, basic electronics design, FreeCAD, media editing, technical and mathematical writing.
 
 **Soft:** Problem-solving, analysis, abstraction, precision, epistemology, impartiality, helpfulness, interest in psychology, empathy, "scout mindset".
 

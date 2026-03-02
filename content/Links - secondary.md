@@ -1,6 +1,11 @@
-[[Links]]
+[[Links|links]]
 
 ## 2026-2
+
+[I am literally cry laughing at Haiku 🤣🤣 : r/Anthropic](https://www.reddit.com/r/Anthropic/comments/1r9nxud/i_am_literally_cry_laughing_at_haiku/)  
+Claude 4.5 Haiku suggest walking your washed car home.
+
+[Diode — Build, program, and simulate hardware](https://www.withdiode.com)
 
 [Free Universal Construction Kit - Wikipedia](https://en.wikipedia.org/wiki/Free_Universal_Construction_Kit)
 

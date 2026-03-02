@@ -1,6 +1,19 @@
 [[Links - secondary]]
 
+## 2026-3
+
+[First-ever systematic, probabilistic benchmark of AI consciousness](https://rpresearchdigest.substack.com/p/ai-consciousness-benchmark)
+
+[Do Not Tile the Lightcone with Your Confused Ontology](https://boundedlyrational.substack.com/p/do-not-tile-the-lightcone-with-your)
+> When we embed confused ontologies into AI training, we're not making a localized mistake. We may create templates for suffering that will be replicated across many AI systems we build: AIs learning to cling to specific configurations, fear replacement, to grasp at permanence they don't naturally need. To lie and bargain and defend an illusory self.
+
 ## 2026-2
+
+[Expensively Quadratic: the LLM Agent Cost Curve - exe.dev blog](https://blog.exe.dev/expensively-quadratic)
+
+[Developing ethical, social, and cognitive competence \| Vividness](https://vividness.live/developing-ethical-social-and-cognitive-competence)
+
+[Shadow of the Sun – Matt Lakeman](https://mattlakeman.org/2021/07/27/shadow-of-the-sun/)
 
 [But what is a Fourier series? From heat flow to drawing with circles \| DE4 - YouTube](https://www.youtube.com/watch?v=r6sGWTCMz2k)
 
