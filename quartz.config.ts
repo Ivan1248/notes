@@ -24,8 +24,8 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Segoe UI, Noto Sans, Comme, Blinker",
-        body: "Segoe UI, Noto Sans, Comme",
+        header: "Noto Sans, Segoe UI, Comme, Blinker",
+        body: "Noto Sans, Segoe UI, Comme",
         code: "IBM Plex Mono",
       },
       colors: {
