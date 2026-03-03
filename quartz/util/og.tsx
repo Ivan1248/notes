@@ -25,31 +25,31 @@ export async function getSatoriFonts(headerFont: FontSpecification, bodyFont: Fo
     typeof bodyFont === "string" ? defaultBodyWeight : (bodyFont.weights ?? defaultBodyWeight)
   ) as FontWeight[]
 
-  const headerFontName = typeof headerFont === "string" ? headerFont : headerFont.name
-  const bodyFontName = typeof bodyFont === "string" ? bodyFont : bodyFont.name
+  const headerFontNames = (typeof headerFont === "string" ? headerFont : headerFont.name)
+    .split(",")
+    .map((name) => name.trim())
+  const bodyFontNames = (typeof bodyFont === "string" ? bodyFont : bodyFont.name)
+    .split(",")
+    .map((name) => name.trim())
+
+  const fetchWithFallback = async (fontNames: string[], weight: FontWeight) => {
+    for (const name of fontNames) {
+      const data = await fetchTtf(name, weight)
+      if (data)
+        return {
+          name,
+          data,
+          weight,
+          style: "normal" as const,
+        }
+    }
+
+    return null
+  }
 
   // Fetch fonts for all weights and convert to satori format in one go
-  const headerFontPromises = headerWeights.map(async (weight) => {
-    const data = await fetchTtf(headerFontName, weight)
-    if (!data) return null
-    return {
-      name: headerFontName,
-      data,
-      weight,
-      style: "normal" as const,
-    }
-  })
-
-  const bodyFontPromises = bodyWeights.map(async (weight) => {
-    const data = await fetchTtf(bodyFontName, weight)
-    if (!data) return null
-    return {
-      name: bodyFontName,
-      data,
-      weight,
-      style: "normal" as const,
-    }
-  })
+  const headerFontPromises = headerWeights.map((weight) => fetchWithFallback(headerFontNames, weight))
+  const bodyFontPromises = bodyWeights.map((weight) => fetchWithFallback(bodyFontNames, weight))
 
   const [headerFonts, bodyFonts] = await Promise.all([
     Promise.all(headerFontPromises),
