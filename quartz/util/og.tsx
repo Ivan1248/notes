@@ -3,7 +3,7 @@ import { FontWeight, SatoriOptions } from "satori/wasm"
 import { GlobalConfiguration } from "../cfg"
 import { QuartzPluginData } from "../plugins/vfile"
 import { JSXInternal } from "preact/src/jsx"
-import { FontSpecification, getFontSpecificationName, ThemeKey } from "./theme"
+import { FontSpecification, toFontFamily, toFontNames, ThemeKey } from "./theme"
 import path from "path"
 import { QUARTZ } from "./path"
 import { formatDate, getDate } from "../components/Date"
@@ -17,20 +17,14 @@ const defaultBodyWeight = [400]
 export async function getSatoriFonts(headerFont: FontSpecification, bodyFont: FontSpecification) {
   // Get all weights for header and body fonts
   const headerWeights: FontWeight[] = (
-    typeof headerFont === "string"
-      ? defaultHeaderWeight
-      : (headerFont.weights ?? defaultHeaderWeight)
+    typeof headerFont === "string" ? defaultHeaderWeight : (headerFont.weights ?? defaultHeaderWeight)
   ) as FontWeight[]
   const bodyWeights: FontWeight[] = (
     typeof bodyFont === "string" ? defaultBodyWeight : (bodyFont.weights ?? defaultBodyWeight)
   ) as FontWeight[]
 
-  const headerFontNames = (typeof headerFont === "string" ? headerFont : headerFont.name)
-    .split(",")
-    .map((name) => name.trim())
-  const bodyFontNames = (typeof bodyFont === "string" ? bodyFont : bodyFont.name)
-    .split(",")
-    .map((name) => name.trim())
+  const headerFontNames = toFontNames(headerFont)
+  const bodyFontNames = toFontNames(bodyFont)
 
   const fetchWithFallback = async (fontNames: string[], weight: FontWeight) => {
     for (const name of fontNames) {
@@ -195,8 +189,8 @@ export const defaultImage: SocialImageOptions["imageStructure"] = ({
 
   // Get tags if available
   const tags = fileData.frontmatter?.tags ?? []
-  const bodyFont = getFontSpecificationName(cfg.theme.typography.body)
-  const headerFont = getFontSpecificationName(cfg.theme.typography.header)
+  const bodyFont = toFontFamily(cfg.theme.typography.body)
+  const headerFont = toFontFamily(cfg.theme.typography.header)
 
   return (
     <div

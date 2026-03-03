@@ -15,13 +15,11 @@ interface Colors {
   darkMode: ColorScheme
 }
 
-export type FontSpecification =
-  | string
-  | {
-      name: string
-      weights?: number[]
-      includeItalic?: boolean
-    }
+export type FontSpecification = string | {
+  name: string
+  weights?: number[]
+  includeItalic?: boolean
+}
 
 export interface Theme {
   typography: {
@@ -41,26 +39,35 @@ const DEFAULT_SANS_SERIF =
   'system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
 const DEFAULT_MONO = "ui-monospace, SFMono-Regular, SF Mono, Menlo, monospace"
 
-export function getFontSpecificationName(spec: FontSpecification): string {
-  if (typeof spec === "string") {
-    return spec
-  }
+export function toFontNames(spec: FontSpecification): string[] {
+  const family = typeof spec === "string" ? spec : spec.name
+  return family.split(",").map((name) => name.trim())
+}
 
-  return spec.name
+export function toFontFamily(spec: FontSpecification): string {
+  return toFontNames(spec).join(", ")
+}
+
+export function formatFontFamily(spec: FontSpecification): string {
+  return toFontNames(spec)
+    .map((name) => {
+      const alreadyQuoted = name.startsWith('"') || name.startsWith("'")
+      return name.includes(" ") && !alreadyQuoted ? `"${name}"` : name
+    })
+    .join(", ")
 }
 
 function formatFontSpecification(
   type: "title" | "header" | "body" | "code",
   spec: FontSpecification,
 ) {
-  if (typeof spec === "string") {
-    spec = { name: spec }
-  }
+  const [primaryFont] = toFontNames(spec)
+  const fontSpec = typeof spec === "string" ? { name: primaryFont } : { ...spec, name: primaryFont }
 
   const defaultIncludeWeights = type === "header" ? [400, 700] : [400, 600]
   const defaultIncludeItalic = type === "body"
-  const weights = spec.weights ?? defaultIncludeWeights
-  const italic = spec.includeItalic ?? defaultIncludeItalic
+  const weights = fontSpec.weights ?? defaultIncludeWeights
+  const italic = fontSpec.includeItalic ?? defaultIncludeItalic
 
   const features: string[] = []
   if (italic) {
@@ -70,19 +77,19 @@ function formatFontSpecification(
   if (weights.length > 1) {
     const weightSpec = italic
       ? weights
-          .flatMap((w) => [`0,${w}`, `1,${w}`])
-          .sort()
-          .join(";")
+        .flatMap((w) => [`0,${w}`, `1,${w}`])
+        .sort()
+        .join(";")
       : weights.join(";")
 
     features.push(`wght@${weightSpec}`)
   }
 
   if (features.length > 0) {
-    return `${spec.name}:${features.join(",")}`
+    return `${fontSpec.name}:${features.join(",")}`
   }
 
-  return spec.name
+  return fontSpec.name
 }
 
 export function googleFontHref(theme: Theme) {
@@ -155,10 +162,10 @@ ${stylesheet.join("\n\n")}
   --highlight: ${theme.colors.lightMode.highlight};
   --textHighlight: ${theme.colors.lightMode.textHighlight};
 
-  --titleFont: "${getFontSpecificationName(theme.typography.title || theme.typography.header)}", ${DEFAULT_SANS_SERIF};
-  --headerFont: "${getFontSpecificationName(theme.typography.header)}", ${DEFAULT_SANS_SERIF};
-  --bodyFont: "${getFontSpecificationName(theme.typography.body)}", ${DEFAULT_SANS_SERIF};
-  --codeFont: "${getFontSpecificationName(theme.typography.code)}", ${DEFAULT_MONO};
+  --titleFont: ${formatFontFamily(theme.typography.title || theme.typography.header)}, ${DEFAULT_SANS_SERIF};
+  --headerFont: ${formatFontFamily(theme.typography.header)}, ${DEFAULT_SANS_SERIF};
+  --bodyFont: ${formatFontFamily(theme.typography.body)}, ${DEFAULT_SANS_SERIF};
+  --codeFont: ${formatFontFamily(theme.typography.code)}, ${DEFAULT_MONO};
 }
 
 :root[saved-theme="dark"] {
