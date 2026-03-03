@@ -292,8 +292,7 @@ a {
 
     & .center,
     & footer {
-      max-width: 100%;
-      min-width: 100%;
+      max-width: 45rem;
       margin-left: auto;
       margin-right: auto;
       @media all and ($tablet) {
@@ -426,7 +425,7 @@ h6 {
 figure[data-rehype-pretty-code-figure] {
   margin: 0;
   position: relative;
-  line-height: 1.6rem;
+  line-height: 1.4rem;
   position: relative;
 
   & > [data-rehype-pretty-code-title] {
@@ -515,7 +514,7 @@ code {
 tbody,
 li,
 p {
-  line-height: 1.6rem;
+  line-height: 1.4rem;
 }
 
 .table-container {
@@ -532,7 +531,7 @@ p {
     }
 
     & > * {
-      line-height: 2rem;
+      line-height: 1.8rem;
     }
   }
 }
