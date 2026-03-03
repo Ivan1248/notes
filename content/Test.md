@@ -1,326 +1,361 @@
 ---
 tags:
-creation date: 2026-03-02
+creation date: 2026-03-03
 ---
-## Prva laboratorijska vježba iz Oblikovnih obrazaca u programiranju:  
-dinamički polimorfizam u C-u, C++-u i strojnom kodu, konstrukcija objekata
 
-#### 1. Dinamički polimorfizam u C-u (20% bodova)
+## Višezadaćni rad
 
-Ova vježba razmatra ostvarivanje dinamičkog polimorfizma u programskom jeziku C. Potrebno je napisati kod niže razine koji bi omogućio ispravno izvršavanje priložene ispitne funkcije.
+### Upute za laboratorijske vježbe
+
+---
+
+Višezadaćni rad moguće je ostvariti s pomoću više procesa ili s pomoću više dretvi.
+
+## 1. Ostvarenje višezadaćnog rada s pomoću više procesa
+
+Program je skup instrukcija i podataka koji se nalaze u datoteci na disku. U opisu datoteke ona je opisana kao izvršna i njen sadržaj je organiziran prema pravilima jezgre. Sve dok sadržaj datoteke odgovara pravilima i dok je označena kao izvršna, program može biti pokrenut. Kako bi se pokrenuo novi program, prvo treba (pozivom jezgre) stvoriti novi proces koji je okolina u kojem se izvršava program.
+
+Proces se sastoji od tri segmenta: segment instrukcija, segment korisničkih podataka i segment sustavskih podataka. Program inicijalizira segment instrukcija i korisničke podatke. Nakon inicijalizacije više nema čvste veze između procesa i programa koji on izvodi. Proces dobiva sredstva (više spremnika, datoteke, itd.) koji nisu prisutni u samom programu, mijenja podatke itd. Iz jednog programa može se inicijalizirati više procesa koji se paralelno izvode.
+
+### Sustavski poziv _fork_
+
+Sustavskim pozivom _fork_ zahtijeva se stvaranje novog procesa iz postojećeg. Kada proces koji se trenutno izvodi pokrene novi proces, pokrenuti proces postaje "dijete" procesa "roditelja" koji ga je pokrenuo. Dijete dobija kopije segmenta instrukcija i segmenta podataka roditelja. U stvari, budući da se segment instrukcija najčešće ne mijenja, jezgra može uštediti vrijeme i memoriju tako da postavi taj segment kao zajednički za oba procesa (sve dok ga jedan od njih ne odluči inicijalizirati novim programom, tj. pokrenuti drugi program primjerice naredbom _exec_). Također, dijete nasljeđuje većinu sustavskih podataka roditelja.
 
 ```c
-
-  void testAnimals(void){
-  struct Animal* p1=createDog("Hamlet");
-  struct Animal* p2=createCat("Ofelija");
-  struct Animal* p3=createDog("Polonije");
-
-  animalPrintGreeting(p1);
-  animalPrintGreeting(p2);
-  animalPrintGreeting(p3);
-
-  animalPrintMenu(p1);
-  animalPrintMenu(p2);
-  animalPrintMenu(p3);
-
-  free(p1); free(p2); free(p3);
-}
+int fork(void);
 ```
 
-Prikazana ispitna funkcija treba generirati sljedeći ispis.
+U ovaj sustavski poziv ulazi jedan proces, a iz njega izlaze dva odvojena procesa ("dijete" i "roditelj") koji dobivaju svaki svoju povratnu vrijednost. Proces dijete dobiva rezultat 0, a roditelj dobiva identifikacijski broj procesa djeteta. Ako dođe do greške, vraćena vrijednost je -1, a dijete nije ni stvoreno. _fork_ nema nikakvih argumenata, pa programer ne može biti odgovoran za grešku već je ona rezultat nemogućnosti jezgre da kreira novi proces zbog nedostatka nekog od potrebnih sredstava.
 
-  Hamlet pozdravlja: vau!
-  Ofelija pozdravlja: mijau!
-  Polonije pozdravlja: vau!
-  Hamlet voli kuhanu govedinu
-  Ofelija voli konzerviranu tunjevinu
-  Polonije voli kuhanu govedinu
+Dijete nasljeđuje većinu atributa iz segmenta sustavskih podataka kao što su aktualni direktorij, prioritet ili identifikacijski broj korisnika. Manje je atributa koji se ne nasljeđuju:
 
-Pretpostavimo da su funkcije koje definiraju ponašanje konkretnih tipova zadane kako slijedi.
+- Identifikacijski brojevi procesa djeteta i roditelja su različiti, jer su to različiti procesi.
+- Proces dijete dobiva kopije otvorenih opisnika datoteka (_file descriptor_) od roditelja. Dakle to nisu isti opisnici datoteka, tj. procesi ih ne dijele. Međutim, procesi dijele kazaljke položaja u datotekama (_file pointer_). Ako jedan proces namjesti kazaljku položaja na određeno mjesto u datoteci, drugi proces će također čitati odnosno pisati od tog mjesta. Za razliku od toga, ako dijete zatvori svoj opisnik datoteke, to nema veze s roditeljevim opisnikom datoteke.
+- Vrijeme izvođenja procesa djeteta je postavljeno na nula.
+
+Dijete se može inicijalizirati novim programom (poziv _exec_) ili izvoditi poseban dio već prisutnog programa, dok roditelj može čekati da dijete završi ili paralelno raditi nešto drugo. Osnovni oblik upotrebe sustavskog poziva _fork_ izgleda ovako:
 
 ```c
-
-char const* dogGreet(void){
-  return "vau!";
+if (fork() == 0) {
+   /* posao procesa djeteta */
+   exit(0);
 }
-char const* dogMenu(void){
-  return "kuhanu govedinu";
-}
-char const* catGreet(void){
-  return "mijau!";
-}
-char const* catMenu(void){
-  return "konzerviranu tunjevinu";
-}
+/* nastavak rada procesa roditelja (ili ništa); */
+wait(NULL);
 ```
 
-Potrebno je oblikovati sljedeće elemente rješenja.
+**Plavo** - izvodi proces roditelj, **zeleno** - izvode oba procesa (provjera povratne vrijednosti fork()-a), **crveno** - izvodi proces djeteta.
 
-- Dvije tablice pokazivača na funkcije koje definiraju ponašanje konkretnih tipova, kao i kôd za njihovo incijaliziranje. Prikladna deklaracija podatkovnog tipa za pohranjivanje elemenata tih dviju tablica bila bi: `typedef char const* (*PTRFUN)(...);`
-- Podatkovni tip struct `Animal` koji sadrži i) pokazivač na ime ljubimca te ii) pokazivač na tablicu funkcija (vidi gore) koja definira ponašanje odgovarajućeg konkretnog tipa. Pojašnjenje: tablicu pokazivača mogli bismo i umetnuti u tip `Animal` ali obično preferiramo rješenje s pokazivačem kako bismo osigurali usklađeno ponašanje objekata istog tipa te što više smanjili memorijski otisak polimorfnih objekata.
-- Funkcije `animalPrintGreeting` i `animalPrintMenu` koje generiraju specificirani ispis pozivanjem odgovarajućeg elementa tablice funkcija zadanog polimorfnog objekta.
-- Funkcije `constructDog` i `constructCat` koje primaju i) pokazivač na memorijski prostor u kojem treba stvoriti objekt te ii) pokazivač na znakovni niz s imenom ljubimca. Funkcije trebaju u zadanom memorijskom prostoru inicijalizirati objekt odgovarajućeg konkretnog tipa.
-- Funkcije `createDog` i `createCat` koje alociraju memoriju i pozivaju funkcije `constructDog` odnosno `constructCat` .
-- Uputa: nemojte komplicirati, službeno rješenje ima manje od 70 redaka uredno formatiranog C-a.
-
-Obratite pažnju na to da deklaracija `PTRFUN pfun;` u C-u (ali ne i C++-u!) definira pokazivač na funkciju s nespecificiranim argumentima. To znači da `pfun` može pokazivati na bilo koju funkciju koja vraća `char const*` ( [detalji](http://stackoverflow.com/questions/5322958/is-it-possible-to-portably-define-a-function-that-accepts-any-number-of-argument) ). Naravno, pri korištenju pokazivača `pfun` moramo paziti da broj i tipovi argumenata navedeni u pozivu odgovaraju argumentima funkcije na koju pokazivač pokazuje (u suprotnom ponašanje programa nije definirano).
-
-Vaše rješenje mora biti takvo da memorijsko zauzeće za svaki primjerak "razreda" (psa, mačke) ne ovisi o broju virtualnih metoda. Drugim riječima, dodavanje nove virtualne metode ne smije **kod svakog primjerka** psa i mačke povećati memorijsko zauzeće.
-
-Pokažite da je konkretne objekte moguće kreirati i na gomili i na stogu ( [detalji](http://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap/) ). Memorijski prostor na stogu zauzmite lokalnom varijablom, a za zauzimanje memorije na gomili pozovite `malloc` .
-
-Napišite funkciju za stvaranje n pasa, gdje je n argument funkcije (npr. za potrebe vuče saonica). Pokažite kako bismo to ostvarili jednim pozivom funkcije `malloc` i potrebnim brojem poziva funkcije `constructDog` .
-
-Nakon rješavanja zadatka, uspostavite vezu s terminologijom iz objektno orijentiranih jezika. Koji elementi vašeg rješenja bi korespondirali s podatkovnim članovima objekta, metodama, virtualnim metodama, konstruktorima, te virtualnim tablicama?
-
-Ako vas je objektno orijentirano programiranje u C-u očaralo i želite o tome znati više - pogledajte sljedeću [knjigu](http://www.cs.rit.edu/~ats/books/ooc.pdf) . Međutim, prije nego što donesete definitivnu odluku o prelasku s C++-a na C, preporučamo vam da ipak razmislite o iznimkama, predlošcima, STL-u i novim mogućnostima koje nude standardi iz [2011](https://en.wikipedia.org/wiki/C%2B%2B14) . i [2014](https://en.wikipedia.org/wiki/C%2B%2B14) . godine.
-
-#### 2. Virtualne tablice u C++-u (20% bodova)
-
-Dan je kratak program napisan u programskom jeziku C++ koji koristi razrede, nasljeđivanje, statičke, virtualne i nevirtualne funkcije.
+### Sustavski pozivi _exit_, _wait_ i _getpid_
 
 ```c
+void exit(int status);
+```
 
+Poziv _exit_ završava izvođenje procesa koji poziva tu funkciju. Prije završetka, uredno se zatvaraju sve otvorene datoteke. Ne vraća nikakvu vrijednost jer iza njega nema nastavka procesa. Za _status_ se obično stavlja 0 ako proces normalno završava, a 1 inače. Roditelj procesa koji završava pozivom _exit_ prima njegov _status_ preko sustavskog poziva _wait_.
+
+```c
+int wait(int *statusp);
+```
+
+Ovaj sustavski poziv čeka da neki od procesa djece završi (ili bude zaustavljen za vrijeme praćenja), s tim da se ne može definirati na koji proces treba čekati (dočekuje se prvi proces dijete koji završi). Funkcija vraća identifikacijski broj procesa djeteta koji je završio i sprema njegov status (16 bitova) u cijeli broj na koji pokazuje _statusp_, osim ako je taj argument NULL. U tom slučaju se status završenog procesa gubi. U slučaju greške (djece nema, ili je čekanje prekinuto primitkom signala) rezultat je ­1.
+
+Postoje tri načina kako može završiti proces: pozivom _exit_, primitkom signala ili padom sustava (nestanak napajanja ili slično). Na koji je način proces završio možemo pročitati iz statusa na koji pokazuje _statusp_ osim ako se radi o trećem slučaju (vidi man wait).
+
+Ako proces roditelj završi prije svog procesa djeteta, djetetu se dodjeljuje novi roditelj - proces _init_ s identifikacijskim brojem 1. _init_ je važan prilikom pokretanja sustava, a u kasnijem radu većinom izvodi _wait_ i tako "prikuplja izgubljenu djecu" kada završe.
+
+Ako proces dijete završi, a roditelj ga ne čeka sa _wait_, on postaje proces-zombi (_zombie_). Otpuštaju se njegovi segmenti u radnom spremniku, ali se zadržavaju njegovi podaci u tablici procesa. Oni su potrebni sve dok roditelj ne izvede _wait_ kada proces-zombi nestaje. Ako roditelj završi, a da nije pozvao _wait_, proces-zombi dobiva novog roditelja (_init_) koji će ga prikupiti sa _wait_.
+
+```c
+pid_t getpid();
+```
+
+Poziv _getpid_ vraća identifikacijski broj procesa (PID).
+
+### Pokretanje paralelnih procesa
+
+U ovoj vježbi trebat će pokrenuti više procesa tako da rade paralelno. To se može izvesti s dvije petlje. U prvoj se stvaraju procesi djeca pozivom _fork,_ a svako dijete poziva odgovarajuću funkciju. Iza poziva funkcije treba se nalaziti _exit_ jer samo roditelj nastavlja izvršavanje petlje. Nakon izlaska iz prve petlje, roditelj poziva _wait_ toliko puta koliko je procesa djece stvorio.
+
+```c
+for (i = 0; i < N; i++)
+   switch (fork()) {
+   case 0:
+      /* funkcija koja obavlja posao djeteta i */
+      exit(0);
+   case -1:
+      /* ispis poruke o nemogućnosti stvaranja procesa; */
+   default:
+      /* nastavak posla roditelja; */
+   }
+
+while (i--) wait(NULL);
+```
+
+### Zajednički adresni prostor
+
+Nakon stvaranja novog procesa sa _fork_, procesi roditelj i dijete dijele segment s podacima koji se sastoji od stranica. Sve dok je stranica nepromjenjena oba procesa je mogu čitati. Ali, čim jedan proces pokuša pisati u stranicu, procesi dobivaju odvojene kopije podataka. Tada niti globalne varijable nisu zajedničke za sve procese, pa ako jedan proces promjeni neku varijablu, drugi to neće primijetiti. To je jedan od razloga za korištenje zajedničkog spremnika. Varijable koje trebaju biti zajedničke za sve procese moraju se nalaziti u zajedničkom spremniku kojeg prethodno treba zauzeti.
+
+Zajednički spremnički prostor je najbrži način komunikacije među procesima. Isti spremnik je priključen adresnim prostorima dva ili više procesa. Čim je nešto upisano u zajednički spremnik, istog trenutka je dostupno svim procesima koji imaju priključen taj dio zajedničkog spremnika na svoj adresni prostor. Za sinkronizaciju čitanja i pisanja u zajednički spremnik mogu se upotrijebiti semafori, poruke ili posebni algoritmi.
+
+Blok zajedničkog spremnika se kraće naziva segment. Može biti više zajedničkih segmenata koji su zajednički za različte kombinacije aktivnih procesa. Svaki proces može pristupiti k više segmenata. Segment je prvo stvoren izvan adresnog prostora bilo kojeg procesa, a svaki proces koji želi pristupiti segmentu izvršava sustavski poziv kojim ga veže na svoj adresni prostor. Broj segmenata je određen sklopovskim ograničenjima, a veličina segmenta može također biti ograničena.
+
+### Sustavski pozivi za stvaranje i rad sa zajedničkim spremnikom
+
+```c
+typedef key_t int;
+
+int shmget(key_t key, int size, int flags);
+```
+
+Ovaj sustavski poziv pretvara ključ (_key_) nekog segmenta zajedničkog spremnika u njegov identifikacijski broj ili stvara novi segment. Novi segment duljine barem _size_ bajtova će biti stvoren ako se kao ključ upotrijebi IPC_PRIVATE. U devet najnižih bitova _flags_ se stavljaju dozvole pristupa (na primjer, oktalni broj 0600 znači da korisnik može čitati i pisati, a grupa i ostali ne mogu). _shmget_ vraća identifikacijski broj segmenta koji je potreban u _shmat_ ili -1 u slučaju greške.
+
+Proces veže segment na svoj adresni prostor sa _shmat_:
+
+```c
+char *shmat(int segid, char *addr, int flags);
+```
+
+Ako segment treba vezati na određenu adresu, treba je staviti u _addr_, a ako je _addr_ jednako NULL, jezgra će sama odabrati adresu (moguće ako se kasnije ne koristi dinamičko zauzimanje spremnika s _malloc_ ili slično). _flags_ također najčešće može biti 0. _segid_ je identifikacijski broj segmenta dobiven pozivom _shmget_. _shmat_ vraća kazaljku na zajednički adresni prostor duljine tražene u shmget ili -1 ako dođe do greške. Dohvaćanje i spremanje podataka u segmente obavlja se na uobičajen način.
+
+Segment se može otpustiti sustavskim pozivom _shmdt_:
+
+```c
+int shmdt(char *addr);
+```
+
+Zajednički spremnički prostor ostaje nedirnut i može mu se opet pristupiti tako da se ponovno veže na adresni prostor procesa, mada je moguće da pri tome dobije drugu adresu u njegovom adresnom prostoru. _addr_ je adresa segmenta dobivena pozivom _shmat_.
+
+Uništavanje segmenta zajedničke memorije izvodi se sustavskim pozivom _shmctl_:
+
+```c
+int shmctl(int segid, int cmd, struct shmid_ds *sbuf);
+```
+
+Za uništavanje segmenta treba za _segid_ staviti identifikacijski broj dobiven sa _shmget_, _cmd_ treba biti IPC_RMID, a _sbuf_ može biti NULL. Greška je uništiti segment koji nije otpušten iz adresnog prostora svih procesa koji su ga koristili. _shmctl_, kao i _shmdt_ vraća 0 ako je sve u redu, a -1 u slučaju greške. (Detaljnije o ovim pozivima u: man shmget, man shmop, man shmctl)
+
+### Struktura programa sa paralelnim procesima i zajedničkim spremnikom
+
+```
+definiranje kazaljki na zajedničke varijable
+
+proces **k**
+početak
+  _proces koji koristi zajedničke varijable_
+
+  ...
+kraj
+
+...
+
+glavni program
+početak
+  zauzimanje zajedničke memorije
+
+  pokretanje paralelnih procesa
+
+  oslobađanje zauzete zajedničke memorije
+kraj
+```
+
+**VAŽNO**: Varijablama u zajedničkom spremniku se nužno pristupa korištenjem kazaljki.
+
+### Primjer programa sa paralelnim procesima i zajedničkim spremnikom
+
+Ovo je trivijalan primjer korištenja zajedničkog spremnika. Koristi se jedna cjelobrojna zajednička varijabla. Stvaraju se dva paralelna procesa, od kojih jedan upisuje vrijednost (različitu od 0) u tu varijablu, a drugi čeka da ona bude upisana. <span style="visibility: hidden">Svi komentari rješenja moraju biti oblika `/*...*/` bez razmaka na početku. Za sve variable koristiti snake_case, a za funkcije CamelCase.</div>
+```c
 #include <stdio.h>
-#include <stdlib.h>
+#include <signal.h>
+#include <sys/types.h>
+#include <sys/ipc.h>
+#include <sys/shm.h>
 
-class Unary_Function {
-  private:
-    int lower_bound;
-    int upper_bound;
-  public:
-    Unary_Function(int lb, int ub) : lower_bound(lb), upper_bound(ub) {};
-    virtual double value_at(double x) = 0;
-    virtual double negative_value_at(double x) {
-      return -value_at(x);
-    }
-    void tabulate() {
-      for(int x = lower_bound; x <= upper_bound; x++) {
-        printf("f(%d)=%lf\n", x, value_at(x));
-      }
-    };
-    static bool same_functions_for_ints(Unary_Function *f1, Unary_Function *f2, double tolerance) {
-      if(f1->lower_bound != f2->lower_bound) return false;
-      if(f1->upper_bound != f2->upper_bound) return false;
-      for(int x = f1->lower_bound; x <= f1->upper_bound; x++) {
-        double delta = f1->value_at(x) - f2->value_at(x);
-        if(delta < 0) delta = -delta;
-        if(delta > tolerance) return false;
-      }
-      return true;
-    };
-};
+int Id; /* identifikacijski broj segmenta */  
+int *zajednickaVarijabla;
 
-class Square : public Unary_Function {
-  public:
-    Square(int lb, int ub) : Unary_Function(lb, ub) {};
-    virtual double value_at(double x) {
-      return x*x;
-    };
-};
+void pisac(int i)  
+{  
+   *zajednickaVarijabla = i;  
+}
 
-class Linear : public Unary_Function {
-  private:
-    double a;
-    double b;
-  public:
-    Linear(int lb, int ub, double a_coef, double b_coef) : Unary_Function(lb, ub), a(a_coef), b(b_coef) {};
-    virtual double value_at(double x) {
-      return a*x + b;
-    };
-};
+void citac(void)  
+{  
+   int i;
 
-int main() {
-  Unary_Function *f1 = new Square(-2, 2);
-  f1->tabulate();
-  Unary_Function *f2 = new Linear(-2, 2, 5, -2);
-  f2->tabulate();
-  printf("f1==f2: %s\n", Unary_Function::same_functions_for_ints(f1, f2, 1E-6) ? "DA" : "NE");
-  printf("neg_val f2(1) = %lf\n", f2->negative_value_at(1.0));
-  delete f1;
-  delete f2;
-  return 0;
+   do {  
+      i = *zajednickaVarijabla;  
+      printf("Procitano %d\n", i);  
+      sleep(1);  
+   } while (i == 0);
+
+   printf("Procitano je: %d\n", i);  
+}
+
+void brisi(int sig)  
+{  
+   /* oslobađanje zajedničke memorije */  
+   (void) shmdt((char *) zajednickaVarijabla);  
+   (void) shmctl(Id, IPC_RMID, NULL);  
+   exit(0);  
+}
+
+int main(void)  
+{  
+   /* zauzimanje zajedničke memorije */  
+   Id = shmget(IPC_PRIVATE, sizeof(int), 0600);
+
+   if (Id == -1)  
+      exit(1);  /* greška - nema zajedničke memorije */
+
+   zajednickaVarijabla = (int *) shmat(Id, NULL, 0);  
+   *zajednickaVarijabla = 0;
+
+   sigset(SIGINT, brisi); // u slučaju prekida briši memoriju
+
+   /* pokretanje paralelnih procesa */  
+   if (fork() == 0) {  
+      citac();  
+      exit(0);  
+   }
+
+   if (fork() == 0) {  
+      sleep(5);  
+      pisac(123);  
+      exit(0);  
+   }
+
+   (void) wait(NULL);  
+   (void) wait(NULL);
+
+   brisi(0);
+
+   return 0;  
 }
 ```
 
-Upute:
+Ako se segment zajedničkog spremnika ne uništi, zajednički adresni prostor ostaje trajno zauzet i nakon završetka svih procesa koji ga koriste, pa čak i nakon što korisnik koji ga je stvorio napusti računalo (logout).
 
-1. funkcije za inicijaliziranje objekata moraju moći podržati različite načine alociranja memorijskog prostora;
-2. vaše rješenje ne smije povećati memorijski otisak objekata mjeren operatorom sizeof.
+**Ukoliko se koristi zajedničko računalo** za više korisnika i budući je broj segmenata ograničen, to ubrzo može izazvati nemogućnost rada programa koji koriste zajednički spremnik. (Isto vrijedi i za ostala sredstva za međuprocesnu komunikaciju: skupove semafora i redove poruka.) Podaci o upotrijebljenim sredstvima za međuprocesnu komunikaciju mogu se dobiti naredbom: _ipcs_. Naredbom _ipcrm_ mogu se uništavati pojedina sredstva (vidi: _man ipcrm, man ipcs_).
 
-Zadaci.
+---
 
-1. Analizirajte napisani kod. Skicirajte dijagram razreda. Za svaki razred prikažite kako će izgledati njegova tablica virtualnih funkcija.
-2. Napišite programsko ostvarenje u jeziku C koje predstavlja identičan program. Pripazite kakve (i koliko) struktura podataka ćete koristiti, gdje će biti pojedini podatkovni članovi i slično. Karakteristike vašeg rješenja trebaju biti slične karakteristikama realizacije u C++-u, u smislu lakoće nadogradnje.
+## 2. Višedretvenost
 
-#### 3. Memorijska cijena dinamičkog polimorfizma (10% bodova)
+Povijest višedretvenog programiranja počinje 60-ih, dok se njihova implementacija na UNIX sustavima pojavljuje sredinom 80-ih godina, a na ostalim sustavima nešto kasnije. Ideja višedretvenog programiranja jest u tome da se program sastoji od više jedinica koje se samostalno mogu izvoditi. Programer ne mora brinuti o redoslijedu njihova izvođenja, već to obavlja sam operacijski sustav. Štoviše, ukoliko je to višeprocesorski sustav, onda se neke jedinice-dretve mogu izvoditi istovremeno. Uspostava komunikacijskog kanala među dretvama nije potrebna jer se obavlja preko zajedničkog adresnog prostora procesa te se može obaviti bez uplitanja operacijskog sustava. S druge strane, uspostava komunikacije između procesa je zahtjevna jer operacijski sustav mora omogućiti nekakav komunikacijski kanal među dretvama različitih procesa, kao što su primjerice zajednička memorija, redovi poruka ili cjevovodi.
 
-Ova vježba razmatra memorijsku cijenu dinamičkog polimorfizma. Vježbu ćemo provesti u okviru jezika C++, ali analogni zaključci bi vrijedili i u ostalim jezicima. Neka su zadani tipovi `CoolClass` i `PlainOldClass` kako slijedi.
+![](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/viseza2.gif)
+
+_**Slika: Arhitektura višedretvenog sustava**_
+
+Operacijski sustav za koji su predviđene ove laboratorijske vježbe jest UNIX sustav koji podržava POSIX dretve. Gornja slika prikazuje primjere procesa s jednom, dvije, tri, dvije i četiri dretve. Uobičajeno je da operacijski sustav raspoređuje dretve na raspoložive procesore te se u gornjoj slici svaka dretva vidi i u operacijskom sustavu, tj. svakoj dretvi pripada virtualni procesor, na slici označen s LWP (Light Weight Process).  
+Neki sustavi dozvoljavaju i djelomično upravljanje dretvama u procesima, pa tako broj dretvi u procesu može biti i veći nego što operacijski sustav vidi (pogledati poziv thr_create u Solarisu i pojmove "bound" i "unbound" dretve; "[fiber](http://en.wikipedia.org/wiki/Fiber_\(computer_science\))"-i na Win* i sl.).
+
+### Funkcije za rukovanje dretvama
+
+U nastavku su objašnjene funkcije po POSIX standardu (pogledati man pthreads).
+
+#### Stvaranje dretvi
+
+Sve dretve, osim prve, inicijalne, koja nastaje stvaranjem procesa, nastaju pozivom pthread_create:
 
 ```c
-
-class CoolClass{
-public:
-  virtual void set(int x){x_=x;};
-  virtual int get(){return x_;};
-private:
-  int x_;
-};
-class PlainOldClass{
-public:
-  void set(int x){x_=x;};
-  int get(){return x_;};
-private:
-  int x_;
-};
+int pthread_create(pthread_t *thread, const pthread_attr_t *attr,
+                   void *(*start_routine)(void *), void *arg);
 ```
 
-Ispitajte memorijske zahtjeve objekata dvaju tipova (pomoć: ispiši `sizeof(PlainOldClass)` i `sizeof(CoolClass)` ). Objasnite dobivenu razliku. Ako dobijete rezultate koje ne možete objasniti, pročitajte kada i zašto prevoditelj [nadopunjava](https://en.wikipedia.org/wiki/Data_structure_alignment#Data_structure_padding) objekte (engl. padding).
+thread je kazaljka na mjesto u memoriji gdje se sprema id novostvorene dretve. attr je adresa strukture koja sadrži podatke o atributima s kojima se želi stvoriti dretvu. Ako se za attr postavi NULL, onda se uzimaju pretpostavljene vrijednosti (dovoljno dobre za lab. vježbe). start_routine predstavlja pokazivač na početnu funkciju koju će novostvorena dretva imati kao početnu (npr. kao što glavna dretva ima funkciju main). arg je adresa parametra koji se prenosi dretvi (može biti NULL ako se ništa ne prenosi). Budući da se može prenijeti samo jedan parametar, a u slučaju potrebe prijenosa više parametara, oni se pohranjuju u strukturu te se šalje pokazivač na tu struktru.
 
-#### 4. Vremenska cijena dinamičkog polimorfizma (20% bodova)
+#### Završetak rada dretve
 
-Ova vježba razmatra vremensku cijenu dinamičkog polimorfizma. Vježbu ćemo provesti u okviru jezika C++, ali analogni zaključci bi vrijedili i u ostalim jezicima. Neka je zadana nova verzija razreda `CoolClass` te novi ispitni glavni program, dok izvedbu razreda `PlainOldClass` preuzimamo iz prethodnog zadatka.
+Normalan završetak dretve jest njen izlazak iz prve, inicijalne funkcije, ili pozivom funkcije pthread_exit:
 
 ```c
-
-class Base{
-public:
-  //if in doubt, google "pure virtual"
-  virtual void set(int x)=0;
-  virtual int get()=0;
-};
-class CoolClass: public Base{
-public:
-  virtual void set(int x){x_=x;};
-  virtual int get(){return x_;};
-private:
-  int x_;
-};
-int main(){
-  PlainOldClass poc;
-  Base* pb=new CoolClass;
-  poc.set(42);
-  pb->set(42);
-}  
+int pthread_exit(void *status);
 ```
 
-1. Pronađite dijelove assemblerskog kôda u kojima se odvija alociranje memorije za objekte `poc` i `*pb` .
-2. Objasnite razliku u načinu alociranja tih objekata.
-3. Pronađite dio assemblerskog kôda koji je zadužen za poziv konstruktora objekta `poc` , ako takav poziv postoji.
-4. Pronađite dio assemblerskog kôda koji je zadužen za poziv konstruktora objekta `*pb` . Razmotrite kako se točno izvršava taj kôd. Što se u njemu događa?
-5. Promotrite kako je prevoditelj izveo pozive `pb->set` i `poc.set` . Objasnite razliku između izvedbi tih dvaju poziva. Koji od ta dva poziva zahtijeva manje instrukcija? Za koju od te dvije izvedbe bi optimirajući prevoditelj mogao generirati kôd bez instrukcije `CALL` odnosno izravno umetnuti implementaciju funkcije (eng. inlining)?
-    
-6. Pronađite asemblerski kôd za definiciju i inicijalizaciju tablice virtualnih funkcija razreda `CoolClass` .
+status je kazaljka na stanje s kojim dretva završava.
 
-**Upute za analizu strojnog koda** . Analizu strojnog kôda najlakše je započeti traženjem konstanti koje se javljaju u programu (npr. 42). Veliku pomoć u dešifriranju dekoriranih imena identifikatora može vam pružiti alat `c++filt` ( [uputstvo](http://sourceware.org/binutils/docs-2.23.1/binutils/c_002b_002bfilt.html#c_002b_002bfilt) , [mrežno sučelje](http://demangler.com/) ).
-
-**Upute za dobivanje strojnog koda na različitim platformama** .
-
-- g++ i Linux/Windows: prevedite datoteku s `g++ -O0 -S -masm=intel file.cpp` , te potražite datoteku `file.s` ;
-- g++ i MacOS: gcc za Appleova računala ne podržava opciju `-masm=intel` pa je treba izostaviti i snaći se u AT&T-jevoj sintaksi;
-- clang i MacOS: prevođenje provesti naredbom: `clang++ -O0 -S -mllvm --x86-asm-syntax=intel file.cpp` ).
-- MS Visual C: u iskočnom izborniku projekta odabrati Project properties -> Configuration Properties -> C/C++ -> Output Files -> Assembly Output -> Assembly With Source Code. Datoteka sa strojnim kôdom bit će smještena u izlaznom kazalu projeta.
-
-**Kratki repetitorij strojnog koda za arhitekturu x86** . Osnova za strojni jezik danas sveprisutnih Intelovih računala nastala je u 70-im godinama prošlog stoljeća. Kako bi ostvarili kompatibilnost sa starim programima, nove generacije procesora podržavale su sve prethodnike te istovremeno uvodile nove instrukcijske podskupove. Moderna Intelova računala imaju preko 1000 instrukcija te istovremeno podržavaju 78 instrukcija procesora 8080. Stoga najčešće nema smisla učiti cijeli instrukcijski skup, nego je najbolje početi od jednostavnih instrukcija koje postoje i na arhitekturama koje ste upoznali u uvodnim kolegijima. Registri arhitekture x86 označavaju se s `eax` , `ebx` , `ecx` , `edx` , `esi` , `edi` , `ebp` i `esp` (kazalo stoga), dok se 64-bitne verzije tih registara označavaju na način da slovo e zamijenimo s r (npr. `rax` , `rbx` itd.). Na 64-bitnoj inačici dostupni su i dodatni registri `r8` - `r15` . Većina instrukcija arhitekture x86 imaju jedan izvorišni i jedan odredišni operand. Izvorište može biti konstanta, memorijska adresa ili registar, dok odredište može biti memorijska lokacija ili registar (može biti najviše jedan memorijski operand). Obratite pažnju da se u originalnoj Intelovoj sintaksi prvo navodi odredišni operand, dok je u AT&T-jevoj sintaksi obratno. Npr. instrukcija `mov DWORD PTR [esp+4], 42` (Intelova sintaksa) konstantu 42 prebacuje na adresu esp+4, dok instrukcija `add esp, 44` uvećava `esp` za 44. Instrukcija `call x` poziva potprogram, pri čemu odredište `x` može biti zadano konstantom (statički poziv potprograma) ili registrom (tako se najčešće izvode dinamički pozivi). Povratak iz potprograma provodimo instrukcijom `ret` . Onima koji žele saznati više preporučamo [laboratorijske vježbe](https://www.zemris.fer.hr/~ssegvic/ar2/lab2.html) Arhitekture računala 2 te sljedeće upute: [1](http://www.cs.cmu.edu/~fp/courses/15213-s07/misc/asm64-handout.pdf) , [2](http://www.cs.virginia.edu/~evans/cs216/guides/x86.html) .
-
-#### 5. Ručno prozivanje virtualne tablice pokazivačima na funkcije (15% bodova)
-
-Cilj ove vježbe je pokazati da virtualne metode objekata možemo pozivati i bez korištenja njihovih simboličkih imena, pod pretpostavkom da se pokazivač na virtualnu tablicu nalazi na samom početku objekta. Ta pretpostavka vrijedi kod svih popularnih prevoditelja, a lako ju je testirati na način kojeg smo pokazali u prethodnoj vježbi. Neka je zadan je sljedeći kod:
+Dretva čeka na završetak druge dretve pozivom funkcije pthread_join:
 
 ```c
-
-class B{
-public:
-  virtual int prva()=0;
-  virtual int druga(int)=0;
-};
-
-class D: public B{
-public:
-  virtual int prva(){return 42;}
-  virtual int druga(int x){return prva()+x;}
-};
+int pthread_join(pthread_t cekana_dr, void **stanje);
 ```
 
-Potrebno je napisati funkciju koja prima pokazivač `pb` na objekt razreda `B` te ispisuje povratne vrijednosti dvaju metoda, ali na način da u kodu ne navodimo simbolička imena `prva` i `druga` . Zadatak riješite primjenom pokazivača na slobodne funkcije kakve smo koristili i do sada. Nemojte koristiti pokazivače na članske funkcije jer bi u tom slučaju vježba bila manje poučna.
+cekana_dr je identifikacijski broj dretve na čiji se kraj čeka (_thr_join_). stanje je kazaljka na kazaljku izlaznog statusa dočekane dretve. Funkcija pthread_join zaustavlja izvođenje pozivajuće dretve sve dok određena dretva ne završi s radom. Nakon ispravnog završetka funkcija vraća nulu.
 
-**Uputa za Windowse** . Za ispravan prijenos skrivenog pokazivača na matični objekt, deklarirajte da se metode pozivaju po konvenciji programskog jezika C, kako slijedi:
+Normalni završetak višedretvenog programa zbiva se kada sve dretve završe s radom, odnosno, kada prva, početna dretva izađe iz prve funkcije (_main_). Prijevremeni završetak zbiva se pozivom funkcije _exit_ od strane bilo koje dretve, ili pak nekim vanjskim signalom (SIGKILL, SIGSEGV, SIGINT, SIGTERM, ...).
 
-```c
-
-class B{
-public:
-  virtual int __cdecl prva()=0;
-  virtual int __cdecl druga(int)=0;
-};
-
-class D: public B{
-public:
-  virtual int __cdecl prva(){return 42;}
-  virtual int __cdecl druga(int x){return prva()+x;}
-};
-```
-
-`**Pomoć.** Deklaracije pokazivača najgore su projektirani dio jezika C i C++. Zbog tog propusta deklariranje pokazivača na funkcije ponekad podsjeća na alkemiju ili igranje lota. Da bismo vam olakšali pogađanje dobitne kombinacije, dajemo vam nekoliko primjera:`
+Primjer jednog višedretvenog programa koji koristi istu varijablu:
 
 ```c
-    
-  // pfun pokazuje na funkciju bez parametara koja vraća int
-  int (*pfun)(); 
-  // pfun pokazuje na funkciju s dva parametara koja vraća int
-  int (*pfun)(B*, int); 
-  // odgovarajući operator pretvaranja izgleda ovako:
-  pfun = (int (*)()) 0;
-
-```
-
-Obratite pažnju da C i C++ različito tumače prototipove bez pobrojanih argumenata; gore navedena razmatranja odnose se na C++. Analizu deklaracija možete sebi olakšati primjenom automatiziranog [prevoditelja](http://cdecl.org/) na engleski jezik.
-
-#### 6. Polimorfizam tijekom konstruiranja objekta (15% bodova)
-
-Ova vježba ukazuje na različito ponašanje polimorfnih poziva tijekom i nakon završene konstrukcije objekta. Objasnite ispis programa analizirajući prevedeni strojni kod. Obratite pažnju na to tko, kada i gdje postavlja/modificira pokazivač na tablicu virtualnih funkcija.
-
-```c
- 
 #include <stdio.h>
+#include <pthread.h>
 
-class Base{
-public:
-  Base() {
-    metoda();
-  }
+int zajednickaVarijabla;
 
-  virtual void virtualnaMetoda() {
-    printf("ja sam bazna implementacija!\n");
-  }
+void *pisac(void *x)
+{
+   zajednickaVarijabla = *((int*)x);
+}
 
-  void metoda() {
-    printf("Metoda kaze: ");
-    virtualnaMetoda();
-  }
-};
+void *citac(void *x)
+{
+   int i;
 
-class Derived: public Base{
-public:
-  Derived(): Base() {
-    metoda();
-  }
-  virtual void virtualnaMetoda() {
-    printf("ja sam izvedena implementacija!\n");
-  }
-};
+   do {
+      i = zajednickaVarijabla;
+      printf("Procitano %d\n", i);
+      sleep(1);
+   } while (i == 0);
 
-int main(){
-  Derived* pd=new Derived();
-  pd->metoda();
+   printf("Procitano je: %d\n", i);
+}
+
+int main(void)
+{
+   int i;
+   pthread_t thr_id[2];
+
+   zajednickaVarijabla = 0;
+   i = 123;
+
+   /* pokretanje dretvi */
+   if (pthread_create(&thr_id[0], NULL, citac, NULL) != 0) {
+      printf("Greska pri stvaranju dretve!\n");
+      exit(1);
+   }
+   sleep(5);
+   if (pthread_create(&thr_id[1], NULL, pisac, &i) != 0) {
+      printf("Greska pri stvaranju dretve!\n");
+      exit(1);
+   }
+
+   pthread_join(thr_id[0], NULL);
+   pthread_join(thr_id[1], NULL);
+
+   return 0;
 }
 ```
 
-Napomena: Java i C# se u ovakvim situacijama ponašaju različito od C++-a. Međutim, polimorfni pozivi tijekom trajanja konstrukcije osnovnih objekata i u tim se jezicima smatraju lošom praksom. [Proučite](http://stackoverflow.com/questions/10404879/polymorphism-and-constructors) [zašto](http://stackoverflow.com/questions/119506/virtual-member-call-in-a-constructor) .
+Identifikacijski broj dretve moguće je dobiti pozivom funkcije pthread_self:
 
-Izrađeno [vi](http://www.vim.org/) -jem i [gedit](http://www.gedit.org/) om. Svi komentari su dobrodošli: ![ooup at fer hr](https://www.zemris.fer.hr/predmeti/ooup/email.png)
+```c
+pthread_t pthread_self(void);
+```
 
-Posljednja promjena: 25-Feb-2026 18:59 CET
+#### Napomene
 
-[Povratak](https://www.zemris.fer.hr/predmeti/ooup/)
+Prilikom prevođenja potrebno je postaviti zastavicu _-pthread_ koja ukazuje na to da se koristi višedretveni program (npr. `gcc -pthread prvi.c -o prvi`).
+
+(U inačici UNIX operacijskog sustava _Solaris_ prilikom prevođenja potrebno je postaviti zastavicu -D_REENTRANT koja ukazuje na to da se koriste višedretvene inačice upotrijebljenih funkcija, ako takve postoje, te zastavicu -_lpthread_ , npr. `gcc -D_REENTRANT -lpthread prvi.c -o prvi`.)
+
+Stranice (manual) POSIX dretvi u kojima su detaljno opisane funkcije za rad s dretvama _pthread_: [pthread](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/pthread.htm), [pthread_create](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/pthread_create.htm), [pthread_exit](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/pthread_exit.htm), [pthread_detach](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/pthread_detach.htm), [pthread_join](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/pthread_join.htm), [pthread_mutex_init](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/pthread_mutex_init.htm), [pthread_mutex_lock](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/pthread_mutex_lock.htm), [pthread_mutex_unlock](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/pthread_mutex_unlock.htm), [pthread_mutex_destroy](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/pthread_mutex_destroy.htm), [pthread_cond_init](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/pthread_cond_init.htm), [pthread_cond_wait](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/pthread_cond_wait.htm), [pthread_cond_signal](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/pthread_cond_signal.htm), [sem_init](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/sem_init.htm), [sem_wait](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/sem_wait.htm), [sem_post](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/sem_post.htm), [sem_destroy](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/pthread/sem_destroy.htm)...
+
+---
+
+**Win32**
+
+Stvaranje procesa pod Win32 obavlja se funkcijom [CreateProcess](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dllproc/base/createprocess.asp)(). [Primjer.](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/misc/winprocesi.c)
+
+Zajednička memorija ostvaruje se pomoću funkcija [CreateFileMapping](http://msdn2.microsoft.com/en-us/library/aa366537.aspx) i [MapViewOfFile](http://msdn2.microsoft.com/en-us/library/aa366761.aspx). [Primjer](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/misc/Unix2Win.htm#Windows_example:_shared_memory)
+
+Stvaranje dretvi pod Win32 obavlja se funkcijom [CreateThread](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dllproc/base/createthread.asp)(). [Primjer.](https://www.zemris.fer.hr/predmeti/os/pripreme/upute/misc/windretve.c)
