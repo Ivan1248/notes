@@ -6,4 +6,4 @@ creation date: 2026-03-25
 
 [How to Write a 21<sup>st</sup> Century Proof](https://lamport.azurewebsites.net/pubs/proof.pdf) by Leslie Lamport (2012)
 
-[What are the benefits of writing vector inner products as $\\langle u, v\\rangle$ as opposed to $u^T v$? - MathOverflow](https://mathoverflow.net/questions/366070/what-are-the-benefits-of-writing-vector-inner-products-as-langle-u-v-rangle/366118#366118) Terrene Tao answers.
+[What are the benefits of writing vector inner products as $\\langle u, v\\rangle$ as opposed to $u^T v$? - MathOverflow](https://mathoverflow.net/questions/366070/what-are-the-benefits-of-writing-vector-inner-products-as-langle-u-v-rangle/366118#366118) Terrence Tao answers.
