@@ -1,4 +1,14 @@
-[[Links|links]]
+[[Links|Links]]
+
+## 2026-3
+
+[Livecoding melodic DNB music in Strudel - YouTube](https://www.youtube.com/watch?v=aPsq5nqvhxg)
+
+[Viktor Frankl on Why Idealists Are Real Realists - YouTube](https://www.youtube.com/watch?v=loay2imHq5E)
+
+[Antithesize This, /r/AITAH Edition - by Jordan Rubin](https://jordanmrubin.substack.com/p/antithesize-this-raitah-edition)
+
+[An Abstract Arsenal - by Jordan Rubin](https://jordanmrubin.substack.com/p/an-abstract-arsenal)
 
 ## 2026-2
 

@@ -10,7 +10,7 @@ Each output element depends on all input elements, but not on the order of input
 
 ## Scaled dot-product attention
 
-**(Standard scaled) dot-product attention** is a [[function]] $\operatorname{attn}\colon \R^{T\times D_\text{K}}\times\R^{T\times D_\text{K}}\times\R^{T\times D_\text{V}} \to \R^{T\times D_\text{V}}$ that is computed as follows:
+**(Standard scaled) dot-product attention** is a [[Function]] $\operatorname{attn}\colon \R^{T\times D_\text{K}}\times\R^{T\times D_\text{K}}\times\R^{T\times D_\text{V}} \to \R^{T\times D_\text{V}}$ that is computed as follows:
 $$
 \begin{align}
 	\operatorname{attn}(\v Q, \v K, \v V) &= \v Y \text{, } \\

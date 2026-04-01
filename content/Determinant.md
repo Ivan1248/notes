@@ -1,3 +1,4 @@
+Let $d\in\N$.  
 Let $\v A \in \R^{d\times d}$.
 
 The **determinant** of $\v A$ is
@@ -13,7 +14,7 @@ where $\v A[\setminus i, \setminus j]$ is the [[Submatrix|submatrix]] of $\v A$ 
 ## Alternative definition
 
 Let $M=\bigcup_{d\in \N} \R^{d\times d}$.  
-Let $T_d$ be the [[Set|set]] of all [[Triangular matrix|triangular matrices]] from $\R^d$.
+Let $T_d$ be the [[Set|set]] of all [[Triangular matrix|triangular matrices]] from $\R^{d\times d}$.
 
 The **determinant** is the only [[Function|function]] $\det\colon M\to\R$ such that
 - $\forall d\in \N_{\geq 1}: \forall \v A, \v B \in \R^d : \det(\v A \v B) = \det(\v A) \det(\v B)$ and
@@ -21,5 +22,6 @@ The **determinant** is the only [[Function|function]] $\det\colon M\to\R$ such t
 
 ## Related
 
+- [[Determinant of]]
 - [[Array indexing notation]]
 - [[Geometric interpretation of the determinant]]

@@ -2,6 +2,12 @@
 
 ## 2026-3
 
+[Being John Rawls - by Scott Alexander - Astral Codex Ten](https://www.astralcodexten.com/p/being-john-rawls)
+
+[Sophie Wang](https://www.sophielwang.com/blog/jpeg)
+
+[These twins, conjoined at the head, can hear each other's thoughts and see through each other's eyes. : r/Damnthatsinteresting](https://www.reddit.com/r/Damnthatsinteresting/comments/1ei9c9v/these_twins_conjoined_at_the_head_can_hear_each/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1)
+
 [First-ever systematic, probabilistic benchmark of AI consciousness](https://rpresearchdigest.substack.com/p/ai-consciousness-benchmark)
 
 [Do Not Tile the Lightcone with Your Confused Ontology](https://boundedlyrational.substack.com/p/do-not-tile-the-lightcone-with-your)

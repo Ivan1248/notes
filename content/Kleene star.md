@@ -1,4 +1,8 @@
-Synonyms: Kleene star.
+---
+aliases:
+  - Kleene operator
+---
+Let $S$ be a [[Set|set]].
 
 $S^*$ is the set of all [[Sequence|sequences]] over $S$:
 $$

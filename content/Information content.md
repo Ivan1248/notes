@@ -1,8 +1,7 @@
-The **information content** of a probability $p$ is $$\h(p)=-\ln(p) \unit{nat} \text.$$  
-Defining $\unit{nat} = 1$,
-$$
-\h(p)=-\ln(p) \text.
-$$
+The **information content** of a probability $p$ is  
+$$\h(p)=-\ln(p) \unit{nat} \text.$$  
+Defining $\unit{nat} = 1$,  
+$$\h(p)=-\ln(p) \text.$$
 
 ## Alternative definition
 

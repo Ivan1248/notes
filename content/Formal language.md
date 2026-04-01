@@ -10,6 +10,7 @@ A string from $L$ is called a **well-formed-formula** of $L$.
 
 - [[Alphabet]]
 - [[Symbol]]
+- [[Formal system]]
 
 ## Related (external)
 

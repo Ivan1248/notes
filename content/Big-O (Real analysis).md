@@ -32,7 +32,7 @@ Let $g\in F$.
 $$
 O_{0}(g) = \left\{
 	h \in F: 
-		\exists c,\epsilon\in \R_{\geq 0}\colon \forall x\in(0\bidot\epsilon)
+		\exists c,\epsilon\in \R_{\geq 0} : \forall x\in(0\bidot\epsilon)
 			\implies|h(x)|\leq c|g(x)|
 \right\} .
 $$
@@ -45,12 +45,12 @@ We interpret $O(g)$ as a set and use the notation $f\in O(g)$ or  $x\mapsto f \i
 
 ## Examples
 
-- Let $S=[-1/2\bidot 1/2]$. The statement $$\begin{align} 
-&\exists h \in O_S(x\mapsto x^2)\colon \forall x\in S\colon \\
+- Let $S=[-1/2\bidot 1/2]$. The statement $$\begin{align}  
+&\exists h \in O_S(x\mapsto x^2)\colon \forall x\in S\colon \\  
 &\quad\ln(1+x) = x + h(x)  
 \end{align}$$ is equivalent to $$  
-x \mapsto (\ln(1+x) - x) \in O_S(x\mapsto x^2)
-$$The common notation is more concise: $$
+x \mapsto (\ln(1+x) - x) \in O_S(x\mapsto x^2)  
+$$The common notation is more concise: $$  
 \ln(1+x) = x + O(x^2) \quad(x\in S).
 $$
 

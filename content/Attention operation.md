@@ -10,4 +10,4 @@ where, $f_1, f_2 \colon \R^m\to \R^k$,  $f_3 \colon \R^m\to \R^l$, and $f_4 \col
 
 ## Related
 
-- [[Transformer attention]]
+- [[Transformer attention|transformer attention]]
