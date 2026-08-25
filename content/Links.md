@@ -1,10 +1,80 @@
-[[Links - secondary]]
+[[Links - secondary]]  
+[[Funny links]]  
+[[Neuroscience and cognition links]]
+
+[Your Book Review: The Book Of Abraham - by Scott Alexander](https://www.astralcodexten.com/p/your-book-review-the-book-of-abraham) "Joseph Smith’s translation methodology was, by any standard, a spectacular, multi-car pileup of confirmation bias, post-hoc patching, and literal cut-and-paste forgery. Yet, the culture spawned by this pileup is one of the most highly optimized, high-trust, pro-social engines of human coordination on the planet."
+
+## 2026-8
+
+[Building Intuitions On Non-Empirical Arguments In Science \| Slate Star Codex](https://slatestarcodex.com/2019/11/06/building-intuitions-on-non-empirical-arguments-in-science/)
+
+[jsomers.net \| I should have loved biology](https://jsomers.net/i-should-have-loved-biology/)
+
+[Infographics by Concavenator on DeviantArt](https://www.deviantart.com/concavenator/gallery/67924295/infographics)
+
+## 2026-7
+
+[Anthropeum](https://anthropeum.com)
+
+[EAHK (Effective Altruism Hong Kong)](https://www.eahongkong.org)
+
+[The Deep Sea](https://neal.fun/deep-sea/), [Space Elevator](https://neal.fun/space-elevator/), [The Size of Space](https://neal.fun/size-of-space/)
+
+[Could a Neuroscientist Understand a Microprocessor? \| PLOS Computational Biology](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268)
+
+[How Tribes Construct Rival Realities - by Dan Williams](https://www.conspicuouscognition.com/p/how-tribes-construct-rival-realities)
+
+## 2026-6
+
+[newtonian mechanics - Why does kinetic energy increase quadratically, not linearly, with speed? - Physics Stack Exchange](https://physics.stackexchange.com/questions/535/why-does-kinetic-energy-increase-quadratically-not-linearly-with-speed)  
+[Writing Hack: Write It Just Like That - by Sasha Putilin](https://psychotechnology.substack.com/p/writing-hack-write-it-just-like-that)
+
+[Where to Find the Colors Your Screen Can’t Show You – Ryan Moulton's Articles](https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/)
+
+[3D Brain](https://www.brainfacts.org/3d-brain)
+
+[Not alive, but not dead: disembodied human brains used for drug testing \| Science \| AAAS](https://www.science.org/content/article/not-alive-not-dead-disembodied-human-brains-used-drug-testing)
+
+[Clive Wearing - Wikipedia](https://en.wikipedia.org/wiki/Clive_Wearing#Amnesia)
+> Wearing developed a profound case of total amnesia as a result of his illness. Because of damage to the hippocampus (an area required to transfer memories from short-term to long-term memory), he is completely unable to form lasting new memories. His memory for events lasts between seven and thirty seconds.[4] He spends every day 'waking up' every 20 seconds or so, 'restarting' his consciousness once the timespan of his short-term memory has elapsed.
+
+## 2026-5
+
+[CO₂ emissions per capita](https://ourworldindata.org/grapher/co-emissions-per-capita?time=1980..latest)
+
+[The Most Important Charts In The World - by Zvi Mowshowitz](https://thezvi.substack.com/p/the-most-important-charts-in-the)
+
+[New research suggests people can communicate and practice skills while dreaming \| Hacker News](https://news.ycombinator.com/item?id=47977748)
+
+## 2026-4
+
+[The Machinery of Life - David S. Goodsell - Google Knjige](https://books.google.hr/books?id=0nV-mIqPa5gC&printsec=frontcover#v=onepage&q&f=false)
+
+[Biology is a Burrito](https://burrito.bio/essays/biology-is-a-burrito)
+
+[First Scientific Confirmation of [Self-awareness] in a Tiny Fish - YouTube](https://www.youtube.com/watch?v=Drbl5udwk9I): (It originally says "Consciousness", but self-awareness is more correct.) Cleaner wrasses pass the mirror self-recognition test.
+
+[Quirks of Human Anatomy by Lewis Held](https://www.sdbonline.org/sites/fly/lewheldquirk/figlegq6.htm)
+
+[Astereognosis - Wikipedia](https://en.wikipedia.org/wiki/Astereognosis)
+
+[How The Heck Does GPS Work? (An Interactive Exploration)](https://perthirtysix.com/how-the-heck-does-gps-work)
+
+[Home \| Open Source Ecology](https://www.opensourceecology.org)
+
+[Encyclopædia Britannica, 11th Edition](https://britannica11.org)
+
+[New colors without shooting lasers into your eyes](https://dynomight.net/colors/)
+
+[Map \| Electricity Maps](https://app.electricitymaps.com/map)
+
+[Eyes on the Solar System - NASA/JPL](https://eyes.nasa.gov/apps/solar-system/#/sc_artemis_2)
 
 ## 2026-3
 
 [Being John Rawls - by Scott Alexander - Astral Codex Ten](https://www.astralcodexten.com/p/being-john-rawls)
 
-[Sophie Wang](https://www.sophielwang.com/blog/jpeg)
+[JPEG compression - Sophie Wang](https://www.sophielwang.com/blog/jpeg)
 
 [These twins, conjoined at the head, can hear each other's thoughts and see through each other's eyes. : r/Damnthatsinteresting](https://www.reddit.com/r/Damnthatsinteresting/comments/1ei9c9v/these_twins_conjoined_at_the_head_can_hear_each/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1)
 

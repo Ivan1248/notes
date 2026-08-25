@@ -1,4 +1,31 @@
-[[Links|Links]]
+[[Links|Links]]  
+[[Links - tertiary]]
+
+## 2026-8
+
+[Frame Error - The Linchpin](https://linch.substack.com/p/frame-error)
+
+[Unexpected events and prosocial behavior: the Batman effect](https://www.nature.com/articles/s44184-025-00171-5)
+
+[What Really Exists? \| Alex O'Connor (Part 5-8) - YouTube](https://www.youtube.com/watch?v=4jaryEpYB5g)
+
+[The Deadliest Decision You've Never Heard of - YouTube](https://www.youtube.com/watch?v=BJYfSfh7eWs)
+
+[Impact List](https://impactlist.xyz)
+
+## 2026-7
+
+[Reddit - These birds saw a person feed an injured bird, so they all started pretending to be injured as well.](https://www.reddit.com/r/Weird/comments/1kkutmu/these_birds_saw_a_person_feed_an_injured_bird_so/)
+
+## 2026-6
+
+[Genuinely, my all-time favourite image: Mamenchisaurus hochuanensis \| Sauropod Vertebra Picture of the Week](https://svpow.com/2026/06/04/genuinely-my-all-time-favourite-image-mamenchisaurus-hochuanensis/
+
+[South Korea’s Fake Online Stores Help Shopping Addicts Save Money](https://www.odditycentral.com/news/south-koreas-fake-online-stores-help-shopping-addicts-save-money.html)
+
+## 2026-5
+
+[Macrocilix maia from Fraser's Hill, Pahang, Malaysia on July 6, 2019 at 10:47 AM by dhfischer · iNaturalist](https://www.inaturalist.org/observations/34107659)
 
 ## 2026-3
 

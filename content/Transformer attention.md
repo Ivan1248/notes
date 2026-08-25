@@ -30,9 +30,8 @@ Note that $\vec Q, \vec K \in \R^{T\times D_\text{K}}$, $\vec V\in \R^{T\times D
 
 Each output element, $\operatorname{attn}(\v Q, \v K, \v V)[t,:]$, is a [convex combination](https://proofwiki.org/wiki/Definition:Convex_Combination) of "values" $\v V[u,:]$, where the weights are proportional to exponentiated scaled dot-products of the corresponding "query" $\v Q[t,:]$, with "keys" $\v K[u,:]$.  
 
-Paraphrased from [Attention is All you Need](http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf), with underlined random variables:
-
->To illustrate why the dot products get large, assume that the components of $\rvec q$ and $\rvec k$ are independent random variables with mean $0$ and variance $1$. Then their dot product, $\rvec q^\transpose \rvec k$, has mean $0$ and variance $D_\text{k}=\dim(\vec q)$.
+Paraphrased from [Attention is All you Need](http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf):
+> To illustrate why the dot products get large, assume that the components of $\rvec q$ and $\rvec k$ are independent random variables with mean $0$ and variance $1$. Then their dot product, $\rvec q^\transpose \rvec k$, has mean $0$ and variance $D_\text{k}=\dim(\vec q)$.
 
 ## Dot-product self-attention head
 

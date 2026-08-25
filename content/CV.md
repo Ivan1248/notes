@@ -11,7 +11,8 @@ _Humljani 51, 33514 Čačinci, Croatia_
 
 ## Personal profile
 
-I research **machine learning and computer vision** at University of Zagreb, FER. I have experience with algorithms, software development, and probability theory. I am also generally interested in mathematics, physics, biology, neuroscience, cognition, engineering, automation, and fundamental questions in philosophy. I seek to make the world better.
+I am a **machine learning and computer vision** researcher at University of Zagreb, FER. I have experience with algorithms, software development, and probability theory. I am interested in understanding and building intelligent systems, including understanding biological ones. I also enjoy identifying fundamental assumptions and deriving conclusions from first principles. I care about having accurate models of the world and seek to make the lives of humans and other sentient beings better.
+<!---I am also generally interested in mathematics, physics, biology, neuroscience, cognition, engineering, automation, and fundamental questions in philosophy.--->
 
 ## Work experience
 

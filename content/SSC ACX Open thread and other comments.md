@@ -1,3 +1,130 @@
+## [Why I'm Staying Out Of The Substack Religion Debate](https://www.astralcodexten.com/p/why-im-staying-out-of-the-substack)
+
+[From Ape in the coat:](https://www.astralcodexten.com/p/why-im-staying-out-of-the-substack/comment/317907131)
+
+> I'd like to point out that the "mysteries of anthropics" are solved exactly the same way as with "Why does the location of the Great Pyramid encode the speed of light to seven decimal places?" By understanding the difference between "This specific event happened" and "At least one of the event from a big set of events happened".
+>
+> With Pyramid we do not really get to update on the extremely rare event "this particular dot inside the pyramid corresponds to the speed of light to seven decimal places". Instead, we observe that some, non-specific dot of a pyramid has such property. This is because if the dot was different, we would be none the wiser - we would do exactly the same reasoning for exactly the same reasons.
+>
+> Likewise, absolute majority of the weirdness of anthropic scenarios comes from thinking that we get to update on the event "I'm having this specific observation in this specific moment", while in fact we are unable to distinguish it from a huge class of other possible observations and moments, never mind the fact, that the specific event may not even be coherently defined in the first place.
+>
+> If we, instead, correctly update on "I'm making at least some observation from a huge class of indistinguishable observations" - which usually means no update at all - then everything adds up to normality.
+
+## [Building Intuitions On Non-Empirical Arguments In Science \| Slate Star Codex](https://slatestarcodex.com/2019/11/06/building-intuitions-on-non-empirical-arguments-in-science/) (2019)
+
+From knzhou:
+
+> As a physicist, I’m happy with this post — as always, it illuminates with well-chosen metaphors.
+>
+> However, I think there are distinct notions of “non-empirical” in fundamental physics that are getting lumped together, which it might be useful to distinguish.
+>
+> The first involves problems of interpretation. These involve fixing a mathematical theory (which is consistent with all experimental data) and then just arguing over the right way to talk about it, e.g. whether various objects in the theory are “real”, or “primary”, or “subjective” vs. “objective” (in some contexts, “epistemic” vs. “ontic”). It happens most often for quantum mechanics and general relativity, e.g. whether “many worlds exist”.
+>
+> One can say that these debates are not scientific because they are completely independent of observations. But they have scientific value because they let us explore new ways of thinking about a working theory, which may help us someday move toward a deeper one. For example, suppose you don’t like many worlds but you also don’t like theories with collapse on measurement. How weird does your interpretation have to be in order to avoid both? What comfortable philosophical features do you have to give up? Without talking about interpretations, we wouldn’t know. From the Bayesian perspective these debates help us think about meta-theory selection, which is useful even if they don’t cause standard Bayesian updates.
+>
+> The second involves postulating unobservable objects. Often, you have to introduce objects into theories that can’t be directly probed, like the gauge potential or the inside of a black hole or the outside of the cosmological horizon, and this can appear unscientific. I’m not bothered by this for two reasons. First, what’s unobservable today can easily become observable tomorrow — people once thought _atoms_ were unscientific because the number of individual atoms kept cancelling out in the final results, making them look suspiciously like a fictitious calculational device. Einstein won the Nobel prize for finding a situation where the number did matter, Brownian motion. (I once read an old philosophy paper that claimed that the idea of consciousness being someday explained by science was so absurd, that it would be like claiming science could someday explain why bread nourished people and rocks didn’t.) Second, there’s just nothing wrong with having unobservable intermediate quantities — what matters for theory evaluation is that the theory as a whole matches experimental results with high likelihood and low complexity. If you have to do violence to the theory to excise the unobservable stuff, making it more complicated and harder to reason about in the process, then to me nothing is gained.
+>
+> The third involves likelihood calculations where the underlying phenomenon is one-shot. For example, if I ask you right now to initialize the fundamental constants of the Standard Model randomly, under any probability distribution you like, then the derived mass of the Higgs boson will almost certainly come out billions of times too big. This will happen with almost certainty unless you’re aware of this game, and cook up some very complicated probability distribution made up for the sole purpose of making it small. So people think there’s a problem, but others counter that this is not science because you can’t “resample the fundamental constants”, so probability has no meaning. Again, to me this objection is demolished by Bayesian reasoning, which allows for theory evaluation on one-shot phenomena. Another objection is that there isn’t any objective notion of what makes a probability distribution or more generally a theory “simple”, which has the exact response you point out — partially subjective theory selection has been good enough for humanity for the whole history of science, and it had to have been because it’s all any of us have.
+>
+> The fourth involves the anthropic principle, but that’s a can of worms I’m neither qualified nor inclined to open. Thinking about anthropic selection effects is a hall of mirrors, anyone can get seriously lost.
+
+## 442
+
+From The Ancient Geek:
+
+>> Hard Determinists share... an action is unfree if it is caused
+>
+>...if it is causally _determined_, which is being caused in a maximal sense.
+>
+>The word "causation" has multiple meanings. For instance, there are differences between >sufficient and necessary causation; and between probabilistic and deterministic causation. >Causal determinism is itself often confused with similar concepts such as fatalism and >predictability. Causation has a complex relationship with explanation. (In addition to all >that, "causality" has a specific meaning in physics, relating to the lack of  
+>faster-than-light signalling)
+>
+>In brief: an effect _cannot_ happen without a necessary cause, but _might not_ not happen >with a merely necessary cause. The instability i a radioactive nucleus is necessary to >cause it's decay...stable nucleus dunt decay ...but not sufficient to cause it's decay at >a particular.
+>
+>A _sufficient_ cause means that it's effect _must_ happen: yet another sufficient cause >could have brought about the effect... if the cause was sufficient but unnecessary. A >fatal shooting or a fatal stabbing are sufficient to cause death, but neither is necessary
+>
+>A _probaliistic_ cause makes it's effect more likely, but not inevitable ... as in >"smoking causes cancer". A probabilistic cause is an influence -- a mere influence. The >existence of influences doesn't imply determinism. Some things that are described as >"determinism" , such as "genetic determinism" are merely probslistic as well.
+>
+>Only sufficient causes equate to determinism: probalistic and necessary causes allow >"leeway" or "elbow room". An action can therefore be caused in several senses that are >compatible with libertarian free will.
+>
+>> which by reverse engineering means a free action must be uncaused
+>
+>Undetermined. Which allows it to be caused in various senses looser than determinism. In >particular ,it could still be _influenced_. Arguments from influence , such as the hungry >judge argument , don't refute LFW. When you get the quantfiers right.
+>
+>> It is a thing capable of causing (like causing my arm to move) but is itself not caused, >because if it were caused it would be unfree
+>
+>Lack of complete determinism isn't a thing. Any not-fully-determined event is >not-fully-caused , yet not a persistent entity, nor a cause of itself. There are agent >causal and event causal versions of LFW. You are only addressing agent causation. Since >indeterministic events are scientifically respectable nowadays is, event causation can be >used to spin up a naturalistic theory of LFW, without souls, downwards causation , or >causa sui.
+
+Also from The Ancient Geek:
+
+>> I see the factual question about whether the universe is deterministic, but don't >understand how that's connected to free will
+>
+>Determinism would refute free will, under one definition of free will.
+>
+>> It seems like, if I kept asking questions here, I would eventually arrive at a choice >between "neither determinism and randomness is really free will
+>
+>Not from me. I'm a naturalistic libertarian.
+>
+>Naturalistic libertarianism doesn't require any kind of soul, or fundamental third >alternative to determinism and indeterminism. It assumes indeterminism, and there is no >need to override determinism if the universe is not fully.deterministic in the first >place. Partial determinism means there are some things I cannot do, but also some options >I can choose between.
+>
+>According to science, the human brain/body is a complex mechanism made up of organs and >tissues which are themselves made of cells which are themselves made of proteins, and so >on.
+>
+>Science does not tell you that you are a ghost in a deterministic machine, trapped inside >it and unable to control its operation. Or that you are an immaterial soul trapped inside >an indeterministic machine. Science tells you that you are, for better or worse, the >machine itself.
+>
+>Although I have used the term "machine", I do not intend to imply that a, machine is >necessarily deterministic. It is not known whether physics is deterministic, so "you are a >deterministic machine" does not follow from "you are entirely physical". The correct >conclusion is "you are no more undetermined than physics allows you to be".
+>
+>So the scientific question of free will becomes the question of how the machine behaves, >whether it has the combination of unpredictability, self direction, self modification and >so on, that might characterise free will... depending on how you define free will.
+>
+>There is a whole science of self-controlling machines: cybernetics. Airplane autopilots >and , more recently, self driving cars are examples. Self control, without indeterminism >is not sufficient for libertarian free will, but indeterminism without self control is not >either
+>
+>All of those things can be ascertained by looking at a person (or an animal or a machine) >from the outside. They don't require a subjective inner self... unless you define free >will that way. If you define free will as dependent on a ghostly inner self, then you are >not going to have a scientific model of free will.
+>
+>> Again, I think this is a semantic argument, because if we drilled down into "what does >it mean for a brain to choose something?" then we'd eventually have to define it in a way >that gives us an answer
+>
+>We can define it in two ways that give us two potential answers.
+>
+>Which still doesn't make it entirely semantic.
+>
+>> Either you're asking something like whether the brain is capable of responding to >stimuli with a bunch of caveats about time's arrow and what a response means (it is), or >whether the brain is capable of spontaneously doing its own thing
+>
+>A response doesn't have to be deterministic, so that's a false dichotomy.
+>
+>> but then it just decomposes into a different argument that's not about free will).
+>
+>I dont see why that would be the case.
+>
+>> because it seems like a problem created by religious people
+>
+>I'm a _naturalistic_ [libertarian].
+
+## [My AI Opinions](https://www.astralcodexten.com/p/my-ai-opinions)
+
+From Gabriel:
+> Rather, I lean toward Tegmark's mathematical universe hypothesis. The MUH is roughly: our universe is a mathematical structure, every other mathematical structure is equally as real as our world, and some of them like ours contain people.
+>
+> On that view, a simulation of a world is peeking at part of the structure of that the world, not creating it. Pausing or stopping a simulation of a world (a mathematical structure) doesn't pause or stop the world.
+>
+> It's hard to make any sense of the simulation argument within MUH. There's not a unique fact of the matter about whether a world is or isn't a simulation. So anthropic Bayesian updates don't figure in.
+>
+> Furthermore I take Parfit's ideas on personal identity and run with them. His view is roughly: there's no lifelong continuity, only interlocking chains of mind-moments that remember past mind-moments. To that, I add that there are countless future versions of you across the worlds, countless mind-moments that remember having been the mind-moment that you now are.
+>
+> On that view, stopping a simulation of a person only stops that person in the local universe; from their first person perspective, somewhere out among the possible worlds is a mind-moment that is the continuation of where the simulation left off. (Yes, it's the Quantum Immortality idea on steroids.)
+>
+> This separately also makes it hard to make sense of the simulation argument. There's not a unique fact of the matter about which world you'll experience in your next moment. So anthropic Bayesian updates don't have a role here either.
+>
+> Now of course those are metaphysical opinions, for which the proper epistemic status IMO is "fun to think about but should not impact decisions".
+
+## 431
+
+From WoolyAl:
+> Basically, adopting extreme/negative stances to prevent moral blackmailing, typically adopted by rightists against leftists. (1)
+>
+> Eg, Person 1 is discussing a sensitive subject. Person 2 objects that this is racist. One of the most effective rhetorical strategies Person 1 can employ is "Yup, I'm a racist" and then go back to discussing the original subject. Adopt the worst frame to prevent moral/emotional blackmail.
+>
+> Kids dying is bad. Retarded people, insane people, and otherwise generally helpless dying is also bad. If you genuinely think these people dying is good, that's bad. If you think "Kids dying is bad but if I say that I will be morally blackmailed into supporting Gay Race Communism forever so I will say kids dying is good", I get that, I understand the application in most online conversations, I just think Autism Land where we explicitly state what we believe is the wrong place to engage in this rhetorical tactic.
+>
+> Leftists who engage in moral blackmail are the equivalent to people who steal charity money from orphans. They are literally burning the milk of human kindness for transitory political and financial rewards. That does not make giving money to orphans bad.
+
 ## [The New AI Consciousness Paper - by Scott Alexander](https://www.astralcodexten.com/p/the-new-ai-consciousness-paper)
 
 From Gabriel:
@@ -29,34 +156,35 @@ Reply from Ivan:
 > I find this hard to reconcile because I expect fundamental things to be simple: Nature isn't supposed to "know how to recognize" complex macroscopic phenomena. (This is similar to the binding/combination problem of panpsychism.)
 >
 > I find the idea that all abstractions are real instead of only some of them interesting. This makes Nature (our world) much simpler. Thank you for sharing these ideas.
-> 
+>
 > A problem with all abstractions being real might be how they can have causal efficacy, as it seems reasonable that consciousness has it.
 
 From Signer (reply to David Pearce):
 > Do you agree sane panpsychism solves 1?
-> 
+>
 >> How does your theory solve the phenomenal binding problem? In other words, why aren’t we just aggregates of Jamesian “mind dust”, mere micro-experiential zombies? To appreciate why (2) differs from (1), imagine that the Hard Problem of consciousness has somehow been solved. If so, then why aren’t the central nervous systems of awake human and nonhuman animals just billions of membrane-bound neuronal micro-pixels of experience?
-> 
+>
 > Detailed phenomenal binding is an easy problem in panpsychism. Micro pixels/combination problem obviously doesn't make sense in real physics - there is no micro things, only unified universe. So it leaves decomposition problem. It is solved by weak illusionism: there is no real fundamental perfect isolation of qualia, just qualia of isolation. For every detailed description of isolation of your qualia, there is either non-contradicting physical description of only approximately isolated part of reality, or your description is wrong - same way a description of fire works.
-> 
+>
 > I don't think 3 is necessary for "confusion of definition's referent" type of problem? Meaning that the only claim is that people actually refer to existence when they talk about consciousness - everything else is just conventional physics and there is no novel predictions by design.
 
-From The Ancient Geek: 
+From The Ancient Geek:
 > There has long been a problem of mind, of some sort., in philosophy. Early philosophers were puzzled by thought, later ones by consciousness, and contemporary ones are by qualia. (Qualia, or raw feels, are the ways things look, feel, taste, etc).
-> 
+>
 > Contemporary philosophers would like to be able to adopt a materialist or physicalism position, but the continuing irresolvability of this latest iteration of the mind body problem promote many of them to adopt other non-physicalist approaches such as dualism and idealism.
-> 
+>
 > The solution to be proposed here is relatively unusual one: dual-aspect neutral monism. This holds that the physical sciences are one possible map of territory which is not itself, intrinsically, physical (or, for that matter, mental). Consciousness is another map, or aspect.
-> 
+>
 > This approach has the advantage of dualism, in that there is no longer a need to explain the mental in terms of the physical, to reduce it to the physical, because the physical is no longer regarded as fundamental (nor is the mental, hence the "neutral"). Although an ontological identity between the physical and mental is accepted, the epistemic irreducibility of the mental to the physical is also accepted. Physicalism, in the sense that the physical sciences have a unique and priveleged explanatory role, is therefore rejected.
-> 
+>
 > To take one example, since the a conscious mental state and physical brain state are ultimately the same thing, the expected correlations hold between them. For instance, mental states cannot vary without some change in the physical state (supervenience follows directly from identity, without any special apparatus); furthermore, since mental states are ultimately identical to physical brain states, they share the causal powers of brain states (again without the need to posit special explanatory apparatus such as "psychophysical laws"), and in that way epiphenomenalism is avoided.
-> 
+>
 > The phenomenal re-presentation of a physical state is something like the transformation of complex structure in a lower dimensional. space to a simple structure in a higher dimensional space. That mean s a solution to the Binding Problem drops out naturally.
-> 
+>
 > The more familiar kinds of dualism are substance and property dualism. Both take a physical ontology "as is" and add something extra, and both have problems with explaining how the additional substances or properties interact with physical substances and properties, and both of course have problems with ontological parsimony (Occam's Razor).
-> 
+>
 > In contrast to a substance or property, an aspect is a relational kind of thing. In Dual Aspect theory, a conscious state is interpreted as being based on the kind of relationship and entity has with itself, and the kind of interaction it has with itself. The physical is reinterpreted as a kind of interaction with and relation to the external. It is not clear whether this theory adds anything fundamentally new, ontologically, since most people will accept the existence of some kind of inner/outer distinction, although the distinction may be made to do more work in Dual Aspect theory. Reinterpreting the physical is a genuine third alternative to accepting (only) the physical, denying the physical, and suplementing the physica
+
 ## [The New AI Consciousness Paper - by Scott Alexander](https://www.astralcodexten.com/p/the-new-ai-consciousness-paper)
 
 From Matthew Talamini:
