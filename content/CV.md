@@ -93,9 +93,9 @@ Journal papers:
 - An experimental framework used for my computer vision and machine learning research
 - Python, PyTorch, NumPy, software design, implementation of machine learning algorithms
 
-**[Smartphone-based lawn mower robot](https://github.com/Ivan1248/lawn-rover)** · _2012 – present_
-- A cheap robot with simple analog electronics and mechanical hardware that uses a smartphone for control, sensors and communication
-- LTspice, circuit design, technical drawing, FreeCAD, Kotlin, Jetpack Compose
+**[Smartphone-based lawn mower robot](https://github.com/Ivan1248/Falmo)** ([old version](https://github.com/Ivan1248/lawn-rover)) · _2012 – present_
+- A cheap robot that uses a smartphone for control, sensors and communication
+- Kotlin, circuit design, technical drawing, FreeCAD, LTspice
 <!---
 
 **[Algodoo Multiplayer](https://github.com/Ivan1248/Algodoo-Multiplayer)** · _2010 – present_
