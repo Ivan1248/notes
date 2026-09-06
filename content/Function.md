@@ -5,30 +5,33 @@ aliases:
 ---
 A **function** $f$ from $X$ to $Y$ is a [[Set|set]] $f\subset X\times Y$ such that
 $$
-\forall (x,y)\in f\colon \not\exists(x',y')\in f\colon x=x' \land y\neq y' 
+\forall (x,y)\in f: \not\exists(x',y')\in f: x=x' \land y\neq y' 
 $$
 and
 $$  
-\forall x\in X\colon \exists y\in Y\colon (x,y) \in f \text.
+\forall x\in X: \exists y\in Y: (x,y) \in f \text.
 $$
-$X \times Y$ denotes the [[Cartesian product|Cartesian product]] of sets $X$ and $Y$.
+
+## Used notation
+
+- $X \times Y$ denotes the [[Cartesian product|cartesian product]] of sets $X$ and $Y$.
 
 ## Notation
 
 **Function application notation.** Let $x\in X$. We use $f(x)$ to denote the (only) $y\in Y$ such that $(x,y)\in f$. If $x\not\in X$, the expression $f(x)$ has no meaning.
 
-**Function definition notation.** A shorthand notation for "a function $f\colon X\to Y$ such that $\forall x\in X\colon f(x)=g(x)$" is $f=x\mapsto g(x)\colon X\to Y$.
+**Function definition notation.** A shorthand notation for "a function $f\colon X\to Y$ such that $\forall x\in X: f(x)=g(x)$" is $f=x\mapsto g(x)\colon X\to Y$.
 
 | Notation                       | Definition                                                          |
 | ------------------------------ | ------------------------------------------------------------------- |
 | $f(x)$                         | the $y$ such that $(x,y)\in f$                                      |
 | $X\to Y$                       | the **set of all functions from $X$ to $Y$**                        |
 | $Y^X$                          | $X\to Y$                                                            |
-| $f\colon X\to Y$               | $f$ is a function from $X$ to $Y$: $\forall x\in X\colon f(x)\in Y$ |
+| $f\colon X\to Y$               | $f$ is a function from $X$ to $Y$: $\forall x\in X: f(x)\in Y$ |
 | $f\in X\to Y$                  | $f\colon X\to Y$                                                    |
-| $f=x\mapsto g(x)\colon X\to Y$ | $f\colon X\to Y$ and $\forall x\in X\colon f(x)=g(x)$               |
-| $f=x\mapsto g(x)$              | $\forall x\in \dom(f)\colon f(x)=g(x)$                              |
-| $f=(x\in X)\mapsto g(x)$       | $\forall x\in X\colon f(x)=g(x)$                                    |
+| $f=x\mapsto g(x)\colon X\to Y$ | $f\colon X\to Y$ and $\forall x\in X: f(x)=g(x)$               |
+| $f=x\mapsto g(x)$              | $\forall x\in \dom(f): f(x)=g(x)$                              |
+| $f=(x\in X)\mapsto g(x)$       | $\forall x\in X: f(x)=g(x)$                                    |
 | $f=g(\cdot)$                   | $f=g$                                                               |
 | $f=g(\cdot, \cdot, .., \cdot)$ | $f=g$                                                               |
 
@@ -44,7 +47,7 @@ Note that according to a [common definition](https://www.proofwiki.org/wiki/Defi
 
 ### Meaning of the $f(x)$ notation
 
-If we alternatively define $f(x)$ as $\bigcup \{y\colon(x,y)\in f\}$. Then, if $x\not\in \dom(f)$,
+If we alternatively define $f(x)$ as $\bigcup \{y:(x,y)\in f\}$. Then, if $x\not\in \dom(f)$,
 $$
 f(x)=\bigcup \{\} = \{\}
 $$

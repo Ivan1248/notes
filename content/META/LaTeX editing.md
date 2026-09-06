@@ -11,5 +11,5 @@
 		- `\left\|` and `\right\|` for greater height. (example: $\left\|\frac1x\right\|$).
 - Colons (`\colon` $\to$ $\colon$, `:` $\to$ $:$)
 	- Use `\colon` in denoting the type of [[Function]]. Example: $f\colon X\to Y$.
-	- Use `:` as a separator between [[Quantifier notation|quantifier clauses]]. Example: $\forall x\in X:\exists y\in Y\colon f(x) = y$.
+	- Use `:` as a separator between [[Quantifier notation|quantifier clauses]]. Example: $\forall x\in X:\exists y\in Y: f(x) = y$.
 	- Use `:` in [[Set builder notation]]. Examples: $\{x : P(x)\}$, $X\to Y = \{f : f\colon X\to Y\}$.

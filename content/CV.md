@@ -3,7 +3,7 @@ tags:
 creation date: 2026-01-23
 ---
 
-## Ivan Grubišić
+## [[CV|Ivan Grubišić]]
 
 _Humljani 51, 33514 Čačinci, Croatia_
 
@@ -11,7 +11,7 @@ _Humljani 51, 33514 Čačinci, Croatia_
 
 ## Personal profile
 
-I am a **machine learning and computer vision** researcher at University of Zagreb, FER. I have experience with algorithms, software development, and probability theory. I am interested in understanding and building intelligent systems, including understanding biological ones. I also enjoy identifying fundamental assumptions and deriving conclusions from first principles. I care about having accurate models of the world and seek to make the lives of humans and other sentient beings better.
+I am a **machine learning and computer vision** researcher (PhD at University of Zagreb, FER), with experience in learning algorithms, visual recognition tasks, and generative models. I am interested in understanding complex/intelligent systems, and like developing artificial ones. I am also interested in probability theory and epistemology, I like examining assumptions and inferences. I seek to have accurate models of the world and to make the lives of humans and other sentient beings better.
 <!---I am also generally interested in mathematics, physics, biology, neuroscience, cognition, engineering, automation, and fundamental questions in philosophy.--->
 
 ## Work experience
@@ -19,7 +19,7 @@ I am a **machine learning and computer vision** researcher at University of Zagr
 **University of Zagreb – Faculty of Electrical Engineering and Computing** · Zagreb, Croatia
 
 Teaching assistant · _2020-3 – present_
-- **Research:** semi-supervised learning, normalizing flows, supervised multi-domain learning, semantic segmentation, data poisoning
+- **Research:** semi-supervised learning, normalizing flows, supervised multi-domain learning, semantic segmentation, data poisoning, machine learning backdoors
 - **Teaching:** Digital Logic, Operating Systems, mentoring students
 - **Mentor:** Prof. Siniša Šegvić, PhD
 
@@ -58,17 +58,17 @@ Student teaching assistant · _2017-10 – 2018-3_
 
 ## Projects
 
-**Researcher** – [GAIM](https://irap.org/2023/09/irap-receives-google-support-to-advance-the-un-sdgs-and-road-safety/) · Zagreb, Croatia · _2025-5 – present_  
-Machine learning with satellite and street-view imagery to detect road safety risks and provide country-wide star-rating evaluations of road infrastructure around schools. I worked on processing of street-view images (camera direction correction, synchronization of GPS data with video and IMU data), and on development of road-safety attribute classification models.
+**Researcher** – [GAIM](https://irap.org/2023/09/irap-receives-google-support-to-advance-the-un-sdgs-and-road-safety/) (Google AI for Global Goals) · Zagreb, Croatia · _2025-5 – present_  
+Machine learning with satellite and street-view imagery to detect road safety risks and provide country-wide star-rating evaluations of road infrastructure around schools. I worked on processing of street-view images (camera direction correction, synchronization of GNSS data with video and IMU data), dataset preparation, and development of road-safety attribute classification models.
 
-**Researcher** – [VoNoMobil](https://www.croris.hr/projekti/projekt/10619) · Zagreb, Croatia · _2022-4 – present_  
-Computer vision for autonomous vehicle-passenger interaction, including action recognition, keypoint detection, and domain adaptation. I am helping PhD students with research on early action prediction from video and keypoints, and domain adaptation.
+**Researcher** – [VoNoMobil](https://www.croris.hr/projekti/projekt/10619) · _Zagreb, Croatia · 2022-4 – 2025-12_  
+Computer vision for autonomous vehicle-passenger interaction, including action recognition, keypoint detection, and domain adaptation. I was helping PhD students with research on early action prediction from video and keypoints, and domain adaptation.
 
 **Researcher** – [ADEPT](http://www.zemris.fer.hr/~ssegvic/adept/adept_en.shtml) · Zagreb, Croatia · _2021-2 – 2023-2_  
-Dense semantic analysis methods for large images in natural scenes (autonomous driving, road safety inspection). I worked on semi-supervised learning (consistency training) and semantic segmentation on datasets with incompatible taxonomies.
+Dense semantic analysis methods for large images in natural scenes (autonomous driving, road safety inspection). I worked on semi-supervised learning (consistency training) and semantic segmentation.
 
 **Researcher** – [DATACROSS](https://across-datascience.zci.hr/en/datacross) · Zagreb, Croatia · _2018-10 – 2022-3_  
-A project of The Centre of Research Excellence for Data Science and Advanced Cooperative Systems researching advanced methods and technologies for heterogeneous data analysis and cooperative systems. I worked on robust learning (adversarial examples), semi-supervised learning, semantic segmentation on datasets with incompatible taxonomies, normalizing flows.
+A project of The Centre of Research Excellence for Data Science and Advanced Cooperative Systems researching advanced methods and technologies for heterogeneous data analysis and cooperative systems. I worked on robust learning (adversarial examples), semi-supervised learning, semantic segmentation on datasets with incompatible taxonomies, and normalizing flows.
 
 ## Publications
 
@@ -93,11 +93,10 @@ Journal papers:
 - An experimental framework used for my computer vision and machine learning research
 - Python, PyTorch, NumPy, software design, implementation of machine learning algorithms
 
-**[Smartphone-based lawn mower robot](https://github.com/Ivan1248/Falmo)** ([old version](https://github.com/Ivan1248/lawn-rover)) · _2012 – present_
+**[Smartphone-based lawn mower robot](https://github.com/Ivan1248/Falmo)** ([old version](https://github.com/Ivan1248/lawn-rover)) · _2012 – present (with breaks)_
 - A cheap robot that uses a smartphone for control, sensors and communication
 - Kotlin, circuit design, technical drawing, FreeCAD, LTspice
 <!---
-
 **[Algodoo Multiplayer](https://github.com/Ivan1248/Algodoo-Multiplayer)** · _2010 – present_
 - **Aim:** enabling multi-user network games/simulations with the Algodoo physics simulator
 - **Technical Skills:** Algodoo (Thyme), VB.NET, network communication

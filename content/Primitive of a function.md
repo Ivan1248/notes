@@ -2,5 +2,5 @@ Let $F$ be a [[Real function|real function]] that is [[Continuous function|conti
 Let $f$ be a [[Real function|real function]] that is [[Continuous function|continuous]] on $(a\bidot b)$.  
 
 $F$ is a **primitive** of $f$ if $$  
-\forall x \in(a \bidot b)\colon F'(x) = f(x) ,  
+\forall x \in(a \bidot b): F'(x) = f(x) ,  
 $$where $F'$ is the [[Derivative|derivative]] of $F$.

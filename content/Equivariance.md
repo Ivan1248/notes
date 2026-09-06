@@ -11,7 +11,7 @@ $$
 
 $f$ is **equivariant to** $g$ iff there exists some $g'\colon Y\to Y$ such that
 $$
-\forall x\in X\colon f(g(x)) = g'(f(x)) .
+\forall x\in X: f(g(x)) = g'(f(x)) .
 $$
 
 ## To a set of functions

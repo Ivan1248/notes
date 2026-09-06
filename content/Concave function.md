@@ -3,7 +3,7 @@ Let $f\colon I\to\R$.
 $f$ is concave iff
 $$
 \begin{align}
-&\forall x, y\in\R\colon \forall a>0\colon \\
+&\forall x, y\in\R: \forall a>0: \\
 &f(ax+(1-a)y) \geq af(x) + (1-a)f(y) \text.
 \end{align}
 $$

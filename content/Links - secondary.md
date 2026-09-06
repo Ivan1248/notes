@@ -1,6 +1,10 @@
 [[Links|Links]]  
 [[Links - tertiary]]
 
+## 2026-9
+
+[Absurd Adventure And Amygdalectomy Advocacy](https://www.astralcodexten.com/p/absurd-adventure-and-amygdalectomy)
+
 ## 2026-8
 
 [Frame Error - The Linchpin](https://linch.substack.com/p/frame-error)

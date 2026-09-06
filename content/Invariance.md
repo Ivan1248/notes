@@ -9,7 +9,7 @@ $$
 
 $f$ is **invariant to** $g$ iff
 $$
-\forall x\in X\colon f(g(x)) = f(x) .
+\forall x\in X: f(g(x)) = f(x) .
 $$
 ## To a set of functions
 

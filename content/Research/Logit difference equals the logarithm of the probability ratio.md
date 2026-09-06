@@ -11,7 +11,7 @@ Then,
 
 $$
 \begin{align}
-    \forall i, k\in\{1\bidot K\} \colon \ln\left(\frac{p_{i}}{p_{k}}\right) = s_{i} - s_{k} \text{.}
+    \forall i, k\in\{1\bidot K\} : \ln\left(\frac{p_{i}}{p_{k}}\right) = s_{i} - s_{k} \text{.}
 \end{align}
 $$
 _Proof:_

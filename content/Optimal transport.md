@@ -6,5 +6,5 @@ Let $C\colon X\times Y\to \R$ (**cost function**).
 
 **Optimal transport** from $P_X$ to $P_Y$ is a function $T\colon X\times Y \to \R$ such that
 $$
-T = \argmin_{T': \left\{\forall y\in Y\colon \sum_{x\in X} T(x, y) = P_Y(x, y) \right\} \land \left\{\forall x\in X\colon \sum_{y\in Y} T(x, y) = P_X(x, y)\right\}} \sum_{x\in X,y\in Y} C(x,y)T(x,y) \text.
+T = \argmin_{T': \left\{\forall y\in Y: \sum_{x\in X} T(x, y) = P_Y(x, y) \right\} \land \left\{\forall x\in X: \sum_{y\in Y} T(x, y) = P_X(x, y)\right\}} \sum_{x\in X,y\in Y} C(x,y)T(x,y) \text.
 $$

@@ -20,7 +20,7 @@ $$
 $$
 where $\v A\in \R^{n\times r}$ and $\v B\in \R^{r\times m}$ and $r<\min(n,m)$.
 
-Then,
+For more efficient computation, we use the expression
 $$
 f(\v x, \v W') = \v W \v x + \v A (\v B \v x) \text.
 $$

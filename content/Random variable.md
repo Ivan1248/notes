@@ -13,13 +13,13 @@ Expressions such as $R(\rvar x_1, \rvar x_2, .., \rvar x_n)$, where $R$ denotes 
 
 Exceptions to such interpretation are "random-variable-aware" [[Functional|functionals]], such as the [[Probability measure|probability measure]] when denoted with $\P$, and [[Expectation|expectation]].  
 
-$\P(\rvar x \in X')$ denotes $P(\{\omega\in\Omega \colon \rvar x(\omega) \in X'\})$, according to [[Expressing events via predicates]].
+$\P(\rvar x \in X')$ denotes $P(\{\omega\in\Omega : \rvar x(\omega) \in X'\})$, according to [[Expressing events via predicates]].
 
 ## Notes
 
 ### Interpretation and notation
 
-A random variable assigns a value from $X$ to each outcome in the sample space $\Omega$. Interpreting the [[Inverse image|inverse image]] $\rvar x^{-1}(X')\in \Sigma$ as all outcomes for which the random variable takes a value from $X'$, the probability that $\rvar x$ takes a value from $X'\in \Sigma'$ is $P(\rvar x^{-1}(X')) = P(\{\omega\in\Omega \colon \rvar x(\omega) \in X'\})$, which can also be denoted as $\P(\rvar x \in X')$.
+A random variable assigns a value from $X$ to each outcome in the sample space $\Omega$. Interpreting the [[Inverse image|inverse image]] $\rvar x^{-1}(X')\in \Sigma$ as all outcomes for which the random variable takes a value from $X'$, the probability that $\rvar x$ takes a value from $X'\in \Sigma'$ is $P(\rvar x^{-1}(X')) = P(\{\omega\in\Omega : \rvar x(\omega) \in X'\})$, which can also be denoted as $\P(\rvar x \in X')$.
 
 This formalization of probability space and random variables allows for representing dependencies among random variables. The outcome determines the values (realizations) of all random variables.
 

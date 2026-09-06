@@ -7,7 +7,7 @@ aliases:
 ---
 An **open (real) interval** is a [[Set|set]] $I\subseteq \R$ such that
 $$
-\exists a,b\in\R\colon \forall x\in I\colon a<x<b .
+\exists a,b\in\R: \forall x\in I: a<x<b .
 $$
 
 ## Notation

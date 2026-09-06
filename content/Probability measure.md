@@ -7,7 +7,7 @@ aliases:
    - Distribution
 
 ---
-A **probability measure** on a [[Measurable space|measurable space]] $(\Omega, \Sigma)$ is a [[Measure|measure]] $P: \Sigma \to [0\bidot1]$ such that $P(\Omega) = 1$.
+A **probability measure** on a [[Measurable space|measurable space]] $(\Omega, \Sigma)$ is a [[Measure|measure]] $P\colon \Sigma \to [0\bidot1]$ such that $P(\Omega) = 1$.
 
 ## Related
 

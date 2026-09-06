@@ -1,6 +1,6 @@
 We can define quantifier notation that is more consistent with summation and product notation:
-- $\bigvee_{x\in X} P(x) \equiv \exists x\in X\colon P(x)$.
-- $\bigwedge_{x\in X} P(x) \equiv \forall x\in X\colon  P(x)$.
+- $\bigvee_{x\in X} P(x) \equiv \exists x\in X: P(x)$.
+- $\bigwedge_{x\in X} P(x) \equiv \forall x\in X:  P(x)$.
 
 This is similar to the summation and product notations:
 - $\sum_{x\in X} f(x)$,
@@ -15,7 +15,7 @@ $$
 	&\left|x-c\right| < \delta \implies \left| f(x) - L\right| < \epsilon .
 \end{align}
 $$
-Altenative:
+Alternative:
 $$
 \begin{align}
 	\forall_{\epsilon\in\R_{>0}} \exists_{\delta\in\R_{>0}} \forall_{x\in \dom(f)} 

@@ -1,33 +1,33 @@
 ## Real analysis
 
-Let $F$ be a set of [[Real function|real functions]] defined on $S$.  
+Let $F$ be a set of [[Real function|real functions]] that are defined on $S$.  
 Let $g\in F$.
 $$
 O_{S}(g) = \left\{
 	h \in F: 
-	\exists c\in \R_{\geq 0}\colon \forall  s\in S\colon |h(x)|\leq c|g(x)|
+	\exists c\in \R_{\geq 0}: \forall  s\in S: |h(x)|\leq c|g(x)|
 \right\} .
 $$
 
 ## Real analysis - at infinity
 
-Let $F$ be a set of [[Real function|real functions]] defined on $\R_{\geq a}$ for some $a\in \R$.  
+Let $F$ be a set of [[Real function|real functions]] that are defined on $\R_{\geq a}$ for some $a\in \R$.  
 Let $g\in F$.
 $$
 O_{\infty}(g) = \left\{
 	h \in F: 
-		\exists c\in \R_{\geq 0}\colon \exists x_0\in \R\colon \forall x\in\R_{> x_0}\colon
+		\exists c\in \R_{\geq 0}: \exists x_0\in \R: \forall x\in\R_{> x_0}:
 			|h(x)|\leq c|g(x)|
 \right\} .
 $$
 That is, $f\in O_{\infty}(g)$ iff
 $$
-\exists c\in \R_{\geq 0}\colon \exists x_0\in \R\colon \forall x\in\R_{> x_0}\colon|f(x)|\leq c|g(x)| .
+\exists c\in \R_{\geq 0}: \exists x_0\in \R: \forall x\in\R_{> x_0}:|f(x)|\leq c|g(x)| .
 $$
 
 ## Real analysis - infinitesimal
 
-Let $F$ be a set of [[Real function|real functions]] defined on $(0\bidot a)$ for some $a\in R$.  
+Let $F$ be a set of [[Real function|real functions]] that are defined on $(0\bidot a)$ for some $a\in R$.  
 Let $g\in F$.
 $$
 O_{0}(g) = \left\{
@@ -46,7 +46,7 @@ We interpret $O(g)$ as a set and use the notation $f\in O(g)$ or  $x\mapsto f \i
 ## Examples
 
 - Let $S=[-1/2\bidot 1/2]$. The statement $$\begin{align}  
-&\exists h \in O_S(x\mapsto x^2)\colon \forall x\in S\colon \\  
+&\exists h \in O_S(x\mapsto x^2): \forall x\in S: \\  
 &\quad\ln(1+x) = x + h(x)  
 \end{align}$$ is equivalent to $$  
 x \mapsto (\ln(1+x) - x) \in O_S(x\mapsto x^2)  

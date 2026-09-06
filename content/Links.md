@@ -2,7 +2,9 @@
 [[Funny links]]  
 [[Neuroscience and cognition links]]
 
-[Your Book Review: The Book Of Abraham - by Scott Alexander](https://www.astralcodexten.com/p/your-book-review-the-book-of-abraham) "Joseph Smith’s translation methodology was, by any standard, a spectacular, multi-car pileup of confirmation bias, post-hoc patching, and literal cut-and-paste forgery. Yet, the culture spawned by this pileup is one of the most highly optimized, high-trust, pro-social engines of human coordination on the planet."
+## 2026-9
+
+[What are Junk Theorems?. You can’t throw them out. \| by Robert Passmann \| Cantor’s Paradise](https://www.cantorsparadise.com/what-are-junk-theorems-298687b577bf)
 
 ## 2026-8
 
@@ -11,6 +13,8 @@
 [jsomers.net \| I should have loved biology](https://jsomers.net/i-should-have-loved-biology/)
 
 [Infographics by Concavenator on DeviantArt](https://www.deviantart.com/concavenator/gallery/67924295/infographics)
+
+[Your Book Review: The Book Of Abraham - by Scott Alexander](https://www.astralcodexten.com/p/your-book-review-the-book-of-abraham) "Joseph Smith’s translation methodology was, by any standard, a spectacular, multi-car pileup of confirmation bias, post-hoc patching, and literal cut-and-paste forgery. Yet, the culture spawned by this pileup is one of the most highly optimized, high-trust, pro-social engines of human coordination on the planet."
 
 ## 2026-7
 

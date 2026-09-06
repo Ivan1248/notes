@@ -1,6 +1,6 @@
 An **closed (real) interval** is a [[Set|set]] $I\subseteq \R$ such that
 $$
-\exists a,b\in\R\colon \forall x\in I\colon a\leq x\leq b .
+\exists a,b\in\R: \forall x\in I: a\leq x\leq b .
 $$
 
 ## Notation

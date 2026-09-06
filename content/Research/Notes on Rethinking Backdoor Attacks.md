@@ -15,7 +15,7 @@ Let $S=\{\v z_i\}_{i=1..n}\subset Z$ be a training set.
 
 Let $\Phi_{X}$ be the set of all features on $X$.
 
-**Definition.** The **support of a feature** $\phi : X → \{0, 1\}$ in the set $S \subset Z$ is
+**Definition.** The **support of a feature** $\phi \colon X → \{0, 1\}$ in the set $S \subset Z$ is
 $$
 \op{supp}_\phi(S) = \{(x, y) \in S : \phi(\v x) = 1\} \text.
 $$
@@ -43,7 +43,7 @@ $$
 **Assumption 1.** Let $\phi_{\text t}$ be a backdoor trigger feature and $p = \lvert\op{supp}_{\phi_{\text t}}(S)\rvert$. We assume that
 $$
 \begin{align}
-	&\exists\alpha\in(0..1)\colon \forall\phi\in\Phi_X \colon \\
+	&\exists\alpha\in(0..1): \forall\phi\in\Phi_X : \\
 	&\quad (\lvert\op{supp}_\phi(S)\rvert=p \implies s_{\phi_{\text t}}(\alpha p) \geq s_\phi(\alpha p)) \text.
 \end{align}
 $$
