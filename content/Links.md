@@ -4,7 +4,8 @@
 
 ## 2026-9
 
-[What are Junk Theorems?. You can’t throw them out. \| by Robert Passmann \| Cantor’s Paradise](https://www.cantorsparadise.com/what-are-junk-theorems-298687b577bf)
+[What are Junk Theorems?. You can’t throw them out. \| by Robert Passmann \| Cantor’s Paradise](https://www.cantorsparadise.com/what-are-junk-theorems-298687b577bf)  
+[[notation]]
 
 ## 2026-8
 

@@ -2,7 +2,6 @@
 tags:
 creation date: 2026-01-23
 ---
-
 ## [[CV|Ivan Grubišić]]
 
 _Humljani 51, 33514 Čačinci, Croatia_
@@ -11,7 +10,7 @@ _Humljani 51, 33514 Čačinci, Croatia_
 
 ## Personal profile
 
-I am a **machine learning and computer vision** researcher (PhD at University of Zagreb, FER), with experience in learning algorithms, visual recognition tasks, and generative models. I am interested in understanding complex/intelligent systems, and like developing artificial ones. I am also interested in probability theory and epistemology, I like examining assumptions and inferences. I seek to have accurate models of the world and to make the lives of humans and other sentient beings better.
+I am a **machine learning and computer vision** researcher (PhD at University of Zagreb, FER), with experience in learning algorithms, visual recognition tasks, and generative models. I am interested in understanding complex/intelligent systems, and like working on artificial ones. I am also interested in probability theory and epistemology, and like examining assumptions and inferences. I seek to have accurate models of the world and to make the lives of humans and other sentient beings better.
 <!---I am also generally interested in mathematics, physics, biology, neuroscience, cognition, engineering, automation, and fundamental questions in philosophy.--->
 
 ## Work experience
