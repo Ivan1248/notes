@@ -1,8 +1,8 @@
 ---
 tags:
-creation date: 2026-01-24
+creation date: 2023-03-10
+edit date: 2026-10-19
 ---
-_Ivan Grubišić_
 
 ## Introduction
 
@@ -18,7 +18,7 @@ Random variables are [[Underlining random variables|underlined]]. We will use th
 $$
 \p(\rvar x=x) \equiv \p[\rvar{x}](x) \equiv \p(x) .
 $$
-The last notation, $\p(x)$, is a shorthand that we will use when the random variable and the value have the same symbol up to underlining.
+The last notation, $\p(x)$, is a shorthand that we will use when the random variable and the value have the same symbol up to underlining.  
 A conditional random variable is denoted like $\rvar x\mid \rvar y=y$ or $\rvar x\mid y$. Similarly as before, its distribution is $\p[\rvar x=x\mid y]$, which is the same as the function $x\mapsto \p(x\mid y)$.
 
 ## Stochastic processes and Markov chains
@@ -78,7 +78,7 @@ In a homogeneous Markov chain, the probabilities of the next state do not depend
 > A Markov chain is stationary if it is homogeneous and $\p[\rvar x_2]=\p[\rvar x_1]$.
 
 > [!proof]
-> Let $\Pi(x)=\p[\rvar x_{k+1}\mid\rvar x_k=x]$.
+> Let $\Pi(x)=\p[\rvar x_{k+1}\mid\rvar x_k=x]$.  
 > By the identity $\p[\rvar x_2] = \E_{\rvar x_1} \p[\rvar x_2\mid x_1]$,
 > $$
 > \p[\rvar x_2] = \E_{\rvar x_1} \Pi(x_1) .
@@ -87,9 +87,9 @@ In a homogeneous Markov chain, the probabilities of the next state do not depend
 > $$
 > \forall n,k>0: \p[\rvar x_n]=\p[\rvar x_k] . \tag{1}
 > $$
-> 
+>
 > ^eq-markov-marginal-equality
-> 
+>
 > Finally,
 > $$
 > \begin{align*}
@@ -107,7 +107,7 @@ In a homogeneous Markov chain, the probabilities of the next state do not depend
 > \forall n: \exists k>0: \forall a,b: \p(\rvar x_{n+k}=b\mid \rvar x_n=a)>0 .
 > $$
 
-Note that there exist homogeneous or stationary Markov chains that are not irreducible.
+Note that there exist homogeneous or stationary Markov chains that are not irreducible.  
 One such Markov chain has $\p[\rvar x_1]=\mathcal U([0, 1])$, while all the other random variables repeat the preceding state: $\forall n>1: \p[\rvar x_{n+1}=x\mid x_n] = \delta(x-x_n)$, where $\delta$ is the Dirac delta distribution.
 
 > [!definition] Definition (Aperiodicity of a Markov chain)
@@ -121,7 +121,7 @@ One such Markov chain has $\p[\rvar x_1]=\mathcal U([0, 1])$, while all the othe
 > $$
 > \forall n>0: \forall a,b: p(a)\p(\rvar x_{n+1}=b\mid\rvar x_n=a) = p(b)\p(\rvar x_n=a\mid\rvar x_{n+1}=b) . \tag{2}
 > $$
-> 
+>
 > ^eq-mc-detailed-balance
 
 ^def-mc-reversibility
@@ -152,7 +152,7 @@ This section is based on @Keng:2015:MCMCMRSMHA and @Geyer:2011:IMCMC.
 
 ### Importance sampling
 
-Let $p$ be a distribution.
+Let $p$ be a distribution.  
 Suppose we want to estimate some expectation $I=\E_{x\sim p} f(x)$ with an estimator
 $$
 \hat{\rvar I} = \frac{1}{n}\sum_{i=1}^{n} f(\rvar x_i) \text{, where }\rvar x_i\sim p .
@@ -163,7 +163,7 @@ $$
 = \int_x f(x)\frac{p(x)}{q(x)}q(x)\dif x
 = \E_{x\sim q} f(x)\frac{p(x)}{q(x)} .
 $$
-Note that $q$ must be non-zero wherever $p$ is non-zero.
+Note that $q$ must be non-zero wherever $p$ is non-zero.  
 An importance sampling estimator that uses $q$ as its sampling distribution would be
 $$
 \hat{\rvar I}' = \frac{1}{n}\sum_{i=1}^{n} f(\rvar x_i)\frac{p(\rvar x_i)}{q(\rvar x_i)} \text{, where }\rvar x_i\sim q .
@@ -190,7 +190,7 @@ See e.g. @wp:rejection-sampling for more theoretical details.
 
 Markov chain Monte Carlo (MCMC) methods are algorithms that use a Markov chain to approximate a distribution that cannot be sampled from easily. The Markov chain must be constructed so that its stationary distribution equals the distribution that we want to sample from.
 
-Let $p$ be the distribution that we want to sample from.
+Let $p$ be the distribution that we want to sample from.  
 We require a homogeneous Markov chain $(\rvar x_1, \rvar x_2, \dots)$ that has $p$ as its stationary distribution: $p = \lim_{n\to\infty}\p[\rvar x_n]$.
 
 The basic MCMC algorithm produces samples iteratively as follows:
@@ -198,7 +198,7 @@ The basic MCMC algorithm produces samples iteratively as follows:
 2. transition $T$ times to $x_{n+1}$ according to $\p[\rvar x_{n+1}\mid x_n]$,
 3. take the current state $x_{T+1}$ as a sample, go to step 2 (with the current state as the initial state).
 
-The role of taking $T$ transitions before accepting a sample is to reduce correlation between samples and the effect of initialization.
+The role of taking $T$ transitions before accepting a sample is to reduce correlation between samples and the effect of initialization.  
 For $T\to\infty$, the sampled states are distributed according to $p$.
 
 Because the algorithm uses the current sample as the starting state of the next iteration, we want the Markov chain to be **irreducible**, so that any state can be reached from any state. Assuming $T$ is constant, another useful property can be **aperiodicity**, so that there exists a number of steps after which any state can be reached again in any number of steps.
@@ -211,7 +211,7 @@ The Metropolis-Hastings (MH) algorithm is an MCMC algorithm that can sample from
 
 Let $(\rvar x_1, \rvar x_2, \dots)$ be a homogeneous Markov chain with $p$ as its stationary distribution. We will use $t(x, y)=\p(\rvar x_{n+1}=y\mid\rvar x_n=x)$ as a shorthand for the transition probability between two states.
 
-Requiring **reversibility** of the Markov chain can simplify its design because reversible Markov chains have stationary distributions. We can rewrite the reversibility (detailed balance) condition [[#^eq-mc-detailed-balance|(2)]] as $p(x)t(x,y) = p(y)t(y,x)$.
+Requiring **reversibility** of the Markov chain can simplify its design because reversible Markov chains have stationary distributions. We can rewrite the reversibility (detailed balance) condition [[#^eq-mc-detailed-balance|(2)]] as $p(x)t(x,y) = p(y)t(y,x)$.  
 We need to define $t$ so that the stationary distribution $p$ is the distribution that we want to sample from. The reversibility condition implies that
 $$
 \frac{t(x,y)}{t(y,x)} = \frac{p(y)}{p(x)}= \frac{f(y)}{f(x)} . \tag{3}
@@ -317,7 +317,7 @@ $$
 \p(\v x, \v p)
 = \frac{1}{Z}\exp\left(\frac{-U(\v x)}{T}\right)\exp\left(\frac{-K(\v p)}{T}\right)
 $$
-and that $\rvec x$ and $\rvec p$ are independent.
+and that $\rvec x$ and $\rvec p$ are independent.  
 We can also see that the canonical distribution of the kinetic energy as defined in eq. [[#^eq-hmc-kinetic-energy|(7)]] is a normal distribution
 $$
 \mathcal N(\cvec 0_d, Tm\cvec I_d) . \tag{8}
@@ -402,9 +402,9 @@ def hmc(U, T, x_start, p_dist, L=100, epsilon=0.01):
 > $$
 > U(\v x) = 4\cdot (\lVert\v x\rVert_2-2)^2 + 0.1\cdot \lVert\v x - \cvec 2_2\rVert_2^2 ,
 > $$
-> and uses $\mathcal{N}(\cvec 0, \cvec I_2)$ for the canonical distribution of the kinetic energy.
+> and uses $\mathcal{N}(\cvec 0, \cvec I_2)$ for the canonical distribution of the kinetic energy.  
 > [[#^fig-hmc-plots|Figure 1]] illustrates sample generation with different HMC parameters with the same potential energy function.
-> 
+>
 > ```python
 > import scipy.stats
 > import autograd.scipy.stats as st
@@ -426,12 +426,12 @@ def hmc(U, T, x_start, p_dist, L=100, epsilon=0.01):
 >            hmc(U, 10, x_start=np.array([0., 0.]), p_dist=Normal2(0, 1))]
 > ```
 > **Listing 2:** Example code for generating samples with the code from [[#^lst-hmc|Listing 1]]. The negative logarithm of the function that is approximately sampled (potential energy) is $U(\v x) = 4\cdot (\lVert\v x\rVert_2-2)^2 + 0.1\cdot \lVert\v x - \cvec 2_2\rVert_2^2$. $\mathcal{N}(\cvec 0, \cvec I_2)$ is chosen for the canonical distribution of the kinetic energy.
-> 
+>
 > ^lst-hmc-example
-> 
-> ![[HMC runs with different integration times.svg]]
+>
+> ![[HMC runs with different integration times.svg]]  
 > **Figure 1:** Illustration of four HMC runs with $20$ iterations and different integration times $L\epsilon$. The directions and sizes of arrows represent momenta at integration time steps. The dots represent samples produced by HMC. The illustrations were generated using modified code from @Carrol:2019:HMCFS.
-> 
+>
 > ^fig-hmc-plots
 
 ## Conclusion
