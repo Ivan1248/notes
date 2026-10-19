@@ -8,3 +8,4 @@ $$
 ## Related
 
 - [[Expectation]]
+- [[Covariance matrix]]

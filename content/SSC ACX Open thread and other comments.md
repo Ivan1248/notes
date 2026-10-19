@@ -1,3 +1,8 @@
+## On open letter to Steven Pinker
+
+[From thefance](https://www.astralcodexten.com/p/an-open-letter-to-steven-pinker-on/comment/354805619):
+> Abstractions allow agents to navigate statespaces efficiently. This is why math is Unreasonably Effective (tm). Each layer of abstraction allows faster traversal of a large statespace, like an interstate highway system.
+
 ## [Why I'm Staying Out Of The Substack Religion Debate](https://www.astralcodexten.com/p/why-im-staying-out-of-the-substack)
 
 [From Ape in the coat:](https://www.astralcodexten.com/p/why-im-staying-out-of-the-substack/comment/317907131)

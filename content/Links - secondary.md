@@ -1,7 +1,13 @@
 [[Links|Links]]  
 [[Links - tertiary]]
 
+## 2026-10
+
+[Woman who rescued injured crow keeps getting ‘thank-you gifts’ from birds - YouTube](https://www.youtube.com/watch?v=sjNpfz4UzqU)
+
 ## 2026-9
+
+[Cleo (Mathematician) \| Hacker News](https://news.ycombinator.com/item?id=49982445)
 
 [Absurd Adventure And Amygdalectomy Advocacy](https://www.astralcodexten.com/p/absurd-adventure-and-amygdalectomy)
 

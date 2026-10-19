@@ -2,10 +2,26 @@
 [[Funny links]]  
 [[Neuroscience and cognition links]]
 
+## 2026-10
+
+[Scientists Are Teaching Birds to Sing Lost Songs \| Hacker News](https://news.ycombinator.com/item?id=50087337)
+
+[Counterexamples in Type Systems - Counterexamples in Type Systems](https://counterexamples.org/title.html)
+
+[How Machines Learned Precision](https://glinscott.github.io/how-machines-learned-precision/)
+
+[Equations Explained Colorfully](https://p.migdal.pl/equations-explained-colorfully/#schrodinger)
+
+[Trace](https://trace.manifund.org/about)
+
 ## 2026-9
 
+[Dr Julius Neubronner’s Miniature Pigeon Camera — The Public Domain Review](https://publicdomainreview.org/collection/dr-julius-neubronner-s-miniature-pigeon-camera/)
+
+[Bodily oddities](https://vester.si/bodily-oddities/)
+
 [What are Junk Theorems?. You can’t throw them out. \| by Robert Passmann \| Cantor’s Paradise](https://www.cantorsparadise.com/what-are-junk-theorems-298687b577bf)  
-[[notation]]
+[[Notation|notation]]
 
 ## 2026-8
 
@@ -53,7 +69,7 @@
 
 ## 2026-4
 
-[The Machinery of Life - David S. Goodsell - Google Knjige](https://books.google.hr/books?id=0nV-mIqPa5gC&printsec=frontcover#v=onepage&q&f=false)
+[The Machinery of Life - David S. Goodsell - Google Books](https://books.google.hr/books?id=0nV-mIqPa5gC&printsec=frontcover#v=onepage&q&f=false)
 
 [Biology is a Burrito](https://burrito.bio/essays/biology-is-a-burrito)
 
