@@ -98,3 +98,16 @@ figure[data-rehype-pretty-code-figure] {
   font-size: 0.8em;
   opacity: 0.7;
 }
+
+// Reference list: spaced entries with a hanging indent, long URLs wrap anywhere
+.csl-bib-body .csl-entry {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  text-indent: -1.5rem;
+  overflow-wrap: anywhere;
+
+  // Entry jumped to from a citation link
+  &:target {
+    background-color: var(--highlight);
+  }
+}
