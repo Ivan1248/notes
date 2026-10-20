@@ -108,3 +108,13 @@ figure[data-rehype-pretty-code-figure] {
     background-color: var(--highlight);
   }
 }
+
+// Citation popover: the hovered citation's bibliography entry, sized to its content
+.popover.citation-popover > .popover-inner {
+  width: auto;
+  max-width: 30rem;
+  padding: 0.5rem 1rem;
+  line-height: 1.4rem;
+  overflow-wrap: anywhere;
+  user-select: text;
+}

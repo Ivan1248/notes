@@ -1,6 +1,7 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 import { AllPackages } from "mathjax-full/js/input/tex/AllPackages.js"
+import { CitationLinks } from "./quartz/plugins/transformers/citationLinks"
 import { loadPreamble } from "./quartz/plugins/transformers/mathjaxPreamble"
 import {
   PREAMBLE_PACKAGE,
@@ -86,7 +87,12 @@ const config: QuartzConfig = {
           tex: { packages: [...AllPackages, PREAMBLE_PACKAGE], formatError: reportMathJaxError },
         },
       }),
-      Plugin.Citations({ bibliographyFile: "./content/bibliography.bib", linkCitations: true, csl: "apa" }),
+      Plugin.Citations({
+        bibliographyFile: "./content/bibliography.bib",
+        linkCitations: true,
+        csl: "apa",
+      }),
+      CitationLinks(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
