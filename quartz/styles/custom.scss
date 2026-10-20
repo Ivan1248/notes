@@ -27,10 +27,22 @@
   }
 }
 
-// Links: plain colored text, underline on hover, no transitions
-a {
-  transition: none;
+// No animations: transitions finish instantly, and keyframe animations (e.g. the
+// popover's dropin) jump straight to their end state, which `forwards` fill keeps
+html {
+  scroll-behavior: auto;
+}
 
+*,
+*::before,
+*::after {
+  transition: none !important;
+  animation-duration: 0s !important;
+  animation-delay: 0s !important;
+}
+
+// Links: plain colored text, underline on hover
+a {
   &:hover {
     text-decoration: underline;
   }
@@ -41,21 +53,6 @@ a {
     padding: 0;
     border-radius: 0;
     line-height: inherit;
-
-    &.broken {
-      transition: none;
-    }
-  }
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  &[id] > a[href^="#"] {
-    transition: none;
   }
 }
 
