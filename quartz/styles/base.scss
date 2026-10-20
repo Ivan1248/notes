@@ -84,25 +84,24 @@ strong {
 a {
   font-weight: $semiBoldWeight;
   text-decoration: none;
-  //transition: color 0.2s ease;
+  transition: color 0.2s ease;
   color: var(--secondary);
 
   &:hover {
     color: var(--tertiary);
-    text-decoration: underline;
   }
 
   &.internal {
     text-decoration: none;
-    //background-color: var(--highlight);
-    //padding: 0 0.1rem;
-    //border-radius: 5px;
-    //line-height: 1.4rem;
+    background-color: var(--highlight);
+    padding: 0 0.1rem;
+    border-radius: 5px;
+    line-height: 1.4rem;
 
     &.broken {
       color: var(--secondary);
       opacity: 0.5;
-      //transition: opacity 0.2s ease;
+      transition: opacity 0.2s ease;
       &:hover {
         opacity: 0.8;
       }
@@ -292,7 +291,8 @@ a {
 
     & .center,
     & footer {
-      max-width: 45rem;
+      max-width: 100%;
+      min-width: 100%;
       margin-left: auto;
       margin-right: auto;
       @media all and ($tablet) {
@@ -380,7 +380,7 @@ h6 {
   &[id] > a[href^="#"] {
     margin: 0 0.5rem;
     opacity: 0;
-    //transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
     transform: translateY(-0.1rem);
     font-family: var(--codeFont);
     user-select: none;
@@ -425,7 +425,7 @@ h6 {
 figure[data-rehype-pretty-code-figure] {
   margin: 0;
   position: relative;
-  line-height: 1.4rem;
+  line-height: 1.6rem;
   position: relative;
 
   & > [data-rehype-pretty-code-title] {
@@ -514,7 +514,7 @@ code {
 tbody,
 li,
 p {
-  line-height: 1.4rem;
+  line-height: 1.6rem;
 }
 
 .table-container {
@@ -531,7 +531,7 @@ p {
     }
 
     & > * {
-      line-height: 1.8rem;
+      line-height: 2rem;
     }
   }
 }

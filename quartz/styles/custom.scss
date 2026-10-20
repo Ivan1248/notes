@@ -1,3 +1,100 @@
 @use "./base.scss";
+@use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// This file is included after base.scss and all component styles, so rules here
+// override upstream rules with the same selector. Keeping site tweaks here
+// (instead of editing core files) avoids merge conflicts when updating Quartz.
+
+// Layout: less top spacing (upstream $topSpacing: 6rem), narrower center column
+.page > #quartz-body {
+  & .sidebar {
+    padding-top: 1rem;
+  }
+
+  & .page-header {
+    margin-top: 1rem;
+    @media all and ($mobile) {
+      margin-top: 0;
+    }
+  }
+
+  & .center,
+  & footer {
+    max-width: 45rem;
+    min-width: auto;
+  }
+}
+
+// Links: plain colored text, underline on hover, no transitions
+a {
+  transition: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &.internal {
+    text-decoration: none;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+    line-height: inherit;
+
+    &.broken {
+      transition: none;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  &[id] > a[href^="#"] {
+    transition: none;
+  }
+}
+
+// Tighter line heights
+tbody,
+li,
+p {
+  line-height: 1.4rem;
+}
+
+figure[data-rehype-pretty-code-figure] {
+  line-height: 1.4rem;
+}
+
+.table-container > table > * {
+  line-height: 1.8rem;
+}
+
+.folder-container {
+  & div > a {
+    line-height: 1.4rem;
+  }
+
+  & div > button span {
+    line-height: 1.4rem;
+  }
+}
+
+.search > .search-container > .search-space > .search-layout > .preview-container {
+  line-height: 1.4em;
+}
+
+// De-emphasized breadcrumbs and content meta
+.breadcrumb-container {
+  opacity: 0.7;
+}
+
+.content-meta {
+  text-align: end;
+  font-size: 0.8em;
+  opacity: 0.7;
+}
