@@ -32,13 +32,13 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Noto Sans, Segoe UI, Comme, Blinker",
-        body: "Noto Sans, Segoe UI, Comme",
+        header: "Segoe UI, Noto Sans, Comme, Blinker",
+        body: "Segoe UI, Noto Sans, Comme",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
+          light: "#ffffff",
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
