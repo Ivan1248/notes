@@ -1,6 +1,14 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-import { preambleMacros } from "./quartz/plugins/transformers/mathjaxPreamble"
+import { AllPackages } from "mathjax-full/js/input/tex/AllPackages.js"
+import { loadPreamble } from "./quartz/plugins/transformers/mathjaxPreamble"
+import {
+  PREAMBLE_PACKAGE,
+  registerPreamblePackage,
+  reportMathJaxError,
+} from "./quartz/plugins/transformers/mathjaxPreambleConfig"
+
+registerPreamblePackage(loadPreamble("content/preamble.sty"))
 
 /**
  * Quartz 4 Configuration
@@ -72,7 +80,12 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "mathjax", customMacros: preambleMacros }),
+      Plugin.Latex({
+        renderEngine: "mathjax",
+        mathJaxOptions: {
+          tex: { packages: [...AllPackages, PREAMBLE_PACKAGE], formatError: reportMathJaxError },
+        },
+      }),
       Plugin.Citations({ bibliographyFile: "./content/bibliography.bib", linkCitations: true, csl: "apa" }),
     ],
     filters: [Plugin.RemoveDrafts()],
