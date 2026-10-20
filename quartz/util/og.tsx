@@ -17,7 +17,9 @@ const defaultBodyWeight = [400]
 export async function getSatoriFonts(headerFont: FontSpecification, bodyFont: FontSpecification) {
   // Get all weights for header and body fonts
   const headerWeights: FontWeight[] = (
-    typeof headerFont === "string" ? defaultHeaderWeight : (headerFont.weights ?? defaultHeaderWeight)
+    typeof headerFont === "string"
+      ? defaultHeaderWeight
+      : (headerFont.weights ?? defaultHeaderWeight)
   ) as FontWeight[]
   const bodyWeights: FontWeight[] = (
     typeof bodyFont === "string" ? defaultBodyWeight : (bodyFont.weights ?? defaultBodyWeight)
@@ -42,7 +44,9 @@ export async function getSatoriFonts(headerFont: FontSpecification, bodyFont: Fo
   }
 
   // Fetch fonts for all weights and convert to satori format in one go
-  const headerFontPromises = headerWeights.map((weight) => fetchWithFallback(headerFontNames, weight))
+  const headerFontPromises = headerWeights.map((weight) =>
+    fetchWithFallback(headerFontNames, weight),
+  )
   const bodyFontPromises = bodyWeights.map((weight) => fetchWithFallback(bodyFontNames, weight))
 
   const [headerFonts, bodyFonts] = await Promise.all([

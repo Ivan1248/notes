@@ -5,7 +5,7 @@
   const currentTheme =
     urlTheme === "light" || urlTheme === "dark"
       ? urlTheme
-      : localStorage.getItem("theme") ?? userPref
+      : (localStorage.getItem("theme") ?? userPref)
   document.documentElement.setAttribute("saved-theme", currentTheme)
 
   const emitThemeChangeEvent = (theme: "light" | "dark") => {
