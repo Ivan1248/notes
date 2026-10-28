@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-22
+created: 2025-04-22
 ---
 $$
 \unit{nat} = \frac{1}{\ln(2)} \unit{bit}

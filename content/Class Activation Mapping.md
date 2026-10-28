@@ -1,5 +1,5 @@
 ---
-creation date: 2024-06-11
+created: 2024-06-11
 ---
 **Class Activated Mapping** (CAM) is a method for attributing class predictions of an image classifier with global average pooling to locations in the input.
 

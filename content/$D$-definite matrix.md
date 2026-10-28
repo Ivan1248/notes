@@ -1,5 +1,5 @@
 ---
-creation date: 2024-11-21
+created: 2024-11-21
 ---
 Let $D$ be a [[Set|set]].
 

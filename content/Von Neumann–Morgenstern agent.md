@@ -1,5 +1,5 @@
 ---
-creation date: 2024-06-17
+created: 2024-06-17
 ---
 Let $p\in[0\bidot 1]$. Let $L,M,N\colon X\to\R_{\geq 0}$ be [[Lottery|lotteries]]. Expressions of the form $N = (1-p) L + p M$ denote that $N(x) = (1-p)L(x) + p M(x)$.
 

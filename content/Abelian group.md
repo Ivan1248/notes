@@ -1,6 +1,6 @@
 ---
 tags:
-creation date: 2026-01-19
+created: 2026-01-19
 ---
 Let $G$ be a [[Set|set]].
 

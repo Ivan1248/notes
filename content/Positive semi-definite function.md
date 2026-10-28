@@ -1,4 +1,4 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 A **positive semi-definite function** is a [[Function|function]] $f\colon X \to \R$ such that $\forall x \in X: f(x) \geq 0$.

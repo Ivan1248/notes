@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-13
+created: 2025-02-13
 ---
 Let $X$ and $Y$ be [[Set|sets]].
 

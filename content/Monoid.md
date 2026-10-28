@@ -1,7 +1,7 @@
 ---
 aliases:
   - Closed associative algebraic structure with identity
-creation date: 2025-06-14
+created: 2025-06-14
 ---
 A **monoid** is an [[Algebraic structure|algebraic structure]] $(S, \circ)$ such that:
 - ([[Closed algebraic structure|closure]]) $\circ\colon S\times S\to S$,

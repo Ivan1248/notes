@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-28
+created: 2025-04-28
 ---
 The **inverse image** of a set $X'\subseteq X$ under the function $f\colon \Omega\to X$ is the set  
 $$

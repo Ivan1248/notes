@@ -1,4 +1,4 @@
 ---
-creation date: 2024-12-06
+created: 2024-12-06
 ---
 **Exaptation** (**co-option**) is a shift in the [[Function (bology)|function]] of a [[Trait (biology)|trait]] during [[Evolution|evolution]].

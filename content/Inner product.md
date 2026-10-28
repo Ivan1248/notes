@@ -1,6 +1,6 @@
 ---
 tags:
-creation date: 2026-01-19
+created: 2026-01-19
 ---
 Let $V$ be a [[Vector space|vector space]] over a [[Field|field]] $F\in \{\R, \C\}$.
 

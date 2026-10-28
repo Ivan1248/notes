@@ -1,5 +1,5 @@
 ---
-creation date: 2024-08-09
+created: 2024-08-09
 ---
 A **real random vector** is a [[Random variable|random variable]] $\rvec x\colon \Omega\to \R^n$, where $n\in \N$.  
 

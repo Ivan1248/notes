@@ -1,5 +1,5 @@
 ---
-creation date: 2024-01-26
+created: 2024-01-26
 ---
 ## Notes on [Kurzban et al. on opportunity cost models of mental fatigue and resource-based models of willpower](https://www.lesswrong.com/posts/HWvqNAc7aeeeWngEh/kurzban-et-al-on-opportunity-cost-models-of-mental-fatigue#) by Kaj Sotala (2013)
 

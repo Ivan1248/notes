@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-24
+created: 2025-04-24
 ---
 The **perplexity** of a [[Probability function|probability function]] $P$ is
 $$

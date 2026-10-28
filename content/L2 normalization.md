@@ -1,5 +1,5 @@
 ---
-creation date: 2023-12-12
+created: 2023-12-12
 ---
 Let $x\in \R^n$.
 Let $x\mapsto\lVert x\rVert$ be the [[L2 norm|$L^2$ norm]].

@@ -1,5 +1,5 @@
 ---
-creation date: 2023-12-03
+created: 2023-12-03
 ---
 - [[Overgeneralization]] 
 - [[Undergeneralization]] 

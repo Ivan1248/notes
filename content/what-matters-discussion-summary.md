@@ -1,5 +1,5 @@
 ---
-creation date: 2026-10-12
+created: 2026-10-12
 ---
 
 #private

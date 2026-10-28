@@ -1,5 +1,5 @@
 ---
-creation date: 2024-07-31
+created: 2024-07-31
 ---
 $Y'$ is a **codomain** of a [[Function|function]] $f$ iff $Y' \supseteq \operatorname{im}(f)$.
 

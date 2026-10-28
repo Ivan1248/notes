@@ -1,5 +1,5 @@
 ---
-creation date: 2025-03-22
+created: 2025-03-22
 ---
 Let $L$ be a [[Machine learning algorithm|machine learning algorithm]].  
 Let $D$ be [[Training data|training data]] for $L$.  

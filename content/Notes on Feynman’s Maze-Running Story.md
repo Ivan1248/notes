@@ -1,5 +1,5 @@
 ---
-creation date: 2024-11-28
+created: 2024-11-28
 ---
 [Feynman’s Maze-Running Story · Gwern.net](https://gwern.net/maze)
 

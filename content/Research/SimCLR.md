@@ -1,5 +1,5 @@
 ---
-creation date: 2024-01-12
+created: 2024-01-12
 ---
 #representation-learning #self-supervised-learning 
 

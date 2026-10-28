@@ -1,6 +1,6 @@
 ---
 tags:
-creation date: 2025-11-07
+created: 2025-11-07
 ---
 A **commutative semiring** is an [[Algebraic structure|algebraic structure]] $(K, +, \cdot)$ that satisfies the following:
 - $(K, +)$ is a [[Commutative monoid|commutative monoid]].

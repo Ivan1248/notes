@@ -1,5 +1,5 @@
 ---
-creation date: 2024-07-24
+created: 2024-07-24
 ---
 In [[Action-based ethical framework]].
 

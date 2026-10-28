@@ -1,5 +1,5 @@
 ---
-creation date: 2023-11-24
+created: 2023-11-24
 ---
 #### [Reward is not Enough](https://www.lesswrong.com/posts/frApEhpyKQAcFvbXJ/reward-is-not-enough)
 

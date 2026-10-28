@@ -1,5 +1,5 @@
 ---
-creation date: 2024-06-26
+created: 2024-06-26
 ---
 A **simple graph** is a [[Graph|graph]] $(V, E)$ where $V$ is an [[Anti-reflexive relation|anti-reflexive relation]].
 

@@ -1,5 +1,5 @@
 ---
-creation date: 2024-09-12
+created: 2024-09-12
 ---
 Related to Kegan's developmental stages:
 - [Developing ethical, social, and cognitive competence | Vividness](https://vividness.live/developing-ethical-social-and-cognitive-competence)

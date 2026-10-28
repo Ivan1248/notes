@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-28
+created: 2025-04-28
 ---
 Let $(\Omega, d)$ be a [[Metric space|metric space]].
 

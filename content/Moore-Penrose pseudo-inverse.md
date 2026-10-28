@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-02
+created: 2025-04-02
 ---
 Let $\v X\in\R^{m\times n}$.
 

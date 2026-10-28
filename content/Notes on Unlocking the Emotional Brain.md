@@ -1,5 +1,5 @@
 ---
-creation date: 2024-01-28
+created: 2024-01-28
 ---
 ## [Book summary: Unlocking the Emotional Brain](https://www.lesswrong.com/s/BP8vfvg5RhXsBERX9/p/i9xyZBS3qzA8nFXNQ) by Kaj Sotala
 

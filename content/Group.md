@@ -1,6 +1,6 @@
 ---
 tags:
-creation date: 2025-11-07
+created: 2025-11-07
 ---
 A **group** is an [[Algebraic structure|algebraic structure]] $(S, \circ)$ such that:
 - ([[Closed algebraic structure|closure]]) $\circ\colon S\times S\to S$,

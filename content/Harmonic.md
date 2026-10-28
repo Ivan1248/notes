@@ -1,5 +1,5 @@
 ---
-creation date: 2024-08-20
+created: 2024-08-20
 ---
 A **harmonic** of a [[Frequency|frequency]] $f$ (**fundamental frequency**) is a [[Sinusoid|sinusoid]] with frequency $kf$, where $k\in\N_{\geq 0}$.
 

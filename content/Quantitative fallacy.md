@@ -1,5 +1,5 @@
 ---
-creation date: 2024-05-10
+created: 2024-05-10
 ---
 Also known as McNamara fallacy.
 

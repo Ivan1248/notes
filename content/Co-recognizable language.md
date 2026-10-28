@@ -1,5 +1,5 @@
 ---
-creation date: 2025-06-15
+created: 2025-06-15
 aliases:
   - Semi-decidable language
   - Recursively-enumerable language

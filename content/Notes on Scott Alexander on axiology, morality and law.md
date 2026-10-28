@@ -1,5 +1,5 @@
 ---
-creation date: 2024-06-17
+created: 2024-06-17
 ---
 [Axiology, Morality, Law | Slate Star Codex](https://slatestarcodex.com/2017/08/28/contra-askell-on-moral-offsets/)
 

@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 **Grad-CAM** (Gradient [[Class Activation Mapping|Class Activation Mapping]]) is a method for attributing class predictions of a classifier to locations in the input.
 

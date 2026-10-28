@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-28
+created: 2025-04-28
 ---
 Let $g\colon X \to Y$ and $f\colon Y\to Z$ be [[Function|functions]] such that $\operatorname{im}(g) \subseteq \dom(f)$.
 

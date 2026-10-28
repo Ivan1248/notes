@@ -1,5 +1,5 @@
 ---
-creation date: 2024-10-14
+created: 2024-10-14
 ---
 Cilj je ostvariti automatsko odmućivanje fotografija algoritmom koji se temelji na strojnom učenju i dekonvoluciji.
 

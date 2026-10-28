@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 **Anosognosia** is a neurological condition in which the patient is unaware of their neurological deficit or psychiatric condition.
 

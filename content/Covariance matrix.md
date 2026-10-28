@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 The **covariance matrix** of a [[Real random vector|random vector]] $\rvec x\colon \Omega\to \R^n$ is the matrix $\Cov(\rvec x)\in\R^{n\times n}$ such that
 $$

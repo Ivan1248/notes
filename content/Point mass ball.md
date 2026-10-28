@@ -1,5 +1,5 @@
 ---
-creation date: 2023-11-14
+created: 2023-11-14
 ---
 A point mass ball is a frictionless rigid ball with all mass concentrated in its center. 
 

@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-08
+created: 2025-02-08
 ---
 ## Jupiter from Earth
 

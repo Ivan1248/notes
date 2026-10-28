@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-19
+created: 2025-02-19
 ---
 NF4 is a quantization method that quantizes sequences of real values to a $4$-bit code ($16$ values) and scale.
 

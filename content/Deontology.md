@@ -1,5 +1,5 @@
 ---
-creation date: 2024-07-24
+created: 2024-07-24
 ---
 **Deontology** is an [[Action-based ethical framework|action-based ethical framework]] that assigns [[Ethical value|ethical value]] to [[History of an agent|histories of agents]] $H\subset P\times A$ according to a finite **set of rules**
 

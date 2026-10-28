@@ -1,5 +1,5 @@
 ---
-creation date: 2025-01-03
+created: 2025-01-03
 ---
 Let $f\colon A\to B$ be a [[Real function]].  
 $f$ is **differentiable at** $x\in A$ iff the [[Limit]]

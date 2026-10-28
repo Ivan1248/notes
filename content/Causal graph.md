@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-28
+created: 2025-04-28
 ---
 A **causal graph** is a [[Directed acyclic graph|directed acyclic graph]] $(V, E)$ where:
 - the [[Graph|vertices]] in $V$ are [[Random variable|random variables]], and

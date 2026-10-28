@@ -1,5 +1,5 @@
 ---
-creation date: 2024-08-18
+created: 2024-08-18
 ---
 There are two kinds of type-B physicalism:
 - [[Phenomenal concept strategy physicalism]]

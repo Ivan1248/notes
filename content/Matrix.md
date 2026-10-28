@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 Let $S$ be a [[Set|set]].  
 Let $m,n\in\N_{\geq 1}$.

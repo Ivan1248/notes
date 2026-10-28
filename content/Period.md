@@ -1,5 +1,5 @@
 ---
-creation date: 2024-08-19
+created: 2024-08-19
 ---
 Let $f\colon X\to Y$ be a [[Periodic function|periodic function]].
 

@@ -1,5 +1,5 @@
 ---
-creation date: 2024-05-22
+created: 2024-05-22
 ---
 [[Cognitive bias]]
 

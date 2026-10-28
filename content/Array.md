@@ -1,5 +1,5 @@
 ---
-creation date: 2025-01-31
+created: 2025-01-31
 ---
 Let $S$ be a [[Set|set]].  
 Let $d_1, .., d_n \in \N_{\geq 1}$.  

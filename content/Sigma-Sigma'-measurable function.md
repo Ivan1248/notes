@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-28
+created: 2025-04-28
 ---
 A **$\Sigma$-$\Sigma'$-measurable function** on a [[Measurable space|measurable space]] $(\Omega,\Sigma)$ taking values in a [[Measurable space|measurable space]] $(X,\Sigma')$ is a [[Function|function]] $f\colon \Omega\to X$ such that
 $$ 

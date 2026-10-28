@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 ## Notes on [Steam - LessWrong](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam)
 

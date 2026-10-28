@@ -1,7 +1,7 @@
 ---
 tags:
-creation date: 2023-03-10
-edit date: 2026-10-20
+created: 2023-03-10
+modified: 2026-10-20
 ---
 
 ## Introduction

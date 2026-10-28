@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 An explanation is a [[Statement|statement]] about how _something unobserved_ [[Causal influence|causes]] _something observed_.
 

@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 An **attention operation** is a [[Function|function]] that is isomorphic to a function $f\colon \R^m\to\R^n$ that can be expressed as follows:
 $$

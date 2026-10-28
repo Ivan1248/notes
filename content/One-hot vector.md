@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-28
+created: 2025-04-28
 ---
 $\v x\in R^n$ is a one-hot vector if $\v x \in \{\cvec e_i: i=1\bidot n\}$, where
 $$

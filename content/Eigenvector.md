@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 Let $X$ and $Y$ be [[Vector space|vector spaces]] over a [[Field (Math)|field]] $R$.
 

@@ -1,5 +1,5 @@
 ---
-creation date: 2024-05-21
+created: 2024-05-21
 ---
 **Logic** is the study of valid reasoning.
 

@@ -1,5 +1,5 @@
 ---
-creation date: 2024-03-26
+created: 2024-03-26
 ---
 ```CSS
 :root {

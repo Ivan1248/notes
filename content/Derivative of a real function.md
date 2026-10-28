@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 Let $f$ be a [[Real function|real function]].  
 Let $S$ be the set in which $f$ is [[Differentiable function|differentiable]].

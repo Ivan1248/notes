@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-24
+created: 2025-04-24
 ---
 The **perplexity** of a [[Probability|probability]] $p\in[0\bidot 1]$ is
 $$

@@ -1,5 +1,5 @@
 ---
-creation date: 2024-03-03
+created: 2024-03-03
 ---
 # From [Links For February 2024 - by Scott Alexander](https://www.astralcodexten.com/p/links-for-february-2024)
 

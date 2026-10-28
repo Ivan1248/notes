@@ -1,5 +1,5 @@
 ---
-creation date: 2024-07-29
+created: 2024-07-29
 ---
 In the **map and territory correspondence** metaphor:
 - **territory** corresponds to for [[The world|the world]] or [[Fact|facts]], or "what is really there".

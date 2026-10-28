@@ -1,5 +1,5 @@
 ---
-creation date: 2024-08-19
+created: 2024-08-19
 ---
 A **periodic function** is a [[Function|function]] $f\colon X\to Y$ such that $X\in\{\R, \Z\}$ and
 $$

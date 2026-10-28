@@ -1,6 +1,6 @@
 ---
 tags:
-creation date: 2026-01-19
+created: 2026-01-19
 ---
 Let $x, y\in \R$ and $z = x + y\i \in \C$.
 

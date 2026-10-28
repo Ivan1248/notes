@@ -1,5 +1,5 @@
 ---
-creation date: 2024-11-18
+created: 2024-11-18
 ---
 Let there be $n$ perfect logicians and a speaker. Each logician has a black dot on his forehead. Neither logician knows or senses whether he has the dot. Each logician can always only observe the following:  
 	- see other logicians: whether they have the dot and whether they are sitting or standing up,  

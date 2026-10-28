@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-24
+created: 2025-04-24
 ---
 The **perplexity of a sequence distribution** $\P[\rvar x_1, .., \rvar x_n]$ **with respect to** a [[Sequence|sequence]] $(x_1, .., x_n)$ is
 $$

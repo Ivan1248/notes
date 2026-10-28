@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-28
+created: 2025-04-28
 ---
 The most common type of [[Attention operation|attention]] is multi-head dot-product attention, more commonly called _multi-head self-attention_. It was introduced in [Attention is All you Need](http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf). Here, we refer to such attention operations as _dot-product attention_ because the attention weights are computed based on dot products between embeddings of all input elements.
 

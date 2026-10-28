@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-28
+created: 2025-04-28
 ---
 Let $F$ be a [[Real function|real function]] that is [[Continuous function|continuous]] on $[a\bidot b]$ and [[Differentiability on a set|differentiable]] on $(a\bidot b)$.  
 Let $f$ be a [[Real function|real function]] that is [[Continuous function|continuous]] on $(a\bidot b)$.  

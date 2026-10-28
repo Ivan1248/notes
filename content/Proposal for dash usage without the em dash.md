@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 This is a proposal to simplify language rules and reduce the number of different dashes.
 

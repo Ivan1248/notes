@@ -1,5 +1,5 @@
 ---
-creation date: 2023-12-12
+created: 2023-12-12
 ---
 Let $x\in \R^n$.
 The $L^2$ norm of $x$ is

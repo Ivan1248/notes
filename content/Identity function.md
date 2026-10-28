@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 The **identity function** with domain $A$ is the [[Function|function]] $\operatorname{id}_{A}\colon A\to A$ such that
 $$

@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-28
+created: 2025-04-28
 ---
 Let $f\colon \bigtimes_{i=1}^n X_i \to Y$ be a [[Differentiable function|differentiable]] [[Real function|real function]].
 

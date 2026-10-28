@@ -1,5 +1,5 @@
 ---
-creation date: 2024-07-27
+created: 2024-07-27
 ---
 **Ethics** is the study of either or both of:
 1. what is _good_ or _bad_,

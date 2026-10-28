@@ -1,5 +1,5 @@
 ---
-creation date: 2024-07-18
+created: 2024-07-18
 ---
 Let $\rvar x\colon \Omega\to X$ be a [[Random variable|random variable]] on a [[Probability space|probability space]] $(\Omega,\Sigma,P)$ that takes values in a [[Measurable space|measurable space]] $(X,\Sigma')$.
 

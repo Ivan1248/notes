@@ -1,5 +1,5 @@
 ---
-creation date: 2024-02-03
+created: 2024-02-03
 ---
 #coordination
 - [Assurance contract - Wikipedia](https://en.wikipedia.org/wiki/Assurance_contract)

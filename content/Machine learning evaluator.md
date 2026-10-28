@@ -1,4 +1,4 @@
 ---
-creation date: 2025-06-14
+created: 2025-06-14
 ---
 A machine learning evaluator is a [[Function|function]] $f\colon M\to V$, where $M$ is a set of [[Machine learning model instance|machine learning model instances]] and $V$ is a [[Totally ordered set|totally ordered set]].

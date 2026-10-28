@@ -1,6 +1,6 @@
 ---
 tags:
-creation date: 2026-03-25
+created: 2026-03-25
 ---
 
 ## Mathematical writing

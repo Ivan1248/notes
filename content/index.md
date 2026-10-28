@@ -1,6 +1,6 @@
 ---
 tags:
-creation date: 2026-01-20
+created: 2026-01-20
 ---
 This is a partially published set of mostly terse notes about different topics. Some notes are incomplete or contain errors, and the website is not completely set up.
 

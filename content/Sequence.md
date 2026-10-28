@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 A **sequence** over a set $S$ is a [[Function|function]] from $N$ to $S$ where $N$ is a [[Subset|subset]] of [[Natural numbers|natural numbers]] $\N$.
 

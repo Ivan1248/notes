@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 Let there be a [[Matrix|matrix]] $\v A \in S^{m \times n}$.
 

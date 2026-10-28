@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-24
+created: 2025-04-24
 ---
 **Normal zero-entropy noise** is a [[Random variable|random variable]] $\rvec \epsilon\colon \Omega\to\R^n$ whose [[Distribution of a random variable|distribution]] is $\N(\cvec 0,(2\pi\mathrm{e})^{-1}\cvec I_n)$.
 

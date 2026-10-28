@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-28
+created: 2025-04-28
 ---
 A **closed (real) interval** is a [[Set|set]] $I\subseteq \R$ such that
 $$

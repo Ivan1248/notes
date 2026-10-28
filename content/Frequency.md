@@ -1,5 +1,5 @@
 ---
-creation date: 2024-08-19
+created: 2024-08-19
 ---
 The **frequency** of a [[Periodic function|periodic function]] $f$ with [[Period|period]] $T>0$ is $1/T$.
 

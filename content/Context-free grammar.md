@@ -1,4 +1,4 @@
 ---
-creation date: 2024-07-15
+created: 2024-07-15
 ---
 A **context-free grammar** is a [[Formal grammar|formal grammar]] $(V, T, P, S)$, where $P$ is a subset of $V^* \times (V \cup T)^*$.

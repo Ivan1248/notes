@@ -1,6 +1,6 @@
 ---
 tags:
-creation date: 2026-02-09
+created: 2026-02-09
 ---
 How to set up suggestions and rendering of citations from a BibTeX file in Obsidian and Quartz like in LaTeX.
 

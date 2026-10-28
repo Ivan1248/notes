@@ -1,5 +1,5 @@
 ---
-creation date: 2024-07-31
+created: 2024-07-31
 ---
 Let $f\colon X\to Y$ be a [[Function|function]].
 

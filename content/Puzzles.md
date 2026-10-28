@@ -1,5 +1,5 @@
 ---
-creation date: 2024-05-15
+created: 2024-05-15
 ---
 
 [Puzzle 43 | Muddy Heads - GeeksforGeeks](https://www.geeksforgeeks.org/puzzle-43-muddy-heads/)

@@ -1,5 +1,5 @@
 ---
-creation date: 2026-02-20
+created: 2026-02-20
 ---
 1. Vert (`|` $\to$ $|$) and mid (`\mid` $\to$  $\mid$)
 	- Prefer `|` over `\vert`.

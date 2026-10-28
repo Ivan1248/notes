@@ -1,7 +1,7 @@
 ---
 aliases:
   - Neutral element
-creation date: 2025-06-14
+created: 2025-06-14
 ---
 See [Definition:Identity (Abstract Algebra)/Two-Sided Identity - ProofWiki](https://proofwiki.org/wiki/Definition:Identity_(Abstract_Algebra)/Two-Sided_Identity).
 

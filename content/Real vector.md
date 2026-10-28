@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 A **real vector** $\vec x$ is an element of $\R^n$, where $n\in \N$.
 

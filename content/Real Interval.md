@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-06
+created: 2025-02-06
 ---
 A **(real) interval** is a [[Set|set]] $I\subseteq \R$ such that  
 $$\forall a, b\in I : a< b\implies \exists c\in I : a < c < b\text.$$

@@ -1,7 +1,7 @@
 ---
 aliases:
   - Recursive language
-creation date: 2025-06-15
+created: 2025-06-15
 ---
 Let $L$ be a [[Formal language|language]] over $A$.
 

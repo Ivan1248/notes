@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-28
+created: 2025-04-28
 ---
 $E$ is on **event** of a [[Probability space|probability space]] $(\Omega,\Sigma,P)$ iff $E \in \Sigma$.
 

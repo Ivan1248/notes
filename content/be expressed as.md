@@ -1,5 +1,5 @@
 ---
-creation date: 2025-03-26
+created: 2025-03-26
 ---
 Let $f\colon A\to B$.
 

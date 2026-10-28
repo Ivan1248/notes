@@ -1,5 +1,5 @@
 ---
-creation date: 2024-01-26
+created: 2024-01-26
 ---
 
 | fitting      | generalization                          | training performance | test performance | effect of training data on test data |

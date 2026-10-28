@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-22
+created: 2025-04-22
 ---
 A **subset of** a [[Set|set]] $A$ is a set $B$ such that $\forall b\in B : b\in A$.
 

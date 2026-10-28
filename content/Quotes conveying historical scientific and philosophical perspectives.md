@@ -1,6 +1,6 @@
 ---
 tags:
-creation date: 2026-08-23
+created: 2026-08-23
 ---
 Historically, many questions whose answers we take for granted were mysteries and hard problems. Without modern scientific knowledge, intellectuals had very different hypotheses about nature that may be surprising to us, and may help us better understand our position with respect to things that are mysteries to us.  
 

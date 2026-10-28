@@ -1,5 +1,5 @@
 ---
-creation date: 2025-02-13
+created: 2025-02-13
 ---
 Let $S=(\Omega,\Sigma,P)$ be a [[Probability space|probability space]].  
 Let $\rvar h$ be a [[Random variable|random variable]] on $S$.  

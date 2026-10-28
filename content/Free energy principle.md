@@ -1,5 +1,5 @@
 ---
-creation date: 2024-02-22
+created: 2024-02-22
 ---
 #biophysics #cognitive-science #ai #information-physics #physics
 

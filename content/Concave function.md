@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-28
+created: 2025-04-28
 ---
 Let $I$ be a real interval.  
 Let $f\colon I\to\R$.  

@@ -1,7 +1,7 @@
 ---
 tags:
   - definition
-creation date: 2025-11-07
+created: 2025-11-07
 ---
 A **commutative monoid** is an [[Monoid|monoid]] $(K, \circ)$ such that $\circ$ is [[Commutative operation|commutative]].
 

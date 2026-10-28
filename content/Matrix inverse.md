@@ -1,6 +1,6 @@
 ---
 tags:
-creation date: 2026-01-22
+created: 2026-01-22
 ---
 Let $\v A$ be a $n\times n$ [[Square matrix|square matrix]].
 

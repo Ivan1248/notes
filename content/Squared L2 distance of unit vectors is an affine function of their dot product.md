@@ -1,6 +1,6 @@
 ---
 tags:
-creation date: 2026-08-09
+created: 2026-08-09
 ---
 1. Let $n\in\N_{\geq 1}$,
 2. Let $\vec x,\vec y \in \R^n$, and

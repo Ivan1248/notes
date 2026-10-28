@@ -1,5 +1,5 @@
 ---
-creation date: 2024-07-31
+created: 2024-07-31
 ---
 A **functional** is a [[Function|function]] from a [[Set|set]] of functions $S$ to the [[Real numbers|real numbers]] $\R$.
 

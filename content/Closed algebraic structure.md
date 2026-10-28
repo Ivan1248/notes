@@ -1,6 +1,6 @@
 ---
 tags:
-creation date: 2025-06-14
+created: 2025-06-14
 aliases:
   - Closure of an algebraic structure
 ---

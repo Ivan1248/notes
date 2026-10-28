@@ -1,5 +1,5 @@
 ---
-creation date: 2024-01-27
+created: 2024-01-27
 ---
 Let $A$ be the option that we choose. Let option $B$ be the best alternative option. The **opportunity cost** of choosing option $A$ is the value of choosing option $B$.
 

@@ -1,5 +1,5 @@
 ---
-creation date: 2025-04-28
+created: 2025-04-28
 ---
 Synonyms: loop-graph, loop graph, directed graph, digraph, loop-digraph.
 

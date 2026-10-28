@@ -1,5 +1,5 @@
 ---
-creation date: 2024-09-21
+created: 2024-09-21
 ---
 - If wealth is distributed well:
 	- more free time

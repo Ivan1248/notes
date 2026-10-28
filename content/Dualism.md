@@ -1,5 +1,5 @@
 ---
-creation date: 2024-09-01
+created: 2024-09-01
 ---
 In [[Metaphysics]].
 
