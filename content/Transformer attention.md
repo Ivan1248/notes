@@ -1,11 +1,11 @@
 ---
 created: 2025-04-28
 ---
-The most common type of [[Attention operation|attention]] is multi-head dot-product attention, more commonly called _multi-head self-attention_. It was introduced in [Attention is All you Need](http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf). Here, we refer to such attention operations as _dot-product attention_ because the attention weights are computed based on dot products between embeddings of all input elements.
-
+The most common type of [[Attention operation|attention]] is multi-head dot-product attention, more commonly called _multi-head self-attention_. It was introduced by @Vaswani:2017:AIAYN. Here, we refer to such attention operations as _dot-product attention_ because the attention weights are computed based on dot products between embeddings of all input elements.
+	
 Multi-head dot-product attention functions are a subset of $\R^{T× C}\to\R^{T× C'}$, where $T,C,C'\in\N$. We refer to the rows of the input and the output as their elements or tokens.
 
-Each output element depends on all input elements, but not on their positions. That is, the operation is permutation equivariant. To introduce relative or absolute positional dependence, [positional encoding](http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf) can be applied.  
+Each output element depends on all input elements, but not on their positions. That is, the operation is permutation equivariant. To introduce relative or absolute positional dependence, positional encoding [@Vaswani:2017:AIAYN, sec. 3.5] can be applied.  
 
 ## Notation
 
@@ -13,7 +13,7 @@ Each output element depends on all input elements, but not on their positions. T
 
 ## Scaled dot-product attention
 
-**(Standard scaled) dot-product attention** is a [[Function|function]] $\operatorname{attn}\colon \R^{T× D_\text{K}}\times\R^{T× D_\text{K}}\times\R^{T× D_\text{V}} \to \R^{T× D_\text{V}}$ that is computed as follows:
+**(Standard scaled) dot-product attention** is a [[Function|function]] $\operatorname{attn}\colon \R^{T× D_\text{K}}\times\R^{T× D_\text{K}}\times\R^{T× D_\text{V}} \to \R^{T× D_\text{V}}$ that is computed as follows [@Vaswani:2017:AIAYN, sec. 3.2.1]:
 $$
 \begin{align}
 	\operatorname{attn}(\v Q, \v K, \v V) &= \v Y \text{, } \\
@@ -33,7 +33,7 @@ Note that $\v Q, \v K \in \R^{T× D_\text{K}}$, $\v V\in \R^{T× D_\text{V}}$, $
 
 Each output vector, $\operatorname{attn}(\v Q, \v K, \v V)[t,:]$, is a [convex combination](https://proofwiki.org/wiki/Definition:Convex_Combination) of "values" $\v V[u,:]$, where the weights are proportional to exponentiated scaled dot-products of the corresponding "query" $\v Q[t,:]$, with "keys" $\v K[u,:]$.  
 
-Paraphrased from [Attention is All you Need](http://papers.nips.cc/paper/7181-attention-is-all-you-need.pdf):
+Paraphrased from @Vaswani:2017:AIAYN [sec. 3.2.1]:
 > To illustrate why the dot products get large, assume that the components of $\rvec q$ and $\rvec k$ are independent random variables with mean $0$ and variance $1$. Then their dot product, $\rvec q^\transpose \rvec k$, has mean $0$ and variance $D_\text{k}=\dim(\v q)$.
 
 ## Dot-product self-attention head
@@ -78,7 +78,7 @@ $$
 
 ## Multi-head (dot product) self-attention
 
-**Multi-head (dot product) self-attention** consists of $H$ heads in parallel with parameters ${\v W_\text{K}}_i, {\v W_\text{Q}}_i \in \R^{C× D_\text{K}}$, ${\v W_\text{V}}_i \in \R^{C× D_\text{V}}$, $i=1 \bidot H$, and a matrix multiplication with parameters $\v W_\text{O}\in \R^{{HD_\text{V}}× C'}$, which produces an output $\v Y\in \R^{T× C'}$ as follows:
+**Multi-head (dot product) self-attention** consists of $H$ heads in parallel with parameters ${\v W_\text{K}}_i, {\v W_\text{Q}}_i \in \R^{C× D_\text{K}}$, ${\v W_\text{V}}_i \in \R^{C× D_\text{V}}$, $i=1 \bidot H$, and a matrix multiplication with parameters $\v W_\text{O}\in \R^{{HD_\text{V}}× C'}$, which produces an output $\v Y\in \R^{T× C'}$ as follows [@Vaswani:2017:AIAYN, sec. 3.2.2]:
 $$
 \begin{align}  
 &\operatorname{mhsa}(\v X, (({\v W_\text{K}}_i, {\v W_\text{Q}}_i, {\v W_\text{V}}_i): i=1\bidot H), \v W_\text{O})  
@@ -97,7 +97,7 @@ where ${\v W_\text{O}}_i = {\v W_\text{O}}[1+Hi\bidot H(i+1),:] \in \R^{D_\text{
 
 ### Notes
 
-- A standard implementation has $D_\text{V}=D_\text{K}=C/H$.
+- A standard implementation has $D_\text{V}=D_\text{K}=C/H$ [@Vaswani:2017:AIAYN, sec. 3.2.2].
 - The output can also be expressed as $\v Y[t, f] = \sum_{i,c,u} \v A_i[t,u]\v X[u, c] {\v W_\text{V}}_i[c,e]{\v W_\text{O}}_i[e,f].$ This expression suggests that ${\v W_\text{V}}_i$ ${\v W_\text{O}}_i$ can be merged into a matrix ${\v W_\text{VO}}_i = {\v W_\text{V}}_i {\v W_\text{O}}_i \in \R^{C× C'}$. However, this would entail more parameters and a greater computational expense in the usual case when $D_\text{V}=D_\text{K}=C/H$.
 - Dot product self-attention (like attention heads) is equivariant to permutations of elements of the input.
 

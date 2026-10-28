@@ -1,5 +1,7 @@
 ---
 created: 2025-04-28
+tags:
+  - private
 ---
 
 ## An open letter to Steven Pinker
