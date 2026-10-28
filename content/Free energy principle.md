@@ -1,3 +1,6 @@
+---
+creation date: 2024-02-22
+---
 #biophysics #cognitive-science #ai #information-physics #physics
 
 From https://en.wikipedia.org/wiki/Free_energy_principle:

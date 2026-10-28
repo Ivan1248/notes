@@ -1,3 +1,6 @@
+---
+creation date: 2024-03-03
+---
 # From [Links For February 2024 - by Scott Alexander](https://www.astralcodexten.com/p/links-for-february-2024)
 
 > **19:** Claim: nine people in a family in Scotland have [a mutation in the RIMS1 gene](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2740882/), which makes them go blind in their twenties and also apparently adds 20 IQ points. Large single-gene effects on IQ are [not supposed to exist](https://www.astralcodexten.com/p/evolution-explains-polygenic-structure), but it’s theoretically possible that a rare mutation with a big downside could do it. I’m still a little skeptical, because this seems trivial enough that evolution should have found a way to do it without the blindness by now. But at least on a superficial reading the paper looks good.

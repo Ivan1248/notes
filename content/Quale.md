@@ -1,3 +1,6 @@
+---
+creation date: 2024-08-13
+---
 A **quale** (plural: qualia) is a component of a [[Phenomenal state|phenomenal state]].
 
 ## Notes

@@ -1,3 +1,6 @@
+---
+creation date: 2024-11-21
+---
 Let $D$ be a [[Set|set]].
 
 A [[Square matrix|square matrix]] $\v A\in \R^{n\times n}$ is **$D$-definite** iff $\forall \v x \in \R^{n}: \v x^\transpose \v A \v x \in D$.

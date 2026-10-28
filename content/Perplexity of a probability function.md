@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-24
+---
 The **perplexity** of a [[Probability function|probability function]] $P$ is
 $$
 \operatorname{PP}(P) = \exp(\H(P)) = \prod_{x\in\dom(P)} P(x)^{-P(x)} \text.
@@ -18,7 +21,7 @@ $$
 
 ### Effective number of outcomes
 
-Perplexity can interpreted as the effective number of outcomes with non-zero probability. If the perplexity is an integer, it equals the number of outcomes of a uniform distribution that has the same entropy. For example, suppose that $P$ assigns probabilities $1/n$ to each of $n$ outcomes and $0$ to all others. In this case, perplexity exactly equals the number of non-zero probabilities:
+Perplexity can be interpreted as the effective number of outcomes with non-zero probability. If the perplexity is an integer, it equals the number of outcomes of a uniform distribution that has the same entropy. For example, suppose that $P$ assigns probabilities $1/n$ to each of $n$ outcomes and $0$ to all others. In this case, perplexity exactly equals the number of non-zero probabilities:
 $$
 \operatorname{PP}(P) = n = \lvert\{x \in \dom(P) : P(x) \neq 0\}\rvert.
 $$

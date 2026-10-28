@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-03
+---
 Let $f\colon X\to Y$ be a [[Function|mapping]].  
 Let $X'$ and $Y'$ be sets.  
 Let $Z\subseteq X'\times Y'$.  

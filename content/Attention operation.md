@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-06
+---
 An **attention operation** is a [[Function|function]] that is isomorphic to a function $f\colon \R^m\to\R^n$ that can be expressed as follows:
 $$
 f(\v x) = f_g(f_1(\v x)\odot f_2(\v x), f_3(\v x)) \text,

@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-02
+---
 Assumptions about attacks:
 
 - Backdoor examples have similar self-supervised (SimCLR) representations to clean examples from their original class.

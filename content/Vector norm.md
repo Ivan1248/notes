@@ -1,3 +1,6 @@
+---
+creation date: 2024-09-10
+---
 ## Real vector space
 
 A **norm** on a [[Real vector space|real vector space]] $V$ is a [[Function|function]] $\lVert\cdot\rVert\colon V\to\R_{\geq 0}$ such that:

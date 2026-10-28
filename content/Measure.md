@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-28
+---
 Let $(\Omega,\Sigma)$ be a [[Measurable space|measurable space]].
 
 A **measure** on $\Sigma$ is a [[Function|function]] $\mu\colon \Sigma \to \R \cup \{-\infty,+\infty\}$ such that:

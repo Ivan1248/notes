@@ -1,3 +1,6 @@
+---
+creation date: 2024-12-19
+---
 - [\*Miracle at Puri Rath Yatra 2022. Heavy rain but one single drop of rain is not near Nandighosa - YouTube](https://youtube.com/watch?v=PDIPFyZOgsk&feature=shared)
 - [Rain on one side of the street](https://www.youtube.com/shorts/XjXvkIzUTtk)
 - [Edge of the Rain - YouTube](https://www.youtube.com/watch?v=VECM4j7qOCE&pp=ygUMRWRnZSBvZiBSYWlu)

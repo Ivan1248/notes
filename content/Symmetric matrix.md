@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-06
+---
 A [[Square matrix|square matrix]] $\v A\in \R^d$ is **symmetric** iff $\forall (i,j) \in \{1\bidot d\}^2 : \v A[i, j] = \v A[j,i]$.
 
 ## Equivalent definition

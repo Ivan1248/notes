@@ -1,8 +1,13 @@
+---
+creation date: 2025-02-06
+---
 [[Links - secondary]]  
 [[Funny links]]  
 [[Neuroscience and cognition links]]
 
 ## 2026-10
+
+[Every AI model has the same "controversial" take on humans \| Hacker News](https://news.ycombinator.com/item?id=50197313)
 
 [Scientists Are Teaching Birds to Sing Lost Songs \| Hacker News](https://news.ycombinator.com/item?id=50087337)
 

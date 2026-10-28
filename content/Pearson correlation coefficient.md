@@ -1,3 +1,6 @@
+---
+creation date: 2024-07-15
+---
 Let $X$ and $Y$ be [[Random variable|random variables]] with [[Real numbers|finite]] variances. 
 
 The **Pearson correlation coefficient** of $X$ and $Y$ is

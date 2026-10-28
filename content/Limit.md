@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-03
+---
 ## Limit of a real Function
 
 Let $f$ be a [[Real function|real function]].

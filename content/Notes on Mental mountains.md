@@ -1,3 +1,6 @@
+---
+creation date: 2024-01-28
+---
 Notes on the [Mental mountains](https://slatestarcodex.com/2019/11/26/mental-mountains/) essay by Scott Alexander.
 
 ## I.

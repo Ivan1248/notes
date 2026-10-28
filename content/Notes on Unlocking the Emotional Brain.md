@@ -1,3 +1,6 @@
+---
+creation date: 2024-01-28
+---
 ## [Book summary: Unlocking the Emotional Brain](https://www.lesswrong.com/s/BP8vfvg5RhXsBERX9/p/i9xyZBS3qzA8nFXNQ) by Kaj Sotala
 
 >UtEB’s premise is that much if not most of our behavior is driven by emotional learning. Intense emotions generate unconscious predictive models of how the world functions and what caused those emotions to occur.

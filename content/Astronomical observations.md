@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-08
+---
 ## Jupiter from Earth
 
 [Jupiter on Aug 9th - Double shadow transit of Io & Ganymede. : r/astrophotography](https://www.reddit.com/r/astrophotography/comments/wlw38e/jupiter_on_aug_9th_double_shadow_transit_of_io/)

@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-06
+---
 - [Startup Jobs at YC Companies in Engineering, Product, Design, Remote and more | Y Combinator's Work at a Startup](https://www.workatastartup.com/)
 - [Wellfound (formerly AngelList Talent) - Startup Job Search](https://wellfound.com/)
 - [Boston Tech & Startups | Built In Boston](https://www.builtinboston.com/)

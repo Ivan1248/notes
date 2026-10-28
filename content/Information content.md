@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-22
+---
 The **information content** of a probability $p$ is  
 $$\h(p)=-\ln(p) \unit{nat} \text.$$  
 Defining $\unit{nat} = 1$,  

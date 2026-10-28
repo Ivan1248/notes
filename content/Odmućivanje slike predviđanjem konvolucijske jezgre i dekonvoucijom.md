@@ -1,3 +1,6 @@
+---
+creation date: 2024-10-14
+---
 Cilj je ostvariti automatsko odmućivanje fotografija algoritmom koji se temelji na strojnom učenju i dekonvoluciji.
 
 ## Prijedlog dijelova projekta
@@ -27,7 +30,7 @@ Glavne komponente algoritma učenja:
 4. Funkcija gubitka (pogreška rekonstrukcije s regularizacijom).
 5. Korak petlje učenja koji radi sljedeće:
 	1. Uzorkuje nekoliko slika, za svaku sliku generira nasumičnu jezgru i zamuti ju. (Rezultat je trojka koja se sastoji od čiste slike, konvolucijske jezgre i zamućene slike.)
-	2. Primijeni model za odmućivanje na zamućenu sliku. Rezultat je procjena odmućene slike (rekonstrirana slika). PyTorch pamti međurezultate za računanje gradijenta.
+	2. Primijeni model za odmućivanje na zamućenu sliku. Rezultat je procjena odmućene slike (rekonstruirana slika). PyTorch pamti međurezultate za računanje gradijenta.
 	3. Računa gubitak (npr. srednja kvadratna pogreška) između rekonstruirane i originalne slike.
 	4. Računa gradijent pogreške rekonstrukcije s obzirom na parametre modela.
 	5. Primjenjuje korak optimizacije na parametre modela.

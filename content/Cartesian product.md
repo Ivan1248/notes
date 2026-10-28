@@ -1,3 +1,6 @@
+---
+creation date: 2024-07-06
+---
 ## Binary
 
 Let $(a,b)$ be the notation for an [[Ordered pair|ordered pair]] 

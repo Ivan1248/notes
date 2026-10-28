@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-13
+---
 The **probability function of** a [[Random variable|random variable]] $\rvar x\colon\Omega\to X$ on a [[Probability space|probability space]] $S=(\Omega,\Sigma,P)$ is a [[Function|function]] $\P_{\rvar x,S}\colon X\to[0\bidot 1]$ such that $\forall x\in X: \P_{\rvar x,S}(x) = P(\rvar x = x)$.  
 
 ## Notation

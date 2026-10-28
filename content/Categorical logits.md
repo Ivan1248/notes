@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-28
+---
 #definition
 
 Let $p\colon \{1,\bidot K\} \to (0\bidot 1): i\mapsto p_{i}$ be the probability function of a categorical distribution.

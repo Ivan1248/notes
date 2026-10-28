@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-10
+---
 Let $I=\{1\bidot m\}$.  
 Let the **set of data vectors** be a [[Finite set|finite set]] $\rvar W=\{\rvec w_i : i\in I\}$ of $\R^n$-valued [[Independent and identically distributed random variables|IID random]] [[Vector|vectors]].  
 Let the [[Covariance matrix|covariance matrix]] of $\rvec w_i$ be $\mathbfit\Sigma$.

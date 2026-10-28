@@ -1,3 +1,6 @@
+---
+creation date: 2023-12-07
+---
 #definition 
 
 $\sigma\colon \R\to(0\bidot 1)$ is the logistic function if

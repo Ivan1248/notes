@@ -1,3 +1,6 @@
+---
+creation date: 2024-11-28
+---
 [Feynman’s Maze-Running Story · Gwern.net](https://gwern.net/maze)
 
 The article investigates what research Feynman$_{1974}$ referred to in the anecdote:

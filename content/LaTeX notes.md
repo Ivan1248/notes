@@ -1,3 +1,6 @@
+---
+creation date: 2024-01-22
+---
 ## Kopiranje izraza iz PDF-a
 
 Ovo u Chromeu, ali ne u Foxitu, omogućuje da se iz PDF-a kopira LaTeX matematičkih izraza:

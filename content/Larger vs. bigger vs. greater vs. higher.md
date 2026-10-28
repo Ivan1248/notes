@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-28
+---
 | Word    | Meaning                                                                                 | Formality |
 | ------- | --------------------------------------------------------------------------------------- | --------- |
 | greater | 1. greater (referring to a number/quantity/measure)<br>2. being more skillful or better | high      |

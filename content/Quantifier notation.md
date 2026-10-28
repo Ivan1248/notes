@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-06
+---
 We can define quantifier notation that is more consistent with summation and product notation:
 - $\bigvee_{x\in X} P(x) \equiv \exists x\in X: P(x)$.
 - $\bigwedge_{x\in X} P(x) \equiv \forall x\in X:  P(x)$.

@@ -1,3 +1,6 @@
+---
+creation date: 2023-12-30
+---
 $$
 P(A\to B) = P(A) P(B\mid A) + 1-P(A)
 $$

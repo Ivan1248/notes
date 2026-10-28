@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-28
+---
 Let $X$ and $Y$ be [[Random variable|random variables]] with [[Real numbers|finite]] variances.
 
 The **covariance** of $X$ and $Y$ is

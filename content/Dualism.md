@@ -1,3 +1,6 @@
+---
+creation date: 2024-09-01
+---
 In [[Metaphysics]].
 
 **Dualism** is the statement that there are 2 [[Ontologically primitive|ontologically primitive]] [[Undefined|substances]]:

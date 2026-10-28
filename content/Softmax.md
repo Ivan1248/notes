@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-28
+---
 #definition 
 
 $\softmax\colon \R^n\to(0\bidot 1)^n$ is the softmax function iff

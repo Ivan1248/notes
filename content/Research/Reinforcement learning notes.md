@@ -1,3 +1,6 @@
+---
+creation date: 2023-11-24
+---
 #### [Reward is not Enough](https://www.lesswrong.com/posts/frApEhpyKQAcFvbXJ/reward-is-not-enough)
 
 >Well, we want to train the bird to sing the song correctly. So it’s easy: the bird practices singing, and it listens to its own song using the song-assessing black box, and it does RL using the rule:

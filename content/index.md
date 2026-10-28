@@ -5,6 +5,7 @@ creation date: 2026-01-20
 This is a partially published set of mostly terse notes about different topics. Some notes are incomplete or contain errors, and the website is not completely set up.
 
 Some notes:
+- [[An Introduction to Hamiltonian Monte Carlo]]
 - [[Bayesian inference|Bayesian inference]]
 - [[Big-O (Real analysis)|Big-O (Real analysis)]]
 - [[BibTex citations in Obsidian and Quartz]]

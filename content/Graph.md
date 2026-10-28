@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-28
+---
 Synonyms: loop-graph, loop graph, directed graph, digraph, loop-digraph.
 
 A **graph** is a [[Ordered pair|pair]] $G=(V, E)$ where

@@ -1,3 +1,6 @@
+---
+creation date: 2024-02-02
+---
 Let $f\colon X \to Y$ be a [[Function|function]].
 
 $f$ is a **surjection** onto $Y'$ iff $\operatorname{im}(f)=Y'$.

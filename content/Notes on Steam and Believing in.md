@@ -1,7 +1,9 @@
+---
+creation date: 2025-02-06
+---
 ## Notes on [Steam - LessWrong](https://www.lesswrong.com/posts/inedT6KkbLSDwZvfd/steam)
 
 >So, in an individual person, steam is something like energy/willpower/interest.
-b
 ### Losing steam
 
 >Losing steam can be an important aspect of getting things done. Losing steam helps agents solve the [procrastination paradox](https://www.lesswrong.com/posts/5a9Xz3mhYF6c2Zwgn/procrastination-paradoxes-the-good-the-bad-and-the-ugly). Roughly: if you expect yourself to do something for sure, then you can always put it off, so you might never get it done. If steam is a finite resource which you have to allocate carefully, you can't get away with procrastination like this.
@@ -18,7 +20,7 @@ b
 
 >A slightly more sophisticated model of "steam" is _the force that moves action probabilities around_.
 
-### Steam as comon knowledge
+### Steam as common knowledge
 
 >The concept of steam seems closely related to the Overton window. As things gain steam from zero, they fall further and further within the Overton window. Something with a ton of steam feels inevitable.
 

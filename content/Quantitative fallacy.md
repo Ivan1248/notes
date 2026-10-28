@@ -1,3 +1,6 @@
+---
+creation date: 2024-05-10
+---
 Also known as McNamara fallacy.
 
 **Quantitative fallacy** is the fallacy of making decisions based only on observations that can be (easily) quantified.

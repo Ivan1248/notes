@@ -1,3 +1,6 @@
+---
+creation date: 2024-01-26
+---
 ## Notes on [Kurzban et al. on opportunity cost models of mental fatigue and resource-based models of willpower](https://www.lesswrong.com/posts/HWvqNAc7aeeeWngEh/kurzban-et-al-on-opportunity-cost-models-of-mental-fatigue#) by Kaj Sotala (2013)
 
 >Kurzban et al. suggest an opportunity cost model, where intense focus on a single task means that we become less capable of using our mental resources for anything else, and accumulating mental fatigue is part of a cost-benefit calculation that encourages us to shift our attention instead of monomaniacally concentrating on just one task which may not be the most rewarding possible. Correspondingly, the amount of boredom or mental fatigue we experience with a task should correspond with the perceived rewards from other tasks available at the moment. A task will feel more boring/effortful if there's something more rewarding that you could be doing instead (i.e. if the opportunity costs for pursuing your current task are higher), and if it requires exclusive use of cognitive resources that could also be used for something else.

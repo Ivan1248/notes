@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-06
+---
 Let $S$ be a [[Set|set]].  
 Let $m,n\in\N_{\geq 1}$.
 
@@ -5,7 +8,7 @@ A **matrix** is an [[Array|array]] $\v A\in S^{m\times n}$.
 
 ## Equivalent definition
 
-A **matrix** is a [[Function|function]] $\v A\colon\{1\bidot m\}\times\{1\bidot n\}\to S$..
+A **matrix** is a [[Function|function]] $\v A\colon\{1\bidot m\}\times\{1\bidot n\}\to S$.
 
 ## Related
 

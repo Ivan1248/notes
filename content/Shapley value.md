@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-06
+---
 ## Definition through properties
 
 The Shapley value of a [[Coalitional game|coalitional game]] $(v, P)$ is a [[Function|function]] $\phi(v)\colon P\to [0\bidot 1]$ with properties:

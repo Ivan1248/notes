@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-06
+---
 ## Definition 1
 
 A **singular matrix** is a [[Square matrix|square matrix]] $\v A$ such that $\det(\v A) = 0$.

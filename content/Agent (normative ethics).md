@@ -1,3 +1,6 @@
+---
+creation date: 2024-07-24
+---
 In [[Action-based ethical framework]].
 
 Let $P$ (set of **perceptions**) be a set.  

@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-02
+---
 Let $\v X\in\R^{m\times n}$.
 
 The **Moore-Penrose pseudo-inverse of** $\v X$ is

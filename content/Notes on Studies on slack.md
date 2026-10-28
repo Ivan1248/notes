@@ -1,3 +1,6 @@
+---
+creation date: 2024-02-12
+---
 
 [Studies on Slack - Slate Star Codex](https://slatestarcodex.com/2020/05/12/studies-on-slack/)
 

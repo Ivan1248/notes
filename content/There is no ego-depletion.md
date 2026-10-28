@@ -1,3 +1,6 @@
+---
+creation date: 2024-07-29
+---
 From [The Last Thing You Need to Know About Ego Depletion | Psychology Today](https://www.psychologytoday.com/intl/blog/the-motivated-brain/202012/the-last-thing-you-need-know-about-ego-depletion):
 > The outlook suddenly changed in 2010. That year, Martin Hagger and colleagues published a [meta-analysis](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fa0019486) that found support for the ego depletion effect but also noticed that people with greater motivation to do a task were less depleted by it. That result raised some eyebrows. If self-control is limited by some hard resource, how much you want to use it shouldn’t make a difference. Around the same time, Robert Kurzban published a [critique](https://journals.sagepub.com/doi/full/10.1177/147470491000800208) of the claim that glucose is that “hard resource,” arguing with devastating clarity that it is impossible for even extreme amounts of self-control to meaningfully deplete a metabolic resource.
 > 

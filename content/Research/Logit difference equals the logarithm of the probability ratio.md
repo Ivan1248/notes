@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-06
+---
 #theorem #classification
 
 Let (logits) $s_i \in \R$,  $i\in\{1\bidot K\}$.  

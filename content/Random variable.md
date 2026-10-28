@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-28
+---
 A **random variable** on a [[Probability space|probability space]] $(\Omega,\Sigma,P)$ taking values in a [[Measurable space|measurable space]] $(X,\Sigma')$ is a [[Function|function]] $\rvar x\colon \Omega\to X$ such that
 $$  
     \forall X'\in \Sigma': \rvar x^{-1}(X')\in \Sigma \text.  

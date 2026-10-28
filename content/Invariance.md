@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-28
+---
 Let $X$ and $Y$ be sets.  
 Let $f\colon X\to Y$ and $g\colon X\to X$.  
 $f$ is **invariant to** $g$ iff 

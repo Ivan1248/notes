@@ -1,3 +1,6 @@
+---
+creation date: 2026-10-12
+---
 
 #private
 
@@ -31,7 +34,7 @@ The argument contrasts "objective value-facts exist" with "nothing matters." But
 Even against strict nihilism, the argument assumes:
 
 - ==**Expected-value maximization across metaethical hypotheses.** This is itself a normative principle, and it is hardest to justify at exactly this level.== _Response: Can this be clarified? Is it not something more general than expected-value maximization? Can we just enumerate the cases and see which choice is preferred in all of them without aggregation?_
-- **Nihilism assigns equal value to all options.** ==It may instead leave value comparisons _undefined_, which does not drop out of an expected-value sum the way zero does.== _I don't understand this. Can "undefined" be a metaphisical/axiological thing, or can it just be epistemic?_
+- **Nihilism assigns equal value to all options.** ==It may instead leave value comparisons _undefined_, which does not drop out of an expected-value sum the way zero does.== _I don't understand this. Can "undefined" be a metaphysical/axiological thing, or can it just be epistemic?_
 - **Tiny probabilities can dominate.** If credence in realism is very small, the argument enters "Pascal's mugging" territory, where many think decision rules need further defense. _I understand this is not a problem unlike in Pascal's mugging because nihilism is indifferent._
 
 ==The wager is defensible== (Jacob Ross argues for a version of it), but it is stronger if these premises are stated.

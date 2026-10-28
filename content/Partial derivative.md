@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-28
+---
 Let $f\colon \bigtimes_{i=1}^n X_i \to Y$ be a [[Differentiable function|differentiable]] [[Real function|real function]].
 
 The **partial derivative of $f$ at $(x_1, .., x_n)$** with respect to the $i$-th input variable, denoted

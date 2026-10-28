@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-13
+---
 Let $X$ and $Y$ be [[Set|sets]].
 
 A **submodular function** is a [[Function|function]] $f\colon 2^X\to Y$ such that $$  

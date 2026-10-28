@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-28
+---
 ## Real analysis
 
 Let $F$ be a set of [[Real function|real functions]] that are defined on $S$.  

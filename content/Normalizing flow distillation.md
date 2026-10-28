@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-06
+---
 Let $X\subset \R^n$ (the training set).  
 Let $p\colon \R^n\to\R$ (the teacher) be a [[Probability density function|probability density function]].  
 Let $Q\subset \R^n\to\R$ be a set of [[Probability density function|probability density functions]].

@@ -1,3 +1,6 @@
+---
+creation date: 2024-01-12
+---
 $$
 \begin{align}
 \frac{\partial}{\partial \v x[i]}\lVert \v x \rVert_2 

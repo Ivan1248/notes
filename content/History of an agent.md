@@ -1,3 +1,6 @@
+---
+creation date: 2024-07-24
+---
 In [[Action-based ethical framework]].
 
 Let $a\colon P\to A$ be an [[Agent (normative ethics)|agent]].

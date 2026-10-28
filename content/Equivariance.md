@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-28
+---
 ## To a function
 
 Let $X$ and $Y$ be sets.  
@@ -21,7 +24,7 @@ Let $f\colon X\to Y$ and $G\subseteq X\to X$.
 $f$ is **equivariant to** a set of functions $G$ iff  
 	$f$ is equivariant to each $g\in G$.
 
-## A set of functions to a set o functions
+## A set of functions to a set of functions
 
 Let $X$ and $Y$ be sets.  
 Let $F\subseteq X\to Y$ and $G\subseteq X\to X$.  

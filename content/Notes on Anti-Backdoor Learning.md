@@ -1,3 +1,6 @@
+---
+creation date: 2024-10-29
+---
 Assumptions about attacks:
 - Backdoors are learned faster than clean features.
 - The _stronger_ the attack, the faster the model converges on backdoor data.

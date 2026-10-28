@@ -1,3 +1,6 @@
+---
+creation date: 2025-03-05
+---
 Solving specific education tasks is mostly not the real goal of education. The real goal is obtaining skills and knowledge that is useful for many other potential tasks and goals.
 
 How does awareness of this affect the motivation of students?

@@ -1,3 +1,6 @@
+---
+creation date: 2024-07-27
+---
 From [Posterior cortical hot zone - Wikipedia](https://en.wikipedia.org/wiki/Posterior_cortical_hot_zone#:~:text=The%20posterior%20cortical%20hot%20zone,from%20both%20waking%20and%20dreaming.):
 
 > \[...\] part of the [neocortex](https://en.wikipedia.org/wiki/Neocortex "Neocortex") closely associated with the minimal neural substrate essential for conscious perception. \[...\]

@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-06
+---
 Let $d\in\N$.  
 Let $\v A \in \R^{d\times d}$.
 

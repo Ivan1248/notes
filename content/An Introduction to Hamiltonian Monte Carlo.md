@@ -1,7 +1,7 @@
 ---
 tags:
 creation date: 2023-03-10
-edit date: 2026-10-19
+edit date: 2026-10-20
 ---
 
 ## Introduction
@@ -18,10 +18,10 @@ Random variables are [[Underlining random variables|underlined]]. Depending on w
 $$
 \p(\rvar x=x) \equiv \p[\rvar x](x) \equiv \p(x) .
 $$
-The notation $\p(x)$ is a shorthand that we will use when the random variable and the value have the same symbol up to underlining.
+The notation $\p(x)$ is a shorthand that we will use when the random variable and the value have the same symbol up to underlining.  
 The conditional probability (density) function of $\rvar x$ given $\rvar y=y$ is denoted with $\p[\rvar x\mid\rvar y=y]$ or $\p[\rvar x\mid y]$, and $\p(x\mid y)$ is a shorthand for $\p(\rvar x=x\mid \rvar y=y)$.
 
-All random variables are defined on a [[Probability space|probability space]] $(\Omega,\Sigma,P)$. For a random variable $\rvar x$ and a set $A$, $\P(\rvar x\in A)$ denotes $P(\{\omega\in\Omega : \rvar x(\omega)\in A\})$. 
+All random variables are defined on a [[Probability space|probability space]] $(\Omega,\Sigma,P)$. For a random variable $\rvar x$ and a set $A$, $\P(\rvar x\in A)$ denotes $P(\{\omega\in\Omega : \rvar x(\omega)\in A\})$.
 
 For a probability function or probability density function $\itpi$, $\mathit\Pi$ denotes the corresponding distribution, which assigns probabilities to sets: $\mathit\Pi(A)=\int_A\itpi(x)\dif x$, or $\mathit\Pi(A)=\sum_{x\in A}\itpi(x)$ in the discrete case.
 
@@ -29,7 +29,7 @@ The notation $\rvar x\sim p$ means that $\rvar x$ has the probability (density) 
 
 ## Stochastic processes and Markov chains
 
-This section contains some definitions and theorems that are necessary for the following sections. For finite state spaces, more can be found in @LevinPeres:2017:MCMT [ch. 1] and @Murphy:2023:PMLAT [sec. 2.6]. For general (e.g. continuous) state spaces, see @RobertsRosenthal:2004:GSSMCMC [sec. 3.2].
+This section contains some definitions and theorems that are necessary for the following sections. For finite state spaces, more can be found in @LevinPeres:2017:MCMT [chap. 1] and @Murphy:2023:PMLAT [sec. 2.6]. For general (e.g. continuous) state spaces, see @RobertsRosenthal:2004:GSSMCMC [sec. 3.2].
 
 ### Stochastic processes
 
@@ -187,7 +187,7 @@ The estimator is unbiased, $\E[\hat{\rvar I}_n]=I$, even if the $\rvar x_i$ are 
 
 This section first describes some basic sampling methods and then Markov chain Monte Carlo (MCMC) methods.
 
-This section is based on @Keng:2015:MCMCMRSMHA and @Geyer:2011:IMCMC. For more details, see @Owen:2013:MCTME [ch. 4, 9, 11] and @Murphy:2023:PMLAT [ch. 11–12].
+This section is based on @Keng:2015:MCMCMRSMHA and @Geyer:2011:IMCMC. For more details, see @Owen:2013:MCTME [chap. 4, 9, 11] and @Murphy:2023:PMLAT [chap. 11–12].
 
 ### Importance sampling
 
@@ -207,7 +207,7 @@ An importance sampling estimator that samples from $q$ would be
 $$
 \hat{\rvar I}' = \frac{1}{n}\sum_{i=1}^{n} f(\rvar x_i)\frac{\itpi(\rvar x_i)}{q(\rvar x_i)} \text{, where }\rvar x_i\sim q .
 $$
-The [[Support of a distribution|support]] of $q$ must be equal to or be a superset of the support of $\itpi$. A good sampling distribution has more probability around the expectation. See @Owen:2013:MCTME [ch. 9] or @Murphy:2023:PMLAT [sec. 11.5].
+The [[Support of a distribution|support]] of $q$ must be equal to or be a superset of the support of $\itpi$. A good sampling distribution has more probability around the expectation. See @Owen:2013:MCTME [chap. 9] or @Murphy:2023:PMLAT [sec. 11.5].
 
 ### Rejection sampling
 
@@ -237,7 +237,7 @@ The basic MCMC algorithm produces samples iteratively as follows:
 2. transition $T$ times to $x_{n+1}$ according to $\p[\rvar x_{n+1}\mid x_n]$,
 3. take the current state $x_{T+1}$ as a sample, go to step 2 (with the current state as the initial state).
 
-The role of taking $T$ transitions before accepting a sample is to reduce correlation between samples and the effect of initialization.
+The role of taking $T$ transitions before accepting a sample is to reduce correlation between samples and the effect of initialization.  
 If the Markov chain is irreducible and aperiodic, the [[#^thm-mc-convergence|convergence theorem]] applies: every set with positive probability under $\mathit\Pi$ can be reached, and the chain does not return to a set of states only at multiples of some period. Then, if the initial state is not in the set $X_0$ (which has probability $0$), the distribution of the state approaches $\mathit\Pi$ as the number of transitions grows.
 
 The following text describes some solutions to the problem of constructing Markov chains with desirable properties.

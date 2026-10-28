@@ -1,3 +1,6 @@
+---
+creation date: 2024-02-10
+---
 The **Copenhagen interpretation of ethics** is the belief that one is to be blamed or considered responsible regarding an ethical problem only if he interacts with it.
 
 ## Notes

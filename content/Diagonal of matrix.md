@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-06
+---
 Let there be a [[Matrix|matrix]] $\v A \in S^{m \times n}$.
 
 The **diagonal of** $\v A$ is a [[Tuple|tuple]] $\operatorname{diag}(\v A) \in S^{\min(\{m, n\})}$ such that$$  

@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-28
+---
 Let $(\Omega, d)$ be a [[Metric space|metric space]].
 
 A **Borel σ-algebra** is the smallest [[σ-algebra|σ-algebra]] on $\Omega$ that contains all open subsets of $\Omega$:  

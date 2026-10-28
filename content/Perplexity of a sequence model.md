@@ -1,3 +1,6 @@
+---
+creation date: 2025-04-24
+---
 The **perplexity of a sequence distribution** $\P[\rvar x_1, .., \rvar x_n]$ **with respect to** a [[Sequence|sequence]] $(x_1, .., x_n)$ is
 $$
 \operatorname{PPS}(P, (x_1, .., x_n)) = \exp(-n^{-1}\ln(\P(x_1, .., x_n))) = \P(x_1, .., x_n)^{-1/n}  \text.

@@ -1,6 +1,9 @@
+---
+creation date: 2025-03-26
+---
 Let $f\colon A\to B$.
 
-"Let $f$ is expressed as $f(x) = g(x)$" means that
+"Let $f$ be expressed as $f(x) = g(x)$" means that
 $$
 \forall x\in A : f(x) = g(x) \text.
 $$

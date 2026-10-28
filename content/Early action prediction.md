@@ -1,3 +1,6 @@
+---
+creation date: 2025-03-28
+---
 Basic definitions:
 - A **video** is a [[Finite sequence|finite sequence]] of [[Image|images]] with height $H$, width $W$, and $C$ channels.
 - The **set of all possible videos** is $X \subseteq {(\R^{H\times W\times C}})^*$.

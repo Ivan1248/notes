@@ -1,3 +1,6 @@
+---
+creation date: 2024-02-26
+---
 From [The Far Out Initiative - Ending Suffering for All Beings](https://faroutinitiative.com/FAQ):
 > In their 2018 paper [“Does personal distress enhance empathic interaction or block it?”](https://psycnet.apa.org/record/2018-01016-017) Hwan Kim et al. described the distinction between Empathic Personal Distress and Empathic Concern:  
 >

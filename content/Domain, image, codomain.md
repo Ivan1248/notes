@@ -1,3 +1,6 @@
+---
+creation date: 2024-07-31
+---
 Let $f\colon X\to Y$ be a [[Function|function]].
 
 The [[Domain (mathematics)|domain]] of $f$ is $\dom(f) = X = \{x: (x,y)\in f\}$.

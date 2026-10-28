@@ -1,6 +1,9 @@
+---
+creation date: 2025-02-06
+---
 Let $X$ and $Y$ be [[Vector space|vector spaces]] over a [[Field (Math)|field]] $R$.
 
-An **eigenvector** of a [[Linear mapping|linear mapping]] $A\colon X\to Y$ is a [[Vector|vector]] $\v x \in X\setminus\{\cvec 0_X\}$ such that $\exists \lambda\in R\setminus\{0_R\}: A(\v x) = \lambda \v x$.
+An **eigenvector** of a [[Linear mapping|linear mapping]] $A\colon X\to Y$ is a [[Vector|vector]] $\v x \in X\setminus\{\cvec 0_X\}$ such that $\exists \lambda\in R: A(\v x) = \lambda \v x$.
 
 ## Eigenvector corresponding to an eigenvalue
 

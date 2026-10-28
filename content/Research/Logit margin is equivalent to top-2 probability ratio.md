@@ -1,3 +1,6 @@
+---
+creation date: 2023-12-07
+---
 #theorem #classification 
 
 Let $p_{i}$ and $p_j$ be the top 2 categorical probabilities.

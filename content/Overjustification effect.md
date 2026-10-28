@@ -1,3 +1,6 @@
+---
+creation date: 2024-05-22
+---
 [[Cognitive bias]]
 
 The **overjustification effect** is the tendency to lose [[Intrinsic motivation|intrinsic motivation]] for something when offered an extrinsic reward.

@@ -1,3 +1,6 @@
+---
+creation date: 2025-02-03
+---
 #epistemology #psychology #identity #cognition
 
 Notes on [How politics makes us stupid](https://www.vox.com/2014/4/6/5556462/brain-dead-how-politics-makes-us-stupid) by Ezra Klein.
