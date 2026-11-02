@@ -35,7 +35,7 @@ const config: QuartzConfig = {
       typography: {
         header: "Segoe UI, Noto Sans, Comme, Blinker",
         body: "Segoe UI, Noto Sans, Comme",
-        code: "IBM Plex Mono",
+        code: "Iosevka Charon Mono, IBM Plex Mono",
       },
       colors: {
         lightMode: {
@@ -110,7 +110,7 @@ const config: QuartzConfig = {
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
       // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
+      //Plugin.CustomOgImages(),
     ],
   },
 }

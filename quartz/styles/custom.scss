@@ -118,3 +118,22 @@ figure[data-rehype-pretty-code-figure] {
   overflow-wrap: anywhere;
   user-select: text;
 }
+
+// Callouts: no border, the tinted background sets them apart
+.callout {
+  border: none;
+}
+
+// Flat look: no drop shadows
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  box-shadow: none;
+}
+
+// Popovers and search: a thicker border replaces the shadow
+.search > .search-container > .search-space > input,
+.search > .search-container > .search-space > .search-layout,
+.popover > .popover-inner {
+  box-shadow: none;
+  border-width: 2px;
+  border-color: var(--lightgray);
+}
